@@ -1,0 +1,85 @@
+{
+  "cities": [
+    {
+      "city": "Tokyo",
+      "shops": [
+        {
+          "name": "Hashigo",
+          "area": "Ginza",
+          "description": "A spicy ramen restaurant (tantanmen). It's a popular spot so there may be a wait. It stays open late, so the recommendation is to have drinks in Ginza and finish the night off with this ramen.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/explore/locations/236773440/hashigo-yin-zuo-ben-dian/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "address": "東京都中央区銀座6-3-5 第二ソワレ・ド・ビル 1F",
+          "lat": 35.671589,
+          "lng": 139.761459
+        },
+        {
+          "name": "3chome no Curry yasan",
+          "area": "Ginza",
+          "description": "A renowned restaurant serving baked cheese beef curry. It gets very crowded during the day, so it is recommended to go right when it opens.",
+          "hp": {
+            "label": "HP",
+            "url": "https://3tyoumecurry.jp/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "address": "東京都中央区京橋3-9-9 ウィンド京橋ビル B1F",
+          "lat": 35.674919,
+          "lng": 139.770721
+        },
+        {
+          "name": "Nishimura",
+          "area": "Ginza",
+          "description": "A long-established tonkatsu restaurant. I once waited in line to get into this place and was approached by an older man behind me, who told me that he had visited tonkatsu restaurants all over the country and this one was the best.",
+          "hp": {
+            "label": "Google Map",
+            "url": "https://maps.app.goo.gl/h5FUL4VwR9yqpQQE9"
+          },
+          "reservation": "No",
+          "note": "May not have English menu and English-speaking staff available.",
+          "tabelog": null,
+          "gmap": null,
+          "address": "東京都中央区銀座3-12-6",
+          "lat": 35.670635,
+          "lng": 139.769196
+        },
+        {
+          "name": "Omoide Yokocho",
+          "area": "Shinjyuku",
+          "description": "An area where you can enjoy the authentic izakaya culture of Japan. About 20 izakayas line a narrow alley. Honestly, the food quality can be hit or miss depending on the restaurant.",
+          "hp": {
+            "label": "HP",
+            "url": "https://shinjuku-omoide.com/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "address": "東京都新宿区西新宿1-2",
+          "lat": 35.693363,
+          "lng": 139.699295
+        }
+      ]
+    },
+    {
+      "city": "Kyoto",
+      "shops": []
+    },
+    {
+      "city": "Osaka",
+      "shops": []
+    },
+    {
+      "city": "Hiroshima",
+      "shops": []
+    }
+  ]
+}

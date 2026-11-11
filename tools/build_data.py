@@ -1,0 +1,128 @@
+"""Build data/shops.json from the recommendations Excel file.
+
+Usage:
+    python3 tools/build_data.py path/to/Japan_Treck_recommendations_list.xlsx
+
+- Each sheet (Tokyo, Kyoto, Osaka, Hiroshima, ...) becomes a city tab.
+- Columns are matched by header name, so new columns (e.g. "Tabelog",
+  "Google Map", "Address") can be added in any order.
+- Hyperlinks in the HP / Tabelog / Google Map cells are used as link targets.
+- Locations come from data/locations.json (name -> address/lat/lng). Shops
+  without an entry there are geocoded from "Address" (or name + area) with
+  the GSI address search API and added to locations.json for review.
+"""
+import json
+import sys
+import urllib.parse
+import urllib.request
+from pathlib import Path
+
+import openpyxl
+
+ROOT = Path(__file__).resolve().parent.parent
+LOC_FILE = ROOT / "data" / "locations.json"
+OUT_FILE = ROOT / "data" / "shops.json"
+
+ALIASES = {
+    "name": ["name"],
+    "area": ["area"],
+    "description": ["description", "discription"],
+    "hp": ["hp", "website"],
+    "reservation": ["reservation", "resercation"],
+    "note": ["note"],
+    "tabelog": ["tabelog"],
+    "gmap": ["google map", "googlemap", "google maps"],
+    "address": ["address"],
+}
+
+
+def key_for(header):
+    h = (header or "").strip().lower()
+    for k, names in ALIASES.items():
+        if h in names:
+            return k
+    return None
+
+
+def gsi_geocode(q):
+    url = "https://msearch.gsi.go.jp/address-search/AddressSearch?q=" + urllib.parse.quote(q)
+    with urllib.request.urlopen(url, timeout=20) as r:
+        res = json.load(r)
+    if not res:
+        return None
+    lng, lat = res[0]["geometry"]["coordinates"]
+    return {"lat": lat, "lng": lng, "matched": res[0]["properties"]["title"]}
+
+
+def main(xlsx):
+    locs = json.loads(LOC_FILE.read_text(encoding="utf-8")) if LOC_FILE.exists() else {}
+    wb = openpyxl.load_workbook(xlsx)
+    cities = []
+    missing = []
+    for ws in wb.worksheets:
+        rows = list(ws.iter_rows())
+        if not rows:
+            continue
+        cols = {}
+        for c in rows[0]:
+            k = key_for(c.value)
+            if k and k not in cols:
+                cols[k] = c.column - 1
+        shops = []
+        for row in rows[1:]:
+            def val(k):
+                i = cols.get(k)
+                if i is None or i >= len(row):
+                    return None
+                v = row[i].value
+                return str(v).strip() if v is not None else None
+
+            def link(k):
+                i = cols.get(k)
+                if i is None or i >= len(row):
+                    return None
+                cell = row[i]
+                if cell.hyperlink and cell.hyperlink.target:
+                    return {"label": val(k) or "Link", "url": cell.hyperlink.target}
+                v = val(k)
+                if v and v.startswith("http"):
+                    return {"label": "Link", "url": v}
+                return None
+
+            name = val("name")
+            if not name:
+                continue
+            loc = locs.get(name)
+            if not loc:
+                q = val("address") or f"{name} {val('area') or ''} {ws.title}"
+                g = gsi_geocode(q) if val("address") else None
+                if g:
+                    loc = {"address": val("address"), **g, "source": "GSI geocode (auto)"}
+                    locs[name] = loc
+                else:
+                    missing.append(f"{ws.title}: {name}")
+            shops.append({
+                "name": name,
+                "area": val("area"),
+                "description": val("description"),
+                "hp": link("hp"),
+                "reservation": val("reservation"),
+                "note": val("note"),
+                "tabelog": link("tabelog"),
+                "gmap": link("gmap"),
+                "address": (loc or {}).get("address"),
+                "lat": (loc or {}).get("lat"),
+                "lng": (loc or {}).get("lng"),
+            })
+        cities.append({"city": ws.title, "shops": shops})
+    LOC_FILE.write_text(json.dumps(locs, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    OUT_FILE.write_text(json.dumps({"cities": cities}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"wrote {OUT_FILE} ({sum(len(c['shops']) for c in cities)} shops)")
+    if missing:
+        print("No location yet (add to data/locations.json):")
+        for m in missing:
+            print("  -", m)
+
+
+if __name__ == "__main__":
+    main(sys.argv[1])

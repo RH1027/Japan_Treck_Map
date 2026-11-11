@@ -2,7 +2,7 @@
 
 Restaurant recommendations for the McCombs Japan Trek, shown on a map.
 
-- `index.html` — the page (Leaflet + OpenStreetMap tiles)
+- `index.html` — the page (MapLibre + OpenFreeMap tiles)
 - `data/shops.json` — the restaurant list the page reads (generated)
 - `data/locations.json` — address and map position for each restaurant
 - `tools/build_data.py` — turns the recommendations Excel file into `data/shops.json`
@@ -14,4 +14,4 @@ Restaurant recommendations for the McCombs Japan Trek, shown on a map.
 2. Run `python3 tools/build_data.py path/to/Japan_Treck_recommendations_list.xlsx`.
 3. Check `data/locations.json` for any new or missing positions, then commit and push.
 
-Map data © OpenStreetMap contributors.
+Map tiles: OpenFreeMap · © OpenMapTiles · Data © OpenStreetMap contributors. Labels use English names where available.

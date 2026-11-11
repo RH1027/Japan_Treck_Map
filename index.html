@@ -6,7 +6,7 @@
 <title>Japan Trek Food Map</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
 <style>
 /* Layout: navy header + city tabs; shop list on the left, map on the right (stacked on phones). */
 :root {
@@ -50,7 +50,10 @@ main { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(300p
 .empty { color: var(--muted); font-size: 13px; line-height: 1.6; padding: 8px 2px; }
 .pin { width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: var(--yellow); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); font: 700 12px var(--body); display: flex; align-items: center; justify-content: center; }
 .pin.active { background: var(--yellow); color: var(--navy); border-color: var(--navy); }
-.leaflet-popup-content { margin: 12px 14px; font-family: var(--body); width: 260px; }
+.maplibregl-popup-content { padding: 12px 14px; font-family: var(--body); border-radius: 8px; }
+.maplibregl-popup-close-button { font-size: 18px; padding: 0 6px; }
+.pop { width: 260px; }
+.marker { cursor: pointer; }
 .pop h3 { margin: 0; font: 700 16px/1.25 var(--display); color: var(--navy); }
 .pop .meta { margin-top: 4px; }
 .pop p { margin: 8px 0 0; font-size: 12px; line-height: 1.55; color: var(--text); }
@@ -86,7 +89,7 @@ footer { font-size: 10px; color: var(--muted); padding: 6px max(16px, env(safe-a
 </main>
 <footer>Recommendations by the Japan Trek organizers. Hours and details can change, so please check each restaurant's page before you go.</footer>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>
 const CITY_VIEW = {
   Tokyo: [[35.6812, 139.7671], 12],
@@ -96,11 +99,22 @@ const CITY_VIEW = {
 };
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-const map = L.map('map', { zoomControl: true });
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-}).addTo(map);
+const map = new maplibregl.Map({
+  container: 'map',
+  style: 'https://tiles.openfreemap.org/styles/liberty',
+  center: [139.7671, 35.6812], zoom: 12,
+  attributionControl: { compact: false },
+});
+map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
+// Show English names where OpenStreetMap has them, otherwise the local name.
+map.on('style.load', () => {
+  const en = ['coalesce', ['get', 'name:en'], ['get', 'name_en'], ['get', 'name']];
+  for (const l of map.getStyle().layers) {
+    if (l.type === 'symbol' && l.layout && l.layout['text-field'] && JSON.stringify(l.layout['text-field']).includes('name')) {
+      map.setLayoutProperty(l.id, 'text-field', en);
+    }
+  }
+});
 
 let data = { cities: [] }, city = null, markers = [];
 const listEl = document.getElementById('list');
@@ -131,16 +145,18 @@ function popupHtml(s) {
     <div class="links">${links.join('')}</div>
   </div>`;
 }
+function closeAll() { markers.forEach(m => m && m.getPopup().isOpen() && m.togglePopup()); }
 function select(i, fly) {
-  markers.forEach((m, j) => { if (m) m.getElement()?.querySelector('.pin')?.classList.toggle('active', j === i); });
+  markers.forEach((m, j) => { if (m) m.getElement().querySelector('.pin').classList.toggle('active', j === i); });
   [...listEl.querySelectorAll('.shop')].forEach((b, j) => b.setAttribute('aria-current', j === i ? 'true' : 'false'));
   const m = markers[i];
   if (!m) return;
+  closeAll();
   if (fly) {
     if (window.matchMedia('(max-width: 760px)').matches) document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    map.once('moveend', () => m.openPopup());
-    map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 16), { duration: 0.6 });
-  } else m.openPopup();
+    map.once('moveend', () => { if (!m.getPopup().isOpen()) m.togglePopup(); });
+    map.flyTo({ center: m.getLngLat(), zoom: Math.max(map.getZoom(), 15.5), offset: [0, 120], duration: 700 });
+  } else if (!m.getPopup().isOpen()) m.togglePopup();
 }
 function showCity(name) {
   city = data.cities.find(c => c.city === name) || data.cities[0];
@@ -162,16 +178,23 @@ function showCity(name) {
     b.addEventListener('click', () => select(i, true));
     listEl.appendChild(b);
     if (s.lat != null && s.lng != null) {
-      const icon = L.divIcon({ className: '', html: `<div class="pin">${i + 1}</div>`, iconSize: [26, 26], iconAnchor: [13, 13], popupAnchor: [0, -14] });
-      const m = L.marker([s.lat, s.lng], { icon, title: s.name }).addTo(map).bindPopup(popupHtml(s), { maxWidth: 300, autoPanPadding: [20, 20] });
-      m.on('click', () => select(i, false));
+      const el = document.createElement('div');
+      el.className = 'marker';
+      el.innerHTML = `<div class="pin">${i + 1}</div>`;
+      el.title = s.name;
+      const popup = new maplibregl.Popup({ offset: 16, maxWidth: '300px', focusAfterOpen: false }).setHTML(popupHtml(s));
+      const m = new maplibregl.Marker({ element: el }).setLngLat([s.lng, s.lat]).setPopup(popup).addTo(map);
+      el.addEventListener('click', () => setTimeout(() => select(i, false), 0));
       markers.push(m);
     } else markers.push(null);
   });
-  const pts = markers.filter(Boolean).map(m => m.getLatLng());
-  if (pts.length > 1) map.fitBounds(L.latLngBounds(pts), { padding: [40, 40], maxZoom: 15 });
-  else if (pts.length === 1) map.setView(pts[0], 15);
-  else { const v = CITY_VIEW[city.city] || CITY_VIEW.Tokyo; map.setView(v[0], v[1]); }
+  const pts = markers.filter(Boolean).map(m => m.getLngLat());
+  if (pts.length > 1) {
+    const bb = new maplibregl.LngLatBounds(pts[0], pts[0]);
+    pts.forEach(p => bb.extend(p));
+    map.fitBounds(bb, { padding: 60, maxZoom: 15, duration: 0 });
+  } else if (pts.length === 1) map.jumpTo({ center: pts[0], zoom: 15 });
+  else { const v = CITY_VIEW[city.city] || CITY_VIEW.Tokyo; map.jumpTo({ center: [v[0][1], v[0][0]], zoom: v[1] }); }
   try { localStorage.setItem('city', city.city); } catch (e) {}
   if (location.hash.slice(1) !== city.city) history.replaceState(null, '', '#' + city.city);
 }
@@ -192,7 +215,6 @@ fetch('data/shops.json').then(r => r.json()).then(d => {
   showCity(start);
 }).catch(() => {
   listEl.innerHTML = '<div class="empty">The restaurant list could not be loaded. Please refresh the page.</div>';
-  map.setView(CITY_VIEW.Tokyo[0], CITY_VIEW.Tokyo[1]);
 });
 </script>
 </body>

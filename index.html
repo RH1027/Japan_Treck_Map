@@ -213,7 +213,7 @@ function showCity(name) {
   if (location.hash.slice(1) !== city.city) history.replaceState(null, '', '#' + city.city);
 }
 
-fetch('data/shops.json').then(r => r.json()).then(d => {
+fetch('data/shops.json', { cache: 'no-cache' }).then(r => r.json()).then(d => {
   data = d;
   const total = d.cities.reduce((n, c) => n + c.shops.length, 0);
   document.getElementById('count').textContent = `${total} place${total === 1 ? '' : 's'}`;

@@ -30,7 +30,7 @@ ALIASES = {
     "hp": ["hp", "website"],
     "reservation": ["reservation", "resercation"],
     "note": ["note"],
-    "tabelog": ["tabelog"],
+    "tabelog": ["tabelog", "食べログ"],
     "gmap": ["google map", "googlemap", "google maps"],
     "address": ["address"],
     "google_rating": ["google rating", "google map rating", "google maps rating"],
@@ -92,6 +92,14 @@ def main(xlsx):
                     return {"label": "Link", "url": v}
                 return None
 
+            def num(k):
+                # A number typed in the "食べログ" / "Google Map" column is a rating.
+                i = cols.get(k)
+                if i is None or i >= len(row):
+                    return None
+                v = row[i].value
+                return str(v) if isinstance(v, (int, float)) else None
+
             name = val("name")
             if not name:
                 continue
@@ -113,8 +121,8 @@ def main(xlsx):
                 "note": val("note"),
                 "tabelog": link("tabelog"),
                 "gmap": link("gmap"),
-                "google_rating": val("google_rating"),
-                "tabelog_rating": val("tabelog_rating"),
+                "google_rating": val("google_rating") or num("gmap"),
+                "tabelog_rating": val("tabelog_rating") or num("tabelog"),
                 "rating_date": val("rating_date"),
                 "address": (loc or {}).get("address"),
                 "lat": (loc or {}).get("lat"),

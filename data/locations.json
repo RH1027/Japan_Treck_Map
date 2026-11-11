@@ -1,10 +1,4 @@
 {
-  "Hashigo": {
-    "address": "東京都中央区銀座6-3-5 第二ソワレ・ド・ビル 1F",
-    "lat": 35.671589,
-    "lng": 139.761459,
-    "source": "Address: aumo (支那麺 はしご 銀座本店); coordinates: GSI address search"
-  },
   "3chome no Curry yasan": {
     "address": "東京都中央区京橋3-9-9 ウィンド京橋ビル B1F",
     "lat": 35.674919,
@@ -17,10 +11,10 @@
     "lng": 139.769196,
     "source": "Address: Retty (銀座 にし邑); coordinates: GSI address search"
   },
-  "Omoide Yokocho": {
-    "address": "東京都新宿区西新宿1-2",
-    "lat": 35.693363,
-    "lng": 139.699295,
-    "source": "Address and coordinates: GSI address search (西新宿一丁目2番)"
+  "Hashigo Honten": {
+    "address": "東京都中央区銀座6-3-5 第二ソワレ・ド・ビル 1F",
+    "lat": 35.671589,
+    "lng": 139.761459,
+    "source": "Address: aumo (支那麺 はしご 銀座本店); coordinates: GSI address search"
   }
 }

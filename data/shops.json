@@ -13,7 +13,10 @@
           },
           "reservation": "No",
           "note": null,
-          "tabelog": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/tokyo/A1301/A130101/13092185/"
+          },
           "gmap": null,
           "google_rating": "4.1",
           "tabelog_rating": "3.7",
@@ -32,7 +35,10 @@
           },
           "reservation": "No",
           "note": null,
-          "tabelog": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/tokyo/A1302/A130202/13025962/"
+          },
           "gmap": null,
           "google_rating": "4.1",
           "tabelog_rating": "3.77",
@@ -51,12 +57,15 @@
           },
           "reservation": "No",
           "note": "May not have English menu and English-speaking staff available.",
-          "tabelog": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/tokyo/A1301/A130101/13025298/"
+          },
           "gmap": null,
           "google_rating": "4.3",
           "tabelog_rating": "3.7",
           "rating_date": null,
-          "address": "東京都中央区銀座3-12-6",
+          "address": "東京都中央区銀座3-12-6 盛重ビル 1F",
           "lat": 35.670635,
           "lng": 139.769196
         }

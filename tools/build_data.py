@@ -119,7 +119,7 @@ def main(xlsx):
                 "hp": link("hp"),
                 "reservation": val("reservation"),
                 "note": val("note"),
-                "tabelog": link("tabelog"),
+                "tabelog": link("tabelog") or ({"label": "Tabelog", "url": loc["tabelog_url"]} if loc and loc.get("tabelog_url") else None),
                 "gmap": link("gmap"),
                 "google_rating": val("google_rating") or num("gmap"),
                 "tabelog_rating": val("tabelog_rating") or num("tabelog"),

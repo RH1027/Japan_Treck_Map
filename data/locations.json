@@ -3,18 +3,21 @@
     "address": "東京都中央区京橋3-9-9 ウィンド京橋ビル B1F",
     "lat": 35.674919,
     "lng": 139.770721,
-    "source": "Address: Retty (３丁目のカレー屋さん); coordinates: GSI address search"
+    "source": "Address: Retty (３丁目のカレー屋さん); coordinates: GSI address search",
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130202/13025962/"
   },
   "Nishimura": {
-    "address": "東京都中央区銀座3-12-6",
+    "address": "東京都中央区銀座3-12-6 盛重ビル 1F",
     "lat": 35.670635,
     "lng": 139.769196,
-    "source": "Address: Retty (銀座 にし邑); coordinates: GSI address search"
+    "source": "Address: Tabelog (にし邑); coordinates: GSI address search",
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13025298/"
   },
   "Hashigo Honten": {
     "address": "東京都中央区銀座6-3-5 第二ソワレ・ド・ビル 1F",
     "lat": 35.671589,
     "lng": 139.761459,
-    "source": "Address: aumo (支那麺 はしご 銀座本店); coordinates: GSI address search"
+    "source": "Address: Tabelog (支那麺 はしご 本店); coordinates: GSI address search",
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13092185/"
   }
 }

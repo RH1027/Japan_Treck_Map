@@ -33,6 +33,9 @@ ALIASES = {
     "tabelog": ["tabelog"],
     "gmap": ["google map", "googlemap", "google maps"],
     "address": ["address"],
+    "google_rating": ["google rating", "google map rating", "google maps rating"],
+    "tabelog_rating": ["tabelog rating", "tabelog score"],
+    "rating_date": ["rating date", "ratings as of"],
 }
 
 
@@ -110,6 +113,9 @@ def main(xlsx):
                 "note": val("note"),
                 "tabelog": link("tabelog"),
                 "gmap": link("gmap"),
+                "google_rating": val("google_rating"),
+                "tabelog_rating": val("tabelog_rating"),
+                "rating_date": val("rating_date"),
                 "address": (loc or {}).get("address"),
                 "lat": (loc or {}).get("lat"),
                 "lng": (loc or {}).get("lng"),

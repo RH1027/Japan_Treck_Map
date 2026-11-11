@@ -15,6 +15,9 @@
           "note": null,
           "tabelog": null,
           "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
           "address": "東京都中央区銀座6-3-5 第二ソワレ・ド・ビル 1F",
           "lat": 35.671589,
           "lng": 139.761459
@@ -31,6 +34,9 @@
           "note": null,
           "tabelog": null,
           "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
           "address": "東京都中央区京橋3-9-9 ウィンド京橋ビル B1F",
           "lat": 35.674919,
           "lng": 139.770721
@@ -47,6 +53,9 @@
           "note": "May not have English menu and English-speaking staff available.",
           "tabelog": null,
           "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
           "address": "東京都中央区銀座3-12-6",
           "lat": 35.670635,
           "lng": 139.769196
@@ -63,6 +72,9 @@
           "note": null,
           "tabelog": null,
           "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
           "address": "東京都新宿区西新宿1-2",
           "lat": 35.693363,
           "lng": 139.699295

@@ -5,6 +5,7 @@
       "shops": [
         {
           "name": "Hashigo Honten",
+          "picked_by": [],
           "genre": "Ramen",
           "name_jp": "支那麺 はしご 本店",
           "area": null,
@@ -29,6 +30,7 @@
         },
         {
           "name": "3chome no Curry yasan",
+          "picked_by": [],
           "genre": "Curry",
           "name_jp": "３丁目のカレー屋さん",
           "area": null,
@@ -53,6 +55,7 @@
         },
         {
           "name": "Nishimura",
+          "picked_by": [],
           "genre": "Tonkatsu(Fried Pork)",
           "name_jp": "にし邑",
           "area": null,
@@ -77,6 +80,7 @@
         },
         {
           "name": "Tonkatsu Tonki Meguro Honten",
+          "picked_by": [],
           "genre": "Tonkatsu(Fried Pork)",
           "name_jp": "とんかつ とんき 目黒本店",
           "area": null,
@@ -101,6 +105,7 @@
         },
         {
           "name": "Nico Chelsea",
+          "picked_by": [],
           "genre": "Bistro",
           "name_jp": "ニコチェルシー",
           "area": null,
@@ -125,6 +130,7 @@
         },
         {
           "name": "Kagurazaka Yakitori Tora",
+          "picked_by": [],
           "genre": "Yakitori",
           "name_jp": "神楽坂 焼鳥 虎",
           "area": null,
@@ -149,6 +155,7 @@
         },
         {
           "name": "Suisui Nihonbashi Tokyo",
+          "picked_by": [],
           "genre": "Japanese Izakaya",
           "name_jp": "純米酒専門 粋酔 日本橋東京店",
           "area": null,
@@ -173,6 +180,7 @@
         },
         {
           "name": "Dairen (Chinese Home Cooking)",
+          "picked_by": [],
           "genre": "Chinese",
           "name_jp": "中国家庭料理大連",
           "area": null,
@@ -197,6 +205,7 @@
         },
         {
           "name": "Fractale",
+          "picked_by": [],
           "genre": "Bar",
           "name_jp": "フラクタル",
           "area": null,
@@ -221,6 +230,7 @@
         },
         {
           "name": "Antonic Nakameguro",
+          "picked_by": [],
           "genre": "Bar",
           "name_jp": "Antonic 中目黒店",
           "area": null,
@@ -245,6 +255,7 @@
         },
         {
           "name": "Bondy Jimbocho Honten",
+          "picked_by": [],
           "genre": "Curry",
           "name_jp": "欧風カレー ボンディ 神保町本店",
           "area": null,
@@ -269,6 +280,7 @@
         },
         {
           "name": "Shanaiya",
+          "picked_by": [],
           "genre": "Curry",
           "name_jp": "薬膳スープカレー・シャナイア",
           "area": null,
@@ -293,6 +305,7 @@
         },
         {
           "name": "La Maison Dami",
+          "picked_by": [],
           "genre": "Bistro",
           "name_jp": "ラ メゾン ダミ",
           "area": null,
@@ -317,6 +330,7 @@
         },
         {
           "name": "Horumon Masaru",
+          "picked_by": [],
           "genre": "Yakiniku (Japanese BBQ)",
           "name_jp": "ホルモンまさる",
           "area": null,
@@ -341,6 +355,7 @@
         },
         {
           "name": "Ramen Taniseya",
+          "picked_by": [],
           "genre": "Ramen",
           "name_jp": "らーめん 谷瀬家",
           "area": null,
@@ -365,6 +380,7 @@
         },
         {
           "name": "Menya Kuro",
+          "picked_by": [],
           "genre": "Ramen",
           "name_jp": "麺家 黒",
           "area": null,
@@ -389,6 +405,7 @@
         },
         {
           "name": "Shinjuku Yakiniku Gyutan no Lemon (Main Shop)",
+          "picked_by": [],
           "genre": "Yakiniku (Japanese BBQ)",
           "name_jp": "新宿焼肉 牛たんの檸檬 総本店",
           "area": null,
@@ -413,6 +430,7 @@
         },
         {
           "name": "Bar Tarrow's",
+          "picked_by": [],
           "genre": "Bar",
           "name_jp": "バー タロウズ",
           "area": null,
@@ -437,6 +455,7 @@
         },
         {
           "name": "Shokushuka Okamiya",
+          "picked_by": [],
           "genre": "Japanese Izakaya",
           "name_jp": "食酒家 岡宮",
           "area": null,
@@ -461,6 +480,7 @@
         },
         {
           "name": "Ramen Benkei (Monzen-Nakacho)",
+          "picked_by": [],
           "genre": "Ramen",
           "name_jp": "らーめん弁慶 門前仲町店",
           "area": null,

@@ -57,6 +57,8 @@ main { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(300p
 .filters button { appearance: none; font: 600 12px var(--body); color: var(--navy); background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
 .filters button[aria-pressed="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }
 .filters button:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+.flabel { font: 700 11px var(--body); color: var(--muted); text-transform: uppercase; letter-spacing: .04em; align-self: center; min-width: 72px; }
 .genre { font-weight: 700; color: var(--navy); }
 .empty { color: var(--muted); font-size: 13px; line-height: 1.6; padding: 8px 2px; }
 .pin { width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: var(--yellow); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); font: 700 12px var(--body); display: flex; align-items: center; justify-content: center; }
@@ -128,7 +130,7 @@ map.on('style.load', () => {
   }
 });
 
-let data = { cities: [] }, city = null, markers = [], genre = 'All';
+let data = { cities: [] }, city = null, markers = [], genre = 'All', picker = 'All';
 const listEl = document.getElementById('list');
 const tabsEl = document.getElementById('tabs');
 
@@ -182,7 +184,7 @@ function select(i, fly) {
   } else if (!m.getPopup().isOpen()) m.togglePopup();
 }
 function showCity(name, keepGenre) {
-  if (!keepGenre) genre = 'All';
+  if (!keepGenre) { genre = 'All'; picker = 'All'; }
   city = data.cities.find(c => c.city === name) || data.cities[0];
   [...tabsEl.children].forEach(b => b.setAttribute('aria-selected', b.dataset.city === city.city ? 'true' : 'false'));
   markers.forEach(m => m && m.remove());
@@ -192,22 +194,39 @@ function showCity(name, keepGenre) {
   if (!shops.length) {
     listEl.innerHTML = `<div class="empty">No recommendations for ${esc(city.city)} yet. Check back soon.</div>`;
   }
+  // Two filter rows (who picked it, genre) that work together.
+  const pickOf = s => s.picked_by || [];
+  const ORDER = ['Reo', 'Kohei'];
+  const pickers = [...new Set(shops.flatMap(pickOf))].sort((a, b) => (ORDER.indexOf(a) + 1 || 99) - (ORDER.indexOf(b) + 1 || 99));
+  if (!pickers.includes(picker)) picker = 'All';
   const genres = [...new Set(shops.map(s => s.genre).filter(Boolean))].sort();
   if (!genres.includes(genre)) genre = 'All';
-  if (genres.length > 1) {
+  const okPick = s => picker === 'All' || pickOf(s).includes(picker);
+  const okGenre = s => genre === 'All' || s.genre === genre;
+  const addRow = (label, values, current, count, set) => {
     const f = document.createElement('div');
     f.className = 'filters';
-    ['All', ...genres].forEach(g => {
+    f.setAttribute('role', 'group');
+    f.setAttribute('aria-label', label);
+    f.insertAdjacentHTML('beforeend', `<span class="flabel">${label}</span>`);
+    ['All', ...values].forEach(v => {
       const fb = document.createElement('button');
-      fb.textContent = g === 'All' ? `All (${shops.length})` : `${g} (${shops.filter(s => s.genre === g).length})`;
-      fb.setAttribute('aria-pressed', g === genre ? 'true' : 'false');
-      fb.addEventListener('click', () => { genre = g; showCity(city.city, true); });
+      fb.textContent = `${v} (${count(v)})`;
+      fb.setAttribute('aria-pressed', v === current ? 'true' : 'false');
+      fb.addEventListener('click', () => { set(v); showCity(city.city, true); });
       f.appendChild(fb);
     });
     listEl.appendChild(f);
+  };
+  if (pickers.length > 1) addRow('Picked by', pickers, picker,
+    v => shops.filter(s => okGenre(s) && (v === 'All' || pickOf(s).includes(v))).length, v => { picker = v; });
+  if (genres.length > 1) addRow('Genre', genres, genre,
+    v => shops.filter(s => okPick(s) && (v === 'All' || s.genre === v)).length, v => { genre = v; });
+  if (shops.length && !shops.some(s => okPick(s) && okGenre(s))) {
+    listEl.insertAdjacentHTML('beforeend', '<div class="empty">No restaurants match both filters.</div>');
   }
   shops.forEach((s, i) => {
-    if (genre !== 'All' && s.genre !== genre) { markers.push(null); return; }
+    if (!okPick(s) || !okGenre(s)) { markers.push(null); return; }
     const b = document.createElement('button');
     b.className = 'shop';
     b.dataset.idx = i;

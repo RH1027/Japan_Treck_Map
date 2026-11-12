@@ -42,6 +42,7 @@ ALIASES = {
     "google_rating": ["google rating", "google map rating", "google maps rating"],
     "tabelog_rating": ["tabelog rating", "tabelog score"],
     "rating_date": ["rating date", "ratings as of"],
+    "picked_by": ["picked by", "recommended by", "recommender", "pick", "おすすめ", "おすすめ者", "推薦者"],
 }
 
 
@@ -137,8 +138,12 @@ def main(xlsx, skip=()):
             genre = trs.get("_genres", {}).get(genre_raw, genre_raw) if genre_raw else None
             if has_japanese(genre):
                 untranslated.append(f"{ws.title}: genre '{genre_raw}'")
+            # "Reo", "Kohei", "Reo, Kohei" (both) or e.g. "Popular with visitors".
+            picked_raw = val("picked_by") or ""
+            picked_by = [x.strip() for x in picked_raw.replace("、", ",").replace("&", ",").replace("/", ",").split(",") if x.strip()]
             shops.append({
                 "name": name_en,
+                "picked_by": picked_by,
                 "genre": genre,
                 "name_jp": name_jp,
                 "area": val("area"),

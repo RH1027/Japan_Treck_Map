@@ -127,5 +127,49 @@
     "name_jp": "らーめん 谷瀬家",
     "tabelog_url": "https://tabelog.com/en/tokyo/A1301/A130103/13221749/",
     "source": "Address: AppBank; coordinates: GSI address search; Tabelog score could not be read"
+  },
+  "麺家 黒": {
+    "address": "東京都目黒区目黒1-6-12 ワンエム目黒 1F",
+    "lat": 35.634586,
+    "lng": 139.712143,
+    "name_jp": "麺家 黒",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1316/A131601/13020309/",
+    "tabelog_rating": "3.59",
+    "source": "Address/score: Tabelog; coordinates: GSI address search"
+  },
+  "新宿焼肉　牛たんの檸檬　総本店": {
+    "address": "東京都新宿区西新宿7-16-12 YSビル B1F",
+    "lat": 35.696178,
+    "lng": 139.697968,
+    "name_jp": "新宿焼肉 牛たんの檸檬 総本店",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1304/A130401/13264721/",
+    "tabelog_rating": "3.46",
+    "source": "Address/score: Tabelog; coordinates: GSI address search"
+  },
+  "バー タロウズ": {
+    "address": "東京都新宿区神楽坂3-6-29 MIビル 3F",
+    "lat": 35.701012,
+    "lng": 139.739624,
+    "name_jp": "バー タロウズ",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1309/A130905/13221290/",
+    "tabelog_rating": "3.23",
+    "source": "Address/score: Tabelog; coordinates: GSI address search"
+  },
+  "食酒家 岡宮": {
+    "address": "東京都江東区富岡1-7-10",
+    "lat": 35.671211,
+    "lng": 139.796387,
+    "name_jp": "食酒家 岡宮",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1313/A131303/13260748/",
+    "source": "Address: Retty; coordinates: GSI address search; Tabelog score could not be read"
+  },
+  "らーめん弁慶 門前仲町店": {
+    "address": "東京都江東区深川1-1-8",
+    "lat": 35.674454,
+    "lng": 139.795822,
+    "name_jp": "らーめん弁慶 門前仲町店",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1313/A131303/13008468/",
+    "tabelog_rating": "3.60",
+    "source": "Address/score: Tabelog; coordinates: GSI address search"
   }
 }

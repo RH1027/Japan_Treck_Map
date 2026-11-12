@@ -74,5 +74,27 @@
   "らーめん 谷瀬家": {
     "name": "Ramen Taniseya",
     "description": "In Japan there is a genre called Yokohama Iekei ramen, based on a pork-bone and soy sauce broth. There are many famous shops in this genre in places such as Yokohama and Shin-Sugita, and this is a well-regarded one that is easy to reach from central Tokyo. There are many Yokohama Iekei shops in Tokyo, but quality varies a lot, so be careful. When you hand over your meal ticket, you can choose the noodle firmness, the strength of the soup and the amount of fat. Reo likes \"soft, strong, less fat,\" but most people generally choose firm noodles."
+  },
+  "麺家 黒": {
+    "name": "Menya Kuro",
+    "description": "A well-regarded Yokohama Iekei shop in Tokyo. For an explanation of Yokohama Iekei, see the description of Ramen Taniseya."
+  },
+  "新宿焼肉　牛たんの檸檬　総本店": {
+    "name": "Shinjuku Yakiniku Gyutan no Lemon (Main Shop)",
+    "description": "A shop serving thick-cut beef tongue. Many people may be hesitant to eat beef tongue, but its chewy texture is very popular in Japan. We recommend eating it with rice. There are also sister shops besides this one, so please try whichever is easiest to get to."
+  },
+  "バー タロウズ": {
+    "name": "Bar Tarrow's",
+    "description": "An authentic bar in Kagurazaka. It has a very large number of whiskies, and the bartender, who has a wealth of experience and knowledge, serves whisky that suits your taste. We don't know how much English he can speak, but he is a wonderful bartender who, we can say for certain, will serve you attentively while using a translation device or similar. Besides whisky, the cocktails are also delicious, and there is a wide variety of rum and other spirits. You can also smoke cigars.",
+    "reservation": "Yes (phone only)"
+  },
+  "食酒家 岡宮": {
+    "name": "Shokushuka Okamiya",
+    "description": "A traditional Japanese izakaya. It is near the house where Reo used to live, and the seafood is very good. A hidden gem loved by locals.",
+    "note": "We think they can hardly handle English, so you will need to use translation tools or similar."
+  },
+  "らーめん弁慶 門前仲町店": {
+    "name": "Ramen Benkei (Monzen-Nakacho)",
+    "description": "There are two flavors: soy sauce and miso. We recommend soy sauce. It is Japanese junk ramen topped with lots of back fat, and the bowls are quite dirty. But the taste is definitely very addictive. Reo ate so much of this ramen that he gained 5 kg. The main shop is in Asakusa, but he has never been there, so he chose this shop."
   }
 }

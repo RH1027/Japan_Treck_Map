@@ -362,6 +362,126 @@
           "address": "東京都港区新橋3-11-1 イーグル烏森ビル 1F",
           "lat": 35.666229,
           "lng": 139.755859
+        },
+        {
+          "name": "Menya Kuro",
+          "genre": "Ramen",
+          "name_jp": "麺家 黒",
+          "area": null,
+          "description": "A well-regarded Yokohama Iekei shop in Tokyo. For an explanation of Yokohama Iekei, see the description of Ramen Taniseya.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/explore/locations/1071431/mian-jia-hei/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1316/A131601/13020309/"
+          },
+          "gmap": null,
+          "google_rating": "3.9",
+          "tabelog_rating": "3.59",
+          "rating_date": null,
+          "address": "東京都目黒区目黒1-6-12 ワンエム目黒 1F",
+          "lat": 35.634586,
+          "lng": 139.712143
+        },
+        {
+          "name": "Shinjuku Yakiniku Gyutan no Lemon (Main Shop)",
+          "genre": "Yakiniku (Japanese BBQ)",
+          "name_jp": "新宿焼肉 牛たんの檸檬 総本店",
+          "area": null,
+          "description": "A shop serving thick-cut beef tongue. Many people may be hesitant to eat beef tongue, but its chewy texture is very popular in Japan. We recommend eating it with rice. There are also sister shops besides this one, so please try whichever is easiest to get to.",
+          "hp": {
+            "label": "Instagram",
+            "url": "http://instagram.com/beef_lemon/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1304/A130401/13264721/"
+          },
+          "gmap": null,
+          "google_rating": "4.7",
+          "tabelog_rating": "3.46",
+          "rating_date": null,
+          "address": "東京都新宿区西新宿7-16-12 YSビル B1F",
+          "lat": 35.696178,
+          "lng": 139.697968
+        },
+        {
+          "name": "Bar Tarrow's",
+          "genre": "Bar",
+          "name_jp": "バー タロウズ",
+          "area": null,
+          "description": "An authentic bar in Kagurazaka. It has a very large number of whiskies, and the bartender, who has a wealth of experience and knowledge, serves whisky that suits your taste. We don't know how much English he can speak, but he is a wonderful bartender who, we can say for certain, will serve you attentively while using a translation device or similar. Besides whisky, the cocktails are also delicious, and there is a wide variety of rum and other spirits. You can also smoke cigars.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/bartender_taro/"
+          },
+          "reservation": "Yes (phone only)",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1309/A130905/13221290/"
+          },
+          "gmap": null,
+          "google_rating": "4.8",
+          "tabelog_rating": "3.23",
+          "rating_date": null,
+          "address": "東京都新宿区神楽坂3-6-29 MIビル 3F",
+          "lat": 35.701012,
+          "lng": 139.739624
+        },
+        {
+          "name": "Shokushuka Okamiya",
+          "genre": "Japanese Izakaya",
+          "name_jp": "食酒家 岡宮",
+          "area": null,
+          "description": "A traditional Japanese izakaya. It is near the house where Reo used to live, and the seafood is very good. A hidden gem loved by locals.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/okamiya1119/"
+          },
+          "reservation": "Yes",
+          "note": "We think they can hardly handle English, so you will need to use translation tools or similar.",
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1313/A131303/13260748/"
+          },
+          "gmap": null,
+          "google_rating": "4.5",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都江東区富岡1-7-10",
+          "lat": 35.671211,
+          "lng": 139.796387
+        },
+        {
+          "name": "Ramen Benkei (Monzen-Nakacho)",
+          "genre": "Ramen",
+          "name_jp": "らーめん弁慶 門前仲町店",
+          "area": null,
+          "description": "There are two flavors: soy sauce and miso. We recommend soy sauce. It is Japanese junk ramen topped with lots of back fat, and the bowls are quite dirty. But the taste is definitely very addictive. Reo ate so much of this ramen that he gained 5 kg. The main shop is in Asakusa, but he has never been there, so he chose this shop.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/explore/locations/14617030/ramen-bian-qing/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1313/A131303/13008468/"
+          },
+          "gmap": null,
+          "google_rating": "3.9",
+          "tabelog_rating": "3.60",
+          "rating_date": null,
+          "address": "東京都江東区深川1-1-8",
+          "lat": 35.674454,
+          "lng": 139.795822
         }
       ]
     },

@@ -218,7 +218,7 @@ function showCity(name, keepGenre) {
     });
     listEl.appendChild(f);
   };
-  if (pickers.length > 1) addRow('Picked by', pickers, picker,
+  if (pickers.length) addRow('Picked by', pickers, picker,
     v => shops.filter(s => okGenre(s) && (v === 'All' || pickOf(s).includes(v))).length, v => { picker = v; });
   if (genres.length > 1) addRow('Genre', genres, genre,
     v => shops.filter(s => okPick(s) && (v === 'All' || s.genre === v)).length, v => { genre = v; });

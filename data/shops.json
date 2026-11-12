@@ -5,6 +5,7 @@
       "shops": [
         {
           "name": "Hashigo Honten",
+          "name_jp": "支那麺 はしご 本店",
           "area": null,
           "description": "A spicy ramen restaurant (tantanmen). It's a popular spot so there may be a wait. It stays open late, so the recommendation is to have drinks in Ginza and finish the night off with this ramen.",
           "hp": {
@@ -27,6 +28,7 @@
         },
         {
           "name": "3chome no Curry yasan",
+          "name_jp": "３丁目のカレー屋さん",
           "area": null,
           "description": "A renowned restaurant serving baked cheese beef curry. It gets very crowded during the day, so it is recommended to go right when it opens.",
           "hp": {
@@ -49,6 +51,7 @@
         },
         {
           "name": "Nishimura",
+          "name_jp": "にし邑",
           "area": null,
           "description": "A long-established tonkatsu restaurant. I once waited in line to get into this place and was approached by an older man behind me, who told me that he had visited tonkatsu restaurants all over the country and this one was the best.",
           "hp": {

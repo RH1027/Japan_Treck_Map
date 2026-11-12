@@ -12,6 +12,7 @@ Restaurant recommendations for the McCombs Japan Trek, shown on a map.
 1. Add rows to the Excel file (one sheet per city: Tokyo, Kyoto, Osaka, Hiroshima, ...).
    Optional columns: `Tabelog`, `Google Map`, `Address`, `Google Rating`, `Tabelog Rating`, `Rating Date`.
 2. Run `python3 tools/build_data.py path/to/Japan_Treck_recommendations_list.xlsx`.
-3. Check `data/locations.json` for any new or missing positions, then commit and push.
+3. Names and descriptions may be written in Japanese; add their English versions to `data/translations.json` (keyed by the Japanese name: `name`, `description`, `note`).
+4. Check `data/locations.json` for any new or missing positions (and `name_jp`), then commit and push.
 
 Map tiles: OpenFreeMap · © OpenMapTiles · Data © OpenStreetMap contributors. Labels use English names where available.

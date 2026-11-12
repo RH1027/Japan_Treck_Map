@@ -22,6 +22,11 @@ import openpyxl
 ROOT = Path(__file__).resolve().parent.parent
 LOC_FILE = ROOT / "data" / "locations.json"
 OUT_FILE = ROOT / "data" / "shops.json"
+TR_FILE = ROOT / "data" / "translations.json"
+
+
+def has_japanese(t):
+    return any("\u3040" <= ch <= "\u30ff" or "\u4e00" <= ch <= "\u9fff" or "\uff00" <= ch <= "\uffef" for ch in (t or ""))
 
 ALIASES = {
     "name": ["name"],
@@ -59,6 +64,9 @@ def gsi_geocode(q):
 
 def main(xlsx):
     locs = json.loads(LOC_FILE.read_text(encoding="utf-8")) if LOC_FILE.exists() else {}
+    # Japanese name in the Excel file -> English name / description / note.
+    trs = json.loads(TR_FILE.read_text(encoding="utf-8")) if TR_FILE.exists() else {}
+    untranslated = []
     wb = openpyxl.load_workbook(xlsx)
     cities = []
     missing = []
@@ -112,13 +120,21 @@ def main(xlsx):
                     locs[name] = loc
                 else:
                     missing.append(f"{ws.title}: {name}")
+            tr = trs.get(name, {})
+            name_en = tr.get("name") or name
+            name_jp = (loc or {}).get("name_jp") or (name if has_japanese(name) else None)
+            desc = tr.get("description") or val("description")
+            note = tr.get("note") or val("note")
+            if has_japanese(name_en) or has_japanese(desc) or has_japanese(note):
+                untranslated.append(f"{ws.title}: {name}")
             shops.append({
-                "name": name,
+                "name": name_en,
+                "name_jp": name_jp,
                 "area": val("area"),
-                "description": val("description"),
+                "description": desc,
                 "hp": link("hp"),
                 "reservation": val("reservation"),
-                "note": val("note"),
+                "note": note,
                 "tabelog": link("tabelog") or ({"label": "Tabelog", "url": loc["tabelog_url"]} if loc and loc.get("tabelog_url") else None),
                 "gmap": link("gmap"),
                 "google_rating": val("google_rating") or num("gmap"),
@@ -132,6 +148,10 @@ def main(xlsx):
     LOC_FILE.write_text(json.dumps(locs, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     OUT_FILE.write_text(json.dumps({"cities": cities}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUT_FILE} ({sum(len(c['shops']) for c in cities)} shops)")
+    if untranslated:
+        print("Needs English translation (add to data/translations.json):")
+        for m in untranslated:
+            print("  -", m)
     if missing:
         print("No location yet (add to data/locations.json):")
         for m in missing:

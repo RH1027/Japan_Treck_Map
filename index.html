@@ -53,6 +53,11 @@ main { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(300p
 .rate b { color: #B7791F; font-weight: 700; }
 .asof { font-size: 10px; color: var(--muted); }
 .jp { font: 400 11px var(--body); color: var(--muted); white-space: nowrap; }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; }
+.filters button { appearance: none; font: 600 12px var(--body); color: var(--navy); background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+.filters button[aria-pressed="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }
+.filters button:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.genre { font-weight: 700; color: var(--navy); }
 .empty { color: var(--muted); font-size: 13px; line-height: 1.6; padding: 8px 2px; }
 .pin { width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: var(--yellow); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); font: 700 12px var(--body); display: flex; align-items: center; justify-content: center; }
 .pin.active { background: var(--yellow); color: var(--navy); border-color: var(--navy); }
@@ -122,7 +127,7 @@ map.on('style.load', () => {
   }
 });
 
-let data = { cities: [] }, city = null, markers = [];
+let data = { cities: [] }, city = null, markers = [], genre = 'All';
 const listEl = document.getElementById('list');
 const tabsEl = document.getElementById('tabs');
 
@@ -153,7 +158,7 @@ function popupHtml(s) {
   links.push(`<a href="${esc(gmapUrl(s))}" target="_blank" rel="noopener">Google Maps</a>`);
   return `<div class="pop">
     <h3>${esc(s.name)}${s.name_jp ? ` <span class="jp">${esc(s.name_jp)}</span>` : ''}</h3>
-    <div class="meta">${s.area ? `<span>${esc(s.area)}</span>` : ''}${resChip(s.reservation)}</div>
+    <div class="meta">${s.genre ? `<span class="genre">${esc(s.genre)}</span>` : ''}${s.area ? `<span>${esc(s.area)}</span>` : ''}${resChip(s.reservation)}</div>
     ${ratingsHtml(s, true) ? `<div class="meta">${ratingsHtml(s, true)}</div>` : ''}
     ${s.description ? `<p>${esc(s.description)}</p>` : ''}
     ${s.note ? `<p class="note">${esc(s.note)}</p>` : ''}
@@ -164,7 +169,7 @@ function popupHtml(s) {
 function closeAll() { markers.forEach(m => m && m.getPopup().isOpen() && m.togglePopup()); }
 function select(i, fly) {
   markers.forEach((m, j) => { if (m) m.getElement().querySelector('.pin').classList.toggle('active', j === i); });
-  [...listEl.querySelectorAll('.shop')].forEach((b, j) => b.setAttribute('aria-current', j === i ? 'true' : 'false'));
+  [...listEl.querySelectorAll('.shop')].forEach(b => b.setAttribute('aria-current', +b.dataset.idx === i ? 'true' : 'false'));
   const m = markers[i];
   if (!m) return;
   closeAll();
@@ -174,7 +179,8 @@ function select(i, fly) {
     map.flyTo({ center: m.getLngLat(), zoom: Math.max(map.getZoom(), 15.5), offset: [0, 120], duration: 700 });
   } else if (!m.getPopup().isOpen()) m.togglePopup();
 }
-function showCity(name) {
+function showCity(name, keepGenre) {
+  if (!keepGenre) genre = 'All';
   city = data.cities.find(c => c.city === name) || data.cities[0];
   [...tabsEl.children].forEach(b => b.setAttribute('aria-selected', b.dataset.city === city.city ? 'true' : 'false'));
   markers.forEach(m => m && m.remove());
@@ -184,12 +190,28 @@ function showCity(name) {
   if (!shops.length) {
     listEl.innerHTML = `<div class="empty">No recommendations for ${esc(city.city)} yet. Check back soon.</div>`;
   }
+  const genres = [...new Set(shops.map(s => s.genre).filter(Boolean))].sort();
+  if (!genres.includes(genre)) genre = 'All';
+  if (genres.length > 1) {
+    const f = document.createElement('div');
+    f.className = 'filters';
+    ['All', ...genres].forEach(g => {
+      const fb = document.createElement('button');
+      fb.textContent = g === 'All' ? `All (${shops.length})` : `${g} (${shops.filter(s => s.genre === g).length})`;
+      fb.setAttribute('aria-pressed', g === genre ? 'true' : 'false');
+      fb.addEventListener('click', () => { genre = g; showCity(city.city, true); });
+      f.appendChild(fb);
+    });
+    listEl.appendChild(f);
+  }
   shops.forEach((s, i) => {
+    if (genre !== 'All' && s.genre !== genre) { markers.push(null); return; }
     const b = document.createElement('button');
     b.className = 'shop';
+    b.dataset.idx = i;
     b.innerHTML = `<span class="num">${i + 1}</span><span style="min-width:0">
       <h2>${esc(s.name)}${s.name_jp ? ` <span class="jp">${esc(s.name_jp)}</span>` : ''}</h2>
-      <span class="meta">${s.area ? `<span>${esc(s.area)}</span>` : ''}${resChip(s.reservation)}${ratingsHtml(s, false)}</span>
+      <span class="meta">${s.genre ? `<span class="genre">${esc(s.genre)}</span>` : ''}${s.area ? `<span>${esc(s.area)}</span>` : ''}${resChip(s.reservation)}${ratingsHtml(s, false)}</span>
       ${s.description ? `<p>${esc(s.description)}</p>` : ''}</span>`;
     b.addEventListener('click', () => select(i, true));
     listEl.appendChild(b);

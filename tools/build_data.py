@@ -38,6 +38,7 @@ ALIASES = {
     "tabelog": ["tabelog", "食べログ"],
     "gmap": ["google map", "googlemap", "google maps"],
     "address": ["address"],
+    "genre": ["genre", "category", "ジャンル", "カテゴリ", "カテゴリー"],
     "google_rating": ["google rating", "google map rating", "google maps rating"],
     "tabelog_rating": ["tabelog rating", "tabelog score"],
     "rating_date": ["rating date", "ratings as of"],
@@ -127,8 +128,13 @@ def main(xlsx):
             note = tr.get("note") or val("note")
             if has_japanese(name_en) or has_japanese(desc) or has_japanese(note):
                 untranslated.append(f"{ws.title}: {name}")
+            genre_raw = val("genre") or (loc or {}).get("genre")
+            genre = trs.get("_genres", {}).get(genre_raw, genre_raw) if genre_raw else None
+            if has_japanese(genre):
+                untranslated.append(f"{ws.title}: genre '{genre_raw}'")
             shops.append({
                 "name": name_en,
+                "genre": genre,
                 "name_jp": name_jp,
                 "area": val("area"),
                 "description": desc,

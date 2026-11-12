@@ -1,1 +1,27 @@
-{}
+{
+  "_genres": {
+    "ラーメン": "Ramen",
+    "担々麺": "Ramen",
+    "カレー": "Curry",
+    "とんかつ": "Tonkatsu",
+    "焼き鳥": "Yakitori",
+    "焼鳥": "Yakitori",
+    "バー": "Bar",
+    "ビストロ": "Bistro",
+    "居酒屋": "Izakaya",
+    "寿司": "Sushi",
+    "鮨": "Sushi",
+    "焼肉": "Yakiniku",
+    "そば": "Soba",
+    "うどん": "Udon",
+    "天ぷら": "Tempura",
+    "カフェ": "Cafe",
+    "和食": "Japanese",
+    "イタリアン": "Italian",
+    "フレンチ": "French",
+    "中華": "Chinese",
+    "お好み焼き": "Okonomiyaki",
+    "たこ焼き": "Takoyaki",
+    "串カツ": "Kushikatsu"
+  }
+}

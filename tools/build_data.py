@@ -63,7 +63,7 @@ def gsi_geocode(q):
     return {"lat": lat, "lng": lng, "matched": res[0]["properties"]["title"]}
 
 
-def main(xlsx):
+def main(xlsx, skip=()):
     locs = json.loads(LOC_FILE.read_text(encoding="utf-8")) if LOC_FILE.exists() else {}
     # Japanese name in the Excel file -> English name / description / note.
     trs = json.loads(TR_FILE.read_text(encoding="utf-8")) if TR_FILE.exists() else {}
@@ -72,6 +72,9 @@ def main(xlsx):
     cities = []
     missing = []
     for ws in wb.worksheets:
+        if ws.title in skip:
+            cities.append({"city": ws.title, "shops": []})
+            continue
         rows = list(ws.iter_rows())
         if not rows:
             continue
@@ -94,12 +97,14 @@ def main(xlsx):
                 if i is None or i >= len(row):
                     return None
                 cell = row[i]
-                if cell.hyperlink and cell.hyperlink.target:
-                    return {"label": val(k) or "Link", "url": cell.hyperlink.target}
+                url = cell.hyperlink.target if cell.hyperlink and cell.hyperlink.target else None
                 v = val(k)
-                if v and v.startswith("http"):
-                    return {"label": "Link", "url": v}
-                return None
+                if not url and v and v.startswith("http"):
+                    url = v
+                if not url:
+                    return None
+                label = v if v and not v.startswith("http") else ("Instagram" if "instagram.com" in url else "Website")
+                return {"label": label, "url": url}
 
             def num(k):
                 # A number typed in the "食べログ" / "Google Map" column is a rating.
@@ -139,12 +144,12 @@ def main(xlsx):
                 "area": val("area"),
                 "description": desc,
                 "hp": link("hp"),
-                "reservation": val("reservation"),
+                "reservation": tr.get("reservation") or val("reservation"),
                 "note": note,
                 "tabelog": link("tabelog") or ({"label": "Tabelog", "url": loc["tabelog_url"]} if loc and loc.get("tabelog_url") else None),
                 "gmap": link("gmap"),
                 "google_rating": val("google_rating") or num("gmap"),
-                "tabelog_rating": val("tabelog_rating") or num("tabelog"),
+                "tabelog_rating": val("tabelog_rating") or num("tabelog") or (loc or {}).get("tabelog_rating"),
                 "rating_date": val("rating_date"),
                 "address": (loc or {}).get("address"),
                 "lat": (loc or {}).get("lat"),
@@ -165,4 +170,11 @@ def main(xlsx):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    # Optional: --skip "Sheet A,Sheet B" publishes those sheets as empty tabs.
+    args = sys.argv[1:]
+    skip = ()
+    if "--skip" in args:
+        i = args.index("--skip")
+        skip = tuple(x.strip() for x in args[i + 1].split(","))
+        del args[i:i + 2]
+    main(args[0], skip)

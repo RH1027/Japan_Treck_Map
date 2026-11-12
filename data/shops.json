@@ -53,7 +53,7 @@
         },
         {
           "name": "Nishimura",
-          "genre": "Tonkatsu",
+          "genre": "Tonkatsu(Fried Pork)",
           "name_jp": "にし邑",
           "area": null,
           "description": "A long-established tonkatsu restaurant. I once waited in line to get into this place and was approached by an older man behind me, who told me that he had visited tonkatsu restaurants all over the country and this one was the best.",
@@ -74,15 +74,155 @@
           "address": "東京都中央区銀座3-12-6 盛重ビル 1F",
           "lat": 35.670635,
           "lng": 139.769196
+        },
+        {
+          "name": "Tonkatsu Tonki Meguro Honten",
+          "genre": "Tonkatsu(Fried Pork)",
+          "name_jp": "とんかつ とんき 目黒本店",
+          "area": null,
+          "description": "A renowned tonkatsu restaurant with a history of nearly 90 years. There is always a line during the day, but turnover is very fast. Their excellent operation is also a must-see: staff ask for your order when you come in, and what you ordered comes out piping hot as soon as you sit down.",
+          "hp": {
+            "label": "Website",
+            "url": "https://tonkatsutonki-megurohonten.com/ja"
+          },
+          "reservation": "Dinner only, for groups of 4 or more",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1316/A131601/13002040/"
+          },
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": "3.51",
+          "rating_date": null,
+          "address": "東京都目黒区下目黒1-1-2",
+          "lat": 35.633694,
+          "lng": 139.71431
+        },
+        {
+          "name": "Nico Chelsea",
+          "genre": "Bistro",
+          "name_jp": "ニコチェルシー",
+          "area": null,
+          "description": "A stylish French bistro tucked away in a back alley of Kagurazaka. It specializes in game meat (gibier). Which game is available depends on that day's supply, but every dish is excellent. You can pick your own wine from the wine cellar, which makes it fun. It is a very popular restaurant, so reservations are essential.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/nico__chelsea/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1309/A130905/13190904/"
+          },
+          "gmap": null,
+          "google_rating": "4.5",
+          "tabelog_rating": "3.61",
+          "rating_date": null,
+          "address": "東京都新宿区津久戸町3-6",
+          "lat": 35.702908,
+          "lng": 139.740265
+        },
+        {
+          "name": "Kagurazaka Yakitori Tora",
+          "genre": "Yakitori",
+          "name_jp": "神楽坂 焼鳥 虎",
+          "area": null,
+          "description": "A yakitori restaurant on the slightly pricier side for Japan (though still only about $80). The yakitori itself is very good, and the all-you-can-drink plan even includes Yamazaki whisky, so it is great value. It has counter seats only, so going in a small group is recommended. Reservations are essential. Its Tabelog rating is low because it is a new restaurant with few reviews.",
+          "hp": {
+            "label": "Website",
+            "url": "https://yakitori-tora-kagurazaka.com/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1309/A130905/13322554/"
+          },
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": "3.15",
+          "rating_date": null,
+          "address": "東京都新宿区神楽坂2-11 AYビル 1F",
+          "lat": 35.700607,
+          "lng": 139.741806
+        },
+        {
+          "name": "Suisui Nihonbashi Tokyo",
+          "genre": "Japanese Izakaya",
+          "name_jp": "純米酒専門 粋酔 日本橋東京店",
+          "area": null,
+          "description": "A restaurant where you can drink as much as you like from more than 100 kinds of sake collected from all 47 prefectures of Japan. The range of sake is huge, and if you book a course, you can enjoy it all on an all-you-can-drink basis. The food is decent, so this is a place to go for the sake. Reservations for large groups are also possible.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/suisui_nihonbashi/"
+          },
+          "reservation": "Yes",
+          "note": "It is unclear how well English is supported.",
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1302/A130202/13169597/"
+          },
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": "3.45",
+          "rating_date": null,
+          "address": "東京都中央区日本橋3-7-10 タンペイ日本橋ビル B1F",
+          "lat": 35.679581,
+          "lng": 139.773514
+        },
+        {
+          "name": "Dairen (Chinese Home Cooking)",
+          "genre": "Chinese",
+          "name_jp": "中国家庭料理大連",
+          "area": null,
+          "description": "A down-to-earth Chinese restaurant that has long been loved by students and office workers. The pan-fried gyoza are very good. It is definitely not the kind of place that appears in travel magazines, so it is recommended if you want to experience a restaurant where local Japanese people go.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/explore/locations/1303067/zhong-guo-jia-ting-liao-li-da-lian/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1314/A131402/13004557/"
+          },
+          "gmap": null,
+          "google_rating": "3.9",
+          "tabelog_rating": "3.49",
+          "rating_date": null,
+          "address": "東京都港区芝5-15-3 大連ビル",
+          "lat": 35.648663,
+          "lng": 139.745392
+        },
+        {
+          "name": "Fractale",
+          "genre": "Bar",
+          "name_jp": "フラクタル",
+          "area": null,
+          "description": "One of the top rum bars in Japan. It is so famous that when it comes to rum in Tokyo, almost every bartender will name this bar. Besides rum, it also has beer and whisky. An authentic bar with a calm atmosphere. Its Tabelog rating is low because it has few reviews; on Tabelog, bars generally tend to get low ratings.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/bar_fractale/"
+          },
+          "reservation": "Yes (phone only)",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1316/A131601/13131579/"
+          },
+          "gmap": null,
+          "google_rating": "4.9",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都品川区上大崎2-14-3",
+          "lat": 35.634327,
+          "lng": 139.717056
         }
       ]
     },
     {
-      "city": "Kyoto",
-      "shops": []
-    },
-    {
-      "city": "Osaka",
+      "city": "Kyoto Osaka",
       "shops": []
     },
     {

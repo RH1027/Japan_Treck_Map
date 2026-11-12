@@ -45,7 +45,7 @@ main { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(300p
 .num { flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--navy); color: var(--yellow); font: 700 11px var(--body); display: flex; align-items: center; justify-content: center; margin-top: 1px; }
 .shop h2 { margin: 0; font: 700 16px/1.25 var(--display); }
 .meta { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; font-size: 11px; color: var(--muted); align-items: center; }
-.chip { border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; background: var(--bg); }
+.chip { border: 1px solid var(--line); border-radius: 10px; padding: 1px 8px; background: var(--bg); }
 .chip.res-yes { border-color: #E3B341; background: #FFF6DB; color: #7A5600; }
 .shop p { margin: 6px 0 0; font-size: 12px; line-height: 1.5; color: var(--text); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .rates { display: inline-flex; gap: 8px; flex-wrap: wrap; align-items: center; }
@@ -106,6 +106,7 @@ const CITY_VIEW = {
   Tokyo: [[35.6812, 139.7671], 12],
   Kyoto: [[35.0116, 135.7681], 13],
   Osaka: [[34.6937, 135.5023], 13],
+  'Kyoto Osaka': [[34.85, 135.63], 9],
   Hiroshima: [[34.3853, 132.4553], 13],
 };
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -139,8 +140,9 @@ function gmapUrl(s) {
 }
 function resChip(r) {
   if (!r) return '';
-  const yes = /^y/i.test(r);
-  return `<span class="chip ${yes ? 'res-yes' : ''}">${yes ? 'Reservation recommended' : 'No reservation'}</span>`;
+  if (/^yes$/i.test(r.trim())) return '<span class="chip res-yes">Reservation recommended</span>';
+  if (/^no$/i.test(r.trim())) return '<span class="chip">No reservation</span>';
+  return `<span class="chip res-yes">Reservations: ${esc(r)}</span>`;
 }
 function fmtNum(v, d) { const n = parseFloat(v); return isNaN(n) ? esc(v) : n.toFixed(d); }
 function ratingsHtml(s, withDate) {

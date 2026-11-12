@@ -218,6 +218,150 @@
           "address": "東京都品川区上大崎2-14-3",
           "lat": 35.634327,
           "lng": 139.717056
+        },
+        {
+          "name": "Antonic Nakameguro",
+          "genre": "Bar",
+          "name_jp": "Antonic 中目黒店",
+          "area": null,
+          "description": "A small gin bar along the Meguro River. It is a cozy place with only a few counter seats, but you can enjoy gins from all over the world. Gin is also sold in the basement.",
+          "hp": {
+            "label": "Website",
+            "url": "https://sidecar.ltd/our-bar/antonic"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1317/A131701/13258711/"
+          },
+          "gmap": null,
+          "google_rating": "4.7",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都目黒区東山1-9-13 東山鈴房荘103",
+          "lat": 35.647358,
+          "lng": 139.693451
+        },
+        {
+          "name": "Bondy Jimbocho Honten",
+          "genre": "Curry",
+          "name_jp": "欧風カレー ボンディ 神保町本店",
+          "area": null,
+          "description": "One of the most famous curry restaurants in Japan, and the pinnacle of Japanese-style curry. Rather than strong spices, it is known for the richness and mellowness that come from slowly simmering apples and onions. To everyone from South Asia: this is curry adapted to Japanese tastes, so please forgive us (lol).",
+          "hp": {
+            "label": "Website",
+            "url": "https://bondy.co.jp/web/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1310/A131003/13000439/"
+          },
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都千代田区神田神保町2-3 神田古書センター 2F",
+          "lat": 35.695724,
+          "lng": 139.757355
+        },
+        {
+          "name": "Shanaiya",
+          "genre": "Curry",
+          "name_jp": "薬膳スープカレー・シャナイア",
+          "area": null,
+          "description": "A restaurant serving yakuzen (medicinal) curry. Despite the name, there is no medicine in it; it is a spice curry made with plenty of ingredients that help with things like recovering from fatigue. Reservations are possible at dinner, but at lunchtime it uses a numbered-ticket waiting system. You can also join the waiting list online, but everyone applies when it opens at 10:30, so you need to be ready at that time.",
+          "hp": {
+            "label": "Website",
+            "url": "https://www.nekoaji.net/shania/info/"
+          },
+          "reservation": "Dinner only",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1303/A130302/13149675/"
+          },
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都目黒区三田1-5-5",
+          "lat": 35.639973,
+          "lng": 139.714615
+        },
+        {
+          "name": "La Maison Dami",
+          "genre": "Bistro",
+          "name_jp": "ラ メゾン ダミ",
+          "area": null,
+          "description": "A small French bistro in Meguro. The food is excellent, and the pâté Reo had here was among the best he has ever eaten in his life.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/lamaisondami/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1316/A131601/13108348/"
+          },
+          "gmap": null,
+          "google_rating": "4.1",
+          "tabelog_rating": "3.55",
+          "rating_date": null,
+          "address": "東京都品川区上大崎3-4-9 SEIWAビル 1F",
+          "lat": 35.633698,
+          "lng": 139.718826
+        },
+        {
+          "name": "Horumon Masaru",
+          "genre": "Yakiniku (Japanese BBQ)",
+          "name_jp": "ホルモンまさる",
+          "area": null,
+          "description": "A Japanese-style BBQ restaurant. Since you grill offal (organ meat), it may not be very familiar to non-Japanese people, but it is very popular among Japanese people. There is not much regular meat, so it is not really recommended for people who do not like offal.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/explore/locations/147265135873591/"
+          },
+          "reservation": "Yes (phone only)",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1314/A131402/13150755/"
+          },
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区芝5-21-14",
+          "lat": 35.648331,
+          "lng": 139.747131
+        },
+        {
+          "name": "Ramen Taniseya",
+          "genre": "Ramen",
+          "name_jp": "らーめん 谷瀬家",
+          "area": null,
+          "description": "In Japan there is a genre called Yokohama Iekei ramen, based on a pork-bone and soy sauce broth. There are many famous shops in this genre in places such as Yokohama and Shin-Sugita, and this is a well-regarded one that is easy to reach from central Tokyo. There are many Yokohama Iekei shops in Tokyo, but quality varies a lot, so be careful. When you hand over your meal ticket, you can choose the noodle firmness, the strength of the soup and the amount of fat. Reo likes \"soft, strong, less fat,\" but most people generally choose firm noodles.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/taniseya0522/?hl=ja"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1301/A130103/13221749/"
+          },
+          "gmap": null,
+          "google_rating": "3.9",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区新橋3-11-1 イーグル烏森ビル 1F",
+          "lat": 35.666229,
+          "lng": 139.755859
         }
       ]
     },

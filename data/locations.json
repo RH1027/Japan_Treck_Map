@@ -78,5 +78,54 @@
     "name_jp": "フラクタル",
     "tabelog_url": "https://tabelog.com/en/tokyo/A1316/A131601/13131579/",
     "source": "Address: Wanderlog (Bar Fractale); coordinates: GSI address search; Tabelog score could not be read"
+  },
+  "Antonic 中目黒店": {
+    "address": "東京都目黒区東山1-9-13 東山鈴房荘103",
+    "lat": 35.647358,
+    "lng": 139.693451,
+    "name_jp": "Antonic 中目黒店",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1317/A131701/13258711/",
+    "source": "Address: Hot Pepper; coordinates: GSI address search; Tabelog score could not be read"
+  },
+  "ボンディ　神保町本店": {
+    "address": "東京都千代田区神田神保町2-3 神田古書センター 2F",
+    "lat": 35.695724,
+    "lng": 139.757355,
+    "name_jp": "欧風カレー ボンディ 神保町本店",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1310/A131003/13000439/",
+    "source": "Address: Visit Chiyoda; coordinates: GSI address search; Tabelog score could not be read"
+  },
+  "Shanaiya": {
+    "address": "東京都目黒区三田1-5-5",
+    "lat": 35.639973,
+    "lng": 139.714615,
+    "name_jp": "薬膳スープカレー・シャナイア",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1303/A130302/13149675/",
+    "source": "Address: San-tatsu; coordinates: GSI address search; Tabelog score could not be read"
+  },
+  "ラ メゾン ダミ": {
+    "address": "東京都品川区上大崎3-4-9 SEIWAビル 1F",
+    "lat": 35.633698,
+    "lng": 139.718826,
+    "name_jp": "ラ メゾン ダミ",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1316/A131601/13108348/",
+    "tabelog_rating": "3.55",
+    "source": "Address/score: Tabelog; coordinates: GSI address search"
+  },
+  "ホルモンまさる": {
+    "address": "東京都港区芝5-21-14",
+    "lat": 35.648331,
+    "lng": 139.747131,
+    "name_jp": "ホルモンまさる",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1314/A131402/13150755/",
+    "source": "Address: HAMONI; coordinates: GSI address search; Tabelog score could not be read"
+  },
+  "らーめん 谷瀬家": {
+    "address": "東京都港区新橋3-11-1 イーグル烏森ビル 1F",
+    "lat": 35.666229,
+    "lng": 139.755859,
+    "name_jp": "らーめん 谷瀬家",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1301/A130103/13221749/",
+    "source": "Address: AppBank; coordinates: GSI address search; Tabelog score could not be read"
   }
 }

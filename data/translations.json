@@ -49,5 +49,30 @@
     "name": "Fractale",
     "description": "One of the top rum bars in Japan. It is so famous that when it comes to rum in Tokyo, almost every bartender will name this bar. Besides rum, it also has beer and whisky. An authentic bar with a calm atmosphere. Its Tabelog rating is low because it has few reviews; on Tabelog, bars generally tend to get low ratings.",
     "reservation": "Yes (phone only)"
+  },
+  "Antonic 中目黒店": {
+    "name": "Antonic Nakameguro",
+    "description": "A small gin bar along the Meguro River. It is a cozy place with only a few counter seats, but you can enjoy gins from all over the world. Gin is also sold in the basement."
+  },
+  "ボンディ　神保町本店": {
+    "name": "Bondy Jimbocho Honten",
+    "description": "One of the most famous curry restaurants in Japan, and the pinnacle of Japanese-style curry. Rather than strong spices, it is known for the richness and mellowness that come from slowly simmering apples and onions. To everyone from South Asia: this is curry adapted to Japanese tastes, so please forgive us (lol)."
+  },
+  "Shanaiya": {
+    "description": "A restaurant serving yakuzen (medicinal) curry. Despite the name, there is no medicine in it; it is a spice curry made with plenty of ingredients that help with things like recovering from fatigue. Reservations are possible at dinner, but at lunchtime it uses a numbered-ticket waiting system. You can also join the waiting list online, but everyone applies when it opens at 10:30, so you need to be ready at that time.",
+    "reservation": "Dinner only"
+  },
+  "ラ メゾン ダミ": {
+    "name": "La Maison Dami",
+    "description": "A small French bistro in Meguro. The food is excellent, and the pâté Reo had here was among the best he has ever eaten in his life."
+  },
+  "ホルモンまさる": {
+    "name": "Horumon Masaru",
+    "description": "A Japanese-style BBQ restaurant. Since you grill offal (organ meat), it may not be very familiar to non-Japanese people, but it is very popular among Japanese people. There is not much regular meat, so it is not really recommended for people who do not like offal.",
+    "reservation": "Yes (phone only)"
+  },
+  "らーめん 谷瀬家": {
+    "name": "Ramen Taniseya",
+    "description": "In Japan there is a genre called Yokohama Iekei ramen, based on a pork-bone and soy sauce broth. There are many famous shops in this genre in places such as Yokohama and Shin-Sugita, and this is a well-regarded one that is easy to reach from central Tokyo. There are many Yokohama Iekei shops in Tokyo, but quality varies a lot, so be careful. When you hand over your meal ticket, you can choose the noodle firmness, the strength of the soup and the amount of fat. Reo likes \"soft, strong, less fat,\" but most people generally choose firm noodles."
   }
 }

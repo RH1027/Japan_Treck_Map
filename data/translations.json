@@ -22,7 +22,8 @@
     "中華": "Chinese",
     "お好み焼き": "Okonomiyaki",
     "たこ焼き": "Takoyaki",
-    "串カツ": "Kushikatsu"
+    "串カツ": "Kushikatsu",
+    "sweets": "Sweets"
   },
   "とんかつ　とんき　目黒本店": {
     "name": "Tonkatsu Tonki Meguro Honten",
@@ -96,5 +97,39 @@
   "らーめん弁慶 門前仲町店": {
     "name": "Ramen Benkei (Monzen-Nakacho)",
     "description": "There are two flavors: soy sauce and miso. We recommend soy sauce. It is Japanese junk ramen topped with lots of back fat, and the bowls are quite dirty. But the taste is definitely very addictive. Reo ate so much of this ramen that he gained 5 kg. The main shop is in Asakusa, but he has never been there, so he chose this shop."
+  },
+  "とんかつ　丸七": {
+    "name": "Tonkatsu Marushichi",
+    "description": "In a traditional katsudon, the fried pork is finished by binding it with egg, but the katsudon here is made by preparing the egg and the fried pork separately and placing them on top of the rice. A popular shop that started the so-called \"unbound katsudon\" boom in Japan. The tonkatsu is very thick, so it has a huge visual impact and looks great in photos. As for the taste, the sauce is quite sweet and the meat is very thick, so it is quite heavy. Recommended for people who love fried food. The line is very long, so you should be in front of the shop when it opens."
+  },
+  "おにぎり　ぼんご": {
+    "name": "Onigiri Bongo",
+    "description": "The shop that started an onigiri (rice ball) boom in Japan about five years ago. It was originally a renowned shop known only to those in the know, but its social-media-worthy look went viral and it suddenly became extremely popular. It serves only onigiri and miso soup, and the onigiri packed with fillings and the perfectly cooked rice are very delicious. Honestly, we don't know how popular it is now, but we expect a long line. It seems you can reserve take-out orders, but they seem to accept reservations only by phone, so if you want to make a reservation, please ask Reo."
+  },
+  "Age.3 ASAKUSA": {
+    "description": "A fried sandwich shop. Fried sandwiches themselves became popular after we came to the US, so honestly we are in the same position as all of you. It seems they have not only fruit sandwiches but also ones you could eat for lunch. Judging from the photos, they look delicious, crispy on the outside with a rich seasoning inside. We have quite a lot of free time in Asakusa, so why not stop by?"
+  },
+  "きつねや": {
+    "name": "Kitsuneya",
+    "description": "The gyudon (beef bowl) is simple, but the rich seasoning and the tenderly simmered beef are superb. It opens early in the morning for people who work at the market, but because of that it closes early, at 1 PM, so be careful. Tsukiji is on our schedule, but we may not make it before closing time, so if you want to go here, please let the organizers know."
+  },
+  "I’m donut ? Omotesando": {
+    "description": "Japan's first fresh doughnuts with a fluffy texture. They went viral about a year ago, and our impression is that young people flocked to eat them. The texture is said to be completely different from American doughnuts, so if you are interested, please try them. There are several shops besides Omotesando, so look for a shop that fits your plans."
+  },
+  "牛カツ　もと村": {
+    "name": "Gyukatsu Motomura",
+    "description": "A shop serving fried beef. In Japan, frying pork or chicken is common, but beef was rare. This shop overturned that convention and succeeded. There are shops not only in Tokyo but also in Osaka and Kyoto, so look for the nearest shop according to your plans."
+  },
+  "黒毛和牛 壱乃屋 浅草": {
+    "name": "Kuroge Wagyu Ichinoya Asakusa",
+    "description": "Wagyu bowls made with genuine Japanese wagyu. They look very beautiful. It is popular with tourists, but from a Japanese point of view the price is a little too high, so its Tabelog rating is low."
+  },
+  "Bar CENTIFOLIA": {
+    "description": "A bar extremely focused on looking good on social media. To put it positively, it is the pinnacle of flair bartending, but honestly it goes so far over the top that it makes you laugh. However, the bartender has won a cocktail competition in Japan, and his skill as a bartender is the real thing. If you look at their social media first and are interested, I think it is a place where you can have a special experience.",
+    "reservation": "Yes, but there is a puzzling reservation fee"
+  },
+  "カラクサカレー": {
+    "name": "Kara-Kusa Curry",
+    "description": "Japanese-style curry. The spices come through, but it is more of a curry where you can taste the natural sweetness of vegetables and other ingredients. The shop has also received a Michelin Guide Bib Gourmand. A small shop with only counter seats. It opened about nine years ago, when Reo was working in Kyoto, and he went there often back then. The service getting more careless every year is a bit of a concern."
   }
 }

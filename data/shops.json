@@ -166,33 +166,6 @@
           "lng": 139.741806
         },
         {
-          "name": "Suisui Nihonbashi Tokyo",
-          "picked_by": [
-            "Reo"
-          ],
-          "genre": "Japanese Izakaya",
-          "name_jp": "純米酒専門 粋酔 日本橋東京店",
-          "area": null,
-          "description": "A restaurant where you can drink as much as you like from more than 100 kinds of sake collected from all 47 prefectures of Japan. The range of sake is huge, and if you book a course, you can enjoy it all on an all-you-can-drink basis. The food is decent, so this is a place to go for the sake. Reservations for large groups are also possible.",
-          "hp": {
-            "label": "Instagram",
-            "url": "https://www.instagram.com/suisui_nihonbashi/"
-          },
-          "reservation": "Yes",
-          "note": "It is unclear how well English is supported.",
-          "tabelog": {
-            "label": "Tabelog",
-            "url": "https://tabelog.com/en/tokyo/A1302/A130202/13169597/"
-          },
-          "gmap": null,
-          "google_rating": "4.2",
-          "tabelog_rating": "3.45",
-          "rating_date": null,
-          "address": "東京都中央区日本橋3-7-10 タンペイ日本橋ビル B1F",
-          "lat": 35.679581,
-          "lng": 139.773514
-        },
-        {
           "name": "Dairen (Chinese Home Cooking)",
           "picked_by": [
             "Reo"
@@ -240,7 +213,7 @@
           },
           "gmap": null,
           "google_rating": "4.9",
-          "tabelog_rating": null,
+          "tabelog_rating": "3.06",
           "rating_date": null,
           "address": "東京都品川区上大崎2-14-3",
           "lat": 35.634327,
@@ -267,7 +240,7 @@
           },
           "gmap": null,
           "google_rating": "4.7",
-          "tabelog_rating": null,
+          "tabelog_rating": "3.56",
           "rating_date": null,
           "address": "東京都目黒区東山1-9-13 東山鈴房荘103",
           "lat": 35.647358,
@@ -294,7 +267,7 @@
           },
           "gmap": null,
           "google_rating": "4.3",
-          "tabelog_rating": null,
+          "tabelog_rating": "3.68",
           "rating_date": null,
           "address": "東京都千代田区神田神保町2-3 神田古書センター 2F",
           "lat": 35.695724,
@@ -321,7 +294,7 @@
           },
           "gmap": null,
           "google_rating": "4.2",
-          "tabelog_rating": null,
+          "tabelog_rating": "3.59",
           "rating_date": null,
           "address": "東京都目黒区三田1-5-5",
           "lat": 35.639973,
@@ -375,7 +348,7 @@
           },
           "gmap": null,
           "google_rating": "4.4",
-          "tabelog_rating": null,
+          "tabelog_rating": "3.68",
           "rating_date": null,
           "address": "東京都港区芝5-21-14",
           "lat": 35.648331,
@@ -402,7 +375,7 @@
           },
           "gmap": null,
           "google_rating": "3.9",
-          "tabelog_rating": null,
+          "tabelog_rating": "3.68",
           "rating_date": null,
           "address": "東京都港区新橋3-11-1 イーグル烏森ビル 1F",
           "lat": 35.666229,
@@ -438,7 +411,7 @@
         {
           "name": "Shinjuku Yakiniku Gyutan no Lemon (Main Shop)",
           "picked_by": [
-            "Reo"
+            "Popular with visitors"
           ],
           "genre": "Yakiniku (Japanese BBQ)",
           "name_jp": "新宿焼肉 牛たんの檸檬 総本店",
@@ -510,7 +483,7 @@
           },
           "gmap": null,
           "google_rating": "4.5",
-          "tabelog_rating": null,
+          "tabelog_rating": "3.17",
           "rating_date": null,
           "address": "東京都江東区富岡1-7-10",
           "lat": 35.671211,
@@ -542,12 +515,253 @@
           "address": "東京都江東区深川1-1-8",
           "lat": 35.674454,
           "lng": 139.795822
+        },
+        {
+          "name": "Tonkatsu Marushichi",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Tonkatsu(Fried Pork)",
+          "name_jp": "とんかつ 丸七 本店",
+          "area": null,
+          "description": "In a traditional katsudon, the fried pork is finished by binding it with egg, but the katsudon here is made by preparing the egg and the fried pork separately and placing them on top of the rice. A popular shop that started the so-called \"unbound katsudon\" boom in Japan. The tonkatsu is very thick, so it has a huge visual impact and looks great in photos. As for the taste, the sauce is quite sweet and the meat is very thick, so it is quite heavy. Recommended for people who love fried food. The line is very long, so you should be in front of the shop when it opens.",
+          "hp": {
+            "label": "Website",
+            "url": "https://tonkatsu07.jp/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1313/A131303/13263014/"
+          },
+          "gmap": null,
+          "google_rating": "4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都江東区門前仲町1-12-5",
+          "lat": 35.673512,
+          "lng": 139.794891
+        },
+        {
+          "name": "Onigiri Bongo",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "おにぎり ぼんご",
+          "area": null,
+          "description": "The shop that started an onigiri (rice ball) boom in Japan about five years ago. It was originally a renowned shop known only to those in the know, but its social-media-worthy look went viral and it suddenly became extremely popular. It serves only onigiri and miso soup, and the onigiri packed with fillings and the perfectly cooked rice are very delicious. Honestly, we don't know how popular it is now, but we expect a long line. It seems you can reserve take-out orders, but they seem to accept reservations only by phone, so if you want to make a reservation, please ask Reo.",
+          "hp": {
+            "label": "Website",
+            "url": "https://www.onigiribongo.info/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1323/A132302/13276342/"
+          },
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": "3.57",
+          "rating_date": null,
+          "address": "東京都豊島区北大塚2-27-5 1F",
+          "lat": 35.7327,
+          "lng": 139.729675
+        },
+        {
+          "name": "Age.3 ASAKUSA",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Sweets",
+          "name_jp": "Age.3 ASAKUSA",
+          "area": null,
+          "description": "A fried sandwich shop. Fried sandwiches themselves became popular after we came to the US, so honestly we are in the same position as all of you. It seems they have not only fruit sandwiches but also ones you could eat for lunch. Judging from the photos, they look delicious, crispy on the outside with a rich seasoning inside. We have quite a lot of free time in Asakusa, so why not stop by?",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/age.3_asakusa/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.8",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都台東区浅草2-7-22",
+          "lat": 35.715176,
+          "lng": 139.794525
+        },
+        {
+          "name": "Kitsuneya",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "きつねや",
+          "area": null,
+          "description": "The gyudon (beef bowl) is simple, but the rich seasoning and the tenderly simmered beef are superb. It opens early in the morning for people who work at the market, but because of that it closes early, at 1 PM, so be careful. Tsukiji is on our schedule, but we may not make it before closing time, so if you want to go here, please let the organizers know.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/tsukiji_kitsuneya/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1313/A131301/13007656/"
+          },
+          "gmap": null,
+          "google_rating": "4.1",
+          "tabelog_rating": "3.49",
+          "rating_date": null,
+          "address": "東京都中央区築地4-9-12",
+          "lat": 35.665707,
+          "lng": 139.769836
+        },
+        {
+          "name": "I’m donut ? Omotesando",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Sweets",
+          "name_jp": "I'm donut ? 表参道",
+          "area": null,
+          "description": "Japan's first fresh doughnuts with a fluffy texture. They went viral about a year ago, and our impression is that young people flocked to eat them. The texture is said to be completely different from American doughnuts, so if you are interested, please try them. There are several shops besides Omotesando, so look for a shop that fits your plans.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/i.m.donut/?hl=ja"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1306/A130602/13289109/"
+          },
+          "gmap": null,
+          "google_rating": "3.9",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区北青山3-5-18",
+          "lat": 35.665634,
+          "lng": 139.712769
+        },
+        {
+          "name": "Gyukatsu Motomura",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "牛かつ もと村 渋谷店",
+          "area": null,
+          "description": "A shop serving fried beef. In Japan, frying pork or chicken is common, but beef was rare. This shop overturned that convention and succeeded. There are shops not only in Tokyo but also in Osaka and Kyoto, so look for the nearest shop according to your plans.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/gyukatsu_motomura/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1303/A130301/13153853/"
+          },
+          "gmap": null,
+          "google_rating": "4.9",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都渋谷区渋谷3-18-10 大野ビル2号館 B1F",
+          "lat": 35.656948,
+          "lng": 139.703995
+        },
+        {
+          "name": "Kuroge Wagyu Ichinoya Asakusa",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "黒毛和牛 壱乃屋 浅草",
+          "area": null,
+          "description": "Wagyu bowls made with genuine Japanese wagyu. They look very beautiful. It is popular with tourists, but from a Japanese point of view the price is a little too high, so its Tabelog rating is low.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/ichinoya.wagyu/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1311/A131102/13279005/"
+          },
+          "gmap": null,
+          "google_rating": "4.9",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都台東区浅草1-34-6 大阪屋ビル 1F",
+          "lat": 35.712326,
+          "lng": 139.797272
+        },
+        {
+          "name": "Bar CENTIFOLIA",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Bar",
+          "name_jp": "BAR CENTIFOLIA",
+          "area": null,
+          "description": "A bar extremely focused on looking good on social media. To put it positively, it is the pinnacle of flair bartending, but honestly it goes so far over the top that it makes you laugh. However, the bartender has won a cocktail competition in Japan, and his skill as a bartender is the real thing. If you look at their social media first and are interested, I think it is a place where you can have a special experience.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/bar_centifolia/?hl=ja"
+          },
+          "reservation": "Yes, but there is a puzzling reservation fee",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1307/A130702/13213226/"
+          },
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区麻布十番1-6-5 ラミューズ麻布十番ビル 6F",
+          "lat": 35.65659,
+          "lng": 139.734238
         }
       ]
     },
     {
       "city": "Kyoto Osaka",
-      "shops": []
+      "shops": [
+        {
+          "name": "Kara-Kusa Curry",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Curry",
+          "name_jp": "カラクサカレー",
+          "area": null,
+          "description": "Japanese-style curry. The spices come through, but it is more of a curry where you can taste the natural sweetness of vegetables and other ingredients. The shop has also received a Michelin Guide Bib Gourmand. A small shop with only counter seats. It opened about nine years ago, when Reo was working in Kyoto, and he went there often back then. The service getting more careless every year is a bit of a concern.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/explore/locations/290712718113890/kara-kusa-curry/recent/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260201/26025396/"
+          },
+          "gmap": null,
+          "google_rating": "4.6",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市下京区綾小路東洞院東入神明町248 グランジュール綾小路 1F",
+          "lat": 35.002365,
+          "lng": 135.761993
+        }
+      ]
     },
     {
       "city": "Hiroshima",

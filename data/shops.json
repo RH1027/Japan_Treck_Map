@@ -2124,7 +2124,218 @@
     },
     {
       "city": "Hiroshima",
-      "shops": []
+      "shops": [
+        {
+          "name": "Toshinoya",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Okonomiyaki",
+          "name_jp": "府中焼き としのや 堺町店",
+          "area": null,
+          "description": "A somewhat unusual type of Hiroshima-style okonomiyaki, with the noodles grilled until crispy. Because the noodles are crispy, you can eat it almost like a snack, and it is excellent as a bar snack with drinks. When Reo goes to Hiroshima, he ends up going only here. There are about 10 shops in Hiroshima, and considering the schedule that day, the Hiroshima Station-front shop or the Sakaimachi shop is recommended.",
+          "hp": {
+            "label": "Website",
+            "url": "https://www.toshinoya.com/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "広島県広島市中区堺町1-3-14 SAKURA14ビル 1F",
+          "lat": 34.394577,
+          "lng": 132.447418
+        },
+        {
+          "name": "Chuka Soba Yoki",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Ramen",
+          "name_jp": "中華そば 陽気 大手町店",
+          "area": null,
+          "description": "Old-fashioned soy sauce ramen. It looks simple, but the soup, made with pork bone stock, is rich and full-bodied. The chashu topping is juicy and delicious, and the crunch of the bean sprouts whets the appetite. There are several shops, but given the schedule that day, the Hiroshima Station-front shop or the Otemachi shop is recommended. I have never been to the Hiroshima Station-front shop, but for some reason its Google Maps rating is low, which concerns me.",
+          "hp": {
+            "label": "Website",
+            "url": "https://youki.world/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.1",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "広島県広島市中区大手町3-1-6",
+          "lat": 34.388981,
+          "lng": 132.455276
+        },
+        {
+          "name": "Okonomiyaki Nagataya",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Okonomiyaki",
+          "name_jp": "お好み焼 長田屋",
+          "area": null,
+          "description": "The classic style of Hiroshima-style okonomiyaki. You enjoy the chewy noodles and cabbage together, and the generous amount of green onions adds an accent and is delicious. Another good point is that it is close to the meeting place after free time.",
+          "hp": {
+            "label": "Website",
+            "url": "http://www.nagataya-okonomi.com/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "広島県広島市中区大手町1-7-19 重石ビル 1F",
+          "lat": 34.394268,
+          "lng": 132.454544
+        },
+        {
+          "name": "Ramen Muroka",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Ramen",
+          "name_jp": "らぁ麺 むろか",
+          "area": null,
+          "description": "A wonton chuka soba shop that uses wontons (something like boiled dumplings) instead of noodles. It is not ordinary ramen, so be aware, but it is a shop with delicious soup full of seafood dashi flavor. By the way, ramen with regular noodles is also available in limited quantities.",
+          "hp": null,
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "広島県広島市中区三川町10-18",
+          "lat": 34.389301,
+          "lng": 132.460754
+        },
+        {
+          "name": "Men Yohaku",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Ramen",
+          "name_jp": "めん 呼白",
+          "area": null,
+          "description": "One of Hiroshima's best ramen shops, which has also been listed in the Michelin Bib Gourmand. Elegant soy-sauce-based ramen.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/yohak_noodle/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "広島県広島市中区西十日市町2-15",
+          "lat": 34.398972,
+          "lng": 132.445648
+        },
+        {
+          "name": "Yakigaki no Hayashi",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "焼がきのはやし",
+          "area": null,
+          "description": "A shop on Miyajima where you can eat oysters. You can have grilled oysters, raw oysters and steamed oysters. Hiroshima is one of Japan's leading oyster-producing areas. Apparently you cannot place an additional order once you have ordered, so be careful.",
+          "hp": {
+            "label": "Website",
+            "url": "https://www.yakigaki-no-hayashi.co.jp/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "広島県廿日市市宮島町505-1",
+          "lat": 34.298637,
+          "lng": 132.322083
+        },
+        {
+          "name": "Miyajima Anagomeshi Mametanuki",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "宮島あなごめし まめたぬき",
+          "area": null,
+          "description": "A shop where you can eat anago meshi, a Hiroshima specialty. A superb dish of conger eel dipped in a sweet and salty soy-sauce-based sauce, grilled, and placed on rice.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/miyajima_mametanuki?igshid=YmMyMTA2M2Y%3D"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "広島県廿日市市宮島町1133 錦水館 1F",
+          "lat": 34.298687,
+          "lng": 132.32135
+        },
+        {
+          "name": "Okonomiyaki Hassho",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Okonomiyaki",
+          "name_jp": "お好み焼き 八昌",
+          "area": null,
+          "description": "Classic-style Hiroshima okonomiyaki. It seems to be a popular shop with fairly long lines, but apparently turnover is good. Apparently they only accept cash, so be careful!",
+          "hp": null,
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "広島県広島市中区幟町14-17",
+          "lat": 34.393768,
+          "lng": 132.466354
+        },
+        {
+          "name": "Ekohiiki",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "えこ贔屓",
+          "area": null,
+          "description": "A shop where you can eat dishes made with Hiroshima ingredients. Famous dishes include anago meshi, conger eel dipped in a sweet and salty soy-sauce-based sauce, grilled and placed on rice, and oysters, but you can also eat many other local specialties. Another good point is that it is close to the next meeting place.",
+          "hp": {
+            "label": "Website",
+            "url": "http://ekohiiki.com/"
+          },
+          "reservation": "Yes (phone only)",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "広島県広島市中区大手町1-7-20 小松ビル 1F",
+          "lat": 34.394238,
+          "lng": 132.454651
+        }
+      ]
     }
   ]
 }

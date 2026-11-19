@@ -338,5 +338,42 @@
   "炉端とおでん 呼炉凪来 京都駅前店": {
     "name": "Robata to Oden Koronagirai (Kyoto Station)",
     "description": "An oden shop. Oden is served first as the appetizer, and this oden is all-you-can-eat. Warming up with oden while drinking sake in the cold winter is a classic Japanese winter tradition. Oden is a type of hot pot, and the ingredients are mostly vegetables, fish cakes made from minced seafood, and so on. The ingredients, soaked in a soup full of dashi flavor, are very delicious. There are several shops, so choose one close to your plans."
+  },
+  "としのや": {
+    "name": "Toshinoya",
+    "description": "A somewhat unusual type of Hiroshima-style okonomiyaki, with the noodles grilled until crispy. Because the noodles are crispy, you can eat it almost like a snack, and it is excellent as a bar snack with drinks. When Reo goes to Hiroshima, he ends up going only here. There are about 10 shops in Hiroshima, and considering the schedule that day, the Hiroshima Station-front shop or the Sakaimachi shop is recommended."
+  },
+  "中華そば 陽気": {
+    "name": "Chuka Soba Yoki",
+    "description": "Old-fashioned soy sauce ramen. It looks simple, but the soup, made with pork bone stock, is rich and full-bodied. The chashu topping is juicy and delicious, and the crunch of the bean sprouts whets the appetite. There are several shops, but given the schedule that day, the Hiroshima Station-front shop or the Otemachi shop is recommended. I have never been to the Hiroshima Station-front shop, but for some reason its Google Maps rating is low, which concerns me."
+  },
+  "お好み焼 長田屋": {
+    "name": "Okonomiyaki Nagataya",
+    "description": "The classic style of Hiroshima-style okonomiyaki. You enjoy the chewy noodles and cabbage together, and the generous amount of green onions adds an accent and is delicious. Another good point is that it is close to the meeting place after free time."
+  },
+  "らぁ麺 むろか": {
+    "name": "Ramen Muroka",
+    "description": "A wonton chuka soba shop that uses wontons (something like boiled dumplings) instead of noodles. It is not ordinary ramen, so be aware, but it is a shop with delicious soup full of seafood dashi flavor. By the way, ramen with regular noodles is also available in limited quantities."
+  },
+  "めん呼白": {
+    "name": "Men Yohaku",
+    "description": "One of Hiroshima's best ramen shops, which has also been listed in the Michelin Bib Gourmand. Elegant soy-sauce-based ramen."
+  },
+  "焼がきのはやし": {
+    "name": "Yakigaki no Hayashi",
+    "description": "A shop on Miyajima where you can eat oysters. You can have grilled oysters, raw oysters and steamed oysters. Hiroshima is one of Japan's leading oyster-producing areas. Apparently you cannot place an additional order once you have ordered, so be careful."
+  },
+  "宮島あなごめし まめたぬき": {
+    "name": "Miyajima Anagomeshi Mametanuki",
+    "description": "A shop where you can eat anago meshi, a Hiroshima specialty. A superb dish of conger eel dipped in a sweet and salty soy-sauce-based sauce, grilled, and placed on rice."
+  },
+  "お好み焼き 八昌": {
+    "name": "Okonomiyaki Hassho",
+    "description": "Classic-style Hiroshima okonomiyaki. It seems to be a popular shop with fairly long lines, but apparently turnover is good. Apparently they only accept cash, so be careful!"
+  },
+  "えこ贔屓": {
+    "name": "Ekohiiki",
+    "description": "A shop where you can eat dishes made with Hiroshima ingredients. Famous dishes include anago meshi, conger eel dipped in a sweet and salty soy-sauce-based sauce, grilled and placed on rice, and oysters, but you can also eat many other local specialties. Another good point is that it is close to the next meeting place.",
+    "reservation": "Yes (phone only)"
   }
 }

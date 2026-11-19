@@ -662,5 +662,68 @@
     "lng": 135.772919,
     "name_jp": "WAGYU TERIYAKI ITADAKI BURGER Gion Kyoto",
     "source": "Address: provided by Reo; coordinates: GSI address search for 廿一軒町228 (Gion Kagetsu Building, per Tripadvisor listing of the sister taco shop)"
+  },
+  "としのや": {
+    "address": "広島県広島市中区堺町1-3-14 SAKURA14ビル 1F",
+    "lat": 34.394577,
+    "lng": 132.447418,
+    "name_jp": "府中焼き としのや 堺町店",
+    "source": "Address: Retty (Sakaimachi branch); coordinates: GSI address search"
+  },
+  "中華そば 陽気": {
+    "address": "広島県広島市中区大手町3-1-6",
+    "lat": 34.388981,
+    "lng": 132.455276,
+    "name_jp": "中華そば 陽気 大手町店",
+    "source": "Address: Tabelog (Otemachi branch); coordinates: GSI address search"
+  },
+  "お好み焼 長田屋": {
+    "address": "広島県広島市中区大手町1-7-19 重石ビル 1F",
+    "lat": 34.394268,
+    "lng": 132.454544,
+    "name_jp": "お好み焼 長田屋",
+    "source": "Address: SAVOR JAPAN; coordinates: GSI address search"
+  },
+  "らぁ麺 むろか": {
+    "address": "広島県広島市中区三川町10-18",
+    "lat": 34.389301,
+    "lng": 132.460754,
+    "name_jp": "らぁ麺 むろか",
+    "source": "Address: HAMONI; coordinates: GSI address search"
+  },
+  "めん呼白": {
+    "address": "広島県広島市中区西十日市町2-15",
+    "lat": 34.398972,
+    "lng": 132.445648,
+    "name_jp": "めん 呼白",
+    "source": "Address: HAMONI; coordinates: GSI address search"
+  },
+  "焼がきのはやし": {
+    "address": "広島県廿日市市宮島町505-1",
+    "lat": 34.298637,
+    "lng": 132.322083,
+    "name_jp": "焼がきのはやし",
+    "source": "Address: GLTJP; coordinates: GSI address search"
+  },
+  "宮島あなごめし まめたぬき": {
+    "address": "広島県廿日市市宮島町1133 錦水館 1F",
+    "lat": 34.298687,
+    "lng": 132.32135,
+    "name_jp": "宮島あなごめし まめたぬき",
+    "source": "Address: Mapple; coordinates: GSI address search"
+  },
+  "お好み焼き 八昌": {
+    "address": "広島県広島市中区幟町14-17",
+    "lat": 34.393768,
+    "lng": 132.466354,
+    "name_jp": "お好み焼き 八昌",
+    "source": "Address: HAMONI; coordinates: GSI address search"
+  },
+  "えこ贔屓": {
+    "address": "広島県広島市中区大手町1-7-20 小松ビル 1F",
+    "lat": 34.394238,
+    "lng": 132.454651,
+    "name_jp": "えこ贔屓",
+    "source": "Address: 4travel; coordinates: GSI address search"
   }
 }

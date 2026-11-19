@@ -468,7 +468,8 @@
     "lat": 35.000835,
     "lng": 135.767365,
     "name_jp": "麺屋 猪一",
-    "source": "Address: GLTJP; coordinates: GSI address search"
+    "source": "Address: GLTJP; coordinates: GSI address search; score: Tabelog matome 29707 (2025/09)",
+    "tabelog_rating": "3.71"
   },
   "やすべえ": {
     "address": "京都府京都市中京区先斗町通三条下る梅之木町142",
@@ -482,7 +483,8 @@
     "lat": 35.006332,
     "lng": 135.760345,
     "name_jp": "麺匠 たか松 本店",
-    "source": "Address: Tabelog map page; coordinates: GSI address search"
+    "source": "Address: Tabelog map page; coordinates: GSI address search; score: Tabelog matome 29707 (2025/09)",
+    "tabelog_rating": "3.61"
   },
   "キチ・キチ": {
     "address": "京都府京都市中京区三条先斗町下る材木町185-4",
@@ -517,14 +519,16 @@
     "lat": 34.889328,
     "lng": 135.802032,
     "name_jp": "中村藤吉本店",
-    "source": "Address: GLTJP; coordinates: GSI address search"
+    "source": "Address: GLTJP; coordinates: GSI address search; score: Tabelog matome 29602 (2025/09)",
+    "tabelog_rating": "3.54"
   },
   "伊藤久右衛門 宇治本店・茶房": {
     "address": "京都府宇治市莵道荒槇19-3",
     "lat": 34.896156,
     "lng": 135.808563,
     "name_jp": "伊藤久右衛門 宇治本店・茶房",
-    "source": "Address: Funliday; coordinates: GSI address search"
+    "source": "Address: Funliday; coordinates: GSI address search; score: Tabelog matome 29602 (2025/09)",
+    "tabelog_rating": "3.45"
   },
   "茶寮都路里　祇園本店": {
     "address": "京都府京都市東山区祇園町南側573-3 祇園辻利本店 2F・3F",
@@ -532,7 +536,8 @@
     "lng": 135.774017,
     "name_jp": "茶寮都路里 祇園本店",
     "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260301/26000408/",
-    "source": "Address: Tabelog; coordinates: GSI address search"
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog matome 28620 (2025/05)",
+    "tabelog_rating": "3.54"
   },
   "京都とんかつ かつ田 四条河原町店": {
     "address": "京都府京都市下京区稲荷町330-2 京都和牛館 1F",
@@ -548,14 +553,16 @@
     "lng": 135.761459,
     "name_jp": "新福菜館 本店",
     "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260101/26000791/",
-    "source": "Address: Rurubu; Tabelog link; coordinates: GSI address search"
+    "source": "Address: Rurubu; Tabelog link; coordinates: GSI address search; score: Tabelog matome 27347 (2024/12)",
+    "tabelog_rating": "3.59"
   },
   "味乃家 本店": {
     "address": "大阪府大阪市中央区難波1-7-16 2F",
     "lat": 34.668125,
     "lng": 135.500946,
     "name_jp": "味乃家 本店",
-    "source": "Address: GLTJP; coordinates: GSI address search"
+    "source": "Address: GLTJP; coordinates: GSI address search; score: Tabelog matome 28268 (2025/03)",
+    "tabelog_rating": "3.58"
   },
   "うなぎ屋 廣川": {
     "address": "京都府京都市右京区嵯峨天龍寺北造路町44-1",
@@ -577,14 +584,16 @@
     "lat": 34.665516,
     "lng": 135.504578,
     "name_jp": "福太郎 本店",
-    "source": "Address: HAMONI; coordinates: GSI address search"
+    "source": "Address: HAMONI; coordinates: GSI address search; score: Tabelog matome 28268 (2025/03)",
+    "tabelog_rating": "3.70"
   },
   "やっこ": {
     "address": "大阪府大阪市浪速区恵美須東2-3-10",
     "lat": 34.651585,
     "lng": 135.506119,
     "name_jp": "やっこ",
-    "source": "Address: Retty; coordinates: GSI address search"
+    "source": "Address: Retty; coordinates: GSI address search; score: Tabelog matome 29496 (2025/08)",
+    "tabelog_rating": "3.54"
   },
   "たこ焼道楽 わなか 千日前 本店": {
     "address": "大阪府大阪市中央区難波千日前11-19",
@@ -682,7 +691,8 @@
     "lat": 34.394268,
     "lng": 132.454544,
     "name_jp": "お好み焼 長田屋",
-    "source": "Address: SAVOR JAPAN; coordinates: GSI address search"
+    "source": "Address: SAVOR JAPAN; coordinates: GSI address search; score: Tabelog matome 29572 (2025/09)",
+    "tabelog_rating": "3.49"
   },
   "らぁ麺 むろか": {
     "address": "広島県広島市中区三川町10-18",
@@ -717,7 +727,8 @@
     "lat": 34.393768,
     "lng": 132.466354,
     "name_jp": "お好み焼き 八昌",
-    "source": "Address: HAMONI; coordinates: GSI address search"
+    "source": "Address: HAMONI; coordinates: GSI address search; score: Tabelog matome 29572 (2025/09)",
+    "tabelog_rating": "3.73"
   },
   "えこ贔屓": {
     "address": "広島県広島市中区大手町1-7-20 小松ビル 1F",

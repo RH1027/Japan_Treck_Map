@@ -244,5 +244,367 @@
     "name_jp": "カラクサカレー",
     "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260201/26025396/",
     "source": "Address: Tabelog; Tabelog score could not be read; coordinates: GSI address search"
+  },
+  "赤坂　阿吽": {
+    "address": "東京都港区赤坂3-21-3 赤坂牧野ビル 1F",
+    "lat": 35.676899,
+    "lng": 139.735764,
+    "name_jp": "赤坂阿吽 本店",
+    "source": "Address: Retty; coordinates: GSI address search"
+  },
+  "神楽坂 たれ焼肉のんき": {
+    "address": "東京都新宿区神楽坂3-6-44 神楽坂TKビル 1F",
+    "lat": 35.701012,
+    "lng": 139.739624,
+    "name_jp": "神楽坂 たれ焼肉のんき",
+    "source": "Address: HAMONI; coordinates: GSI address search"
+  },
+  "銀座　凛　にしむら": {
+    "address": "東京都中央区銀座7-2-8 東建ビル B1F",
+    "lat": 35.670612,
+    "lng": 139.760422,
+    "name_jp": "銀座 凛 にしむら",
+    "source": "Address: Ikyu; coordinates: GSI address search"
+  },
+  "銀座　鮨　ふくじゅ": {
+    "address": "東京都中央区銀座5-8-17 銀座プラザ58ビル 8F",
+    "lat": 35.67054,
+    "lng": 139.764496,
+    "name_jp": "銀座 鮨 ふくじゅ",
+    "source": "Address: Retty; coordinates: GSI address search"
+  },
+  "銀座　寿司　おのでら": {
+    "address": "東京都中央区銀座5-14-14 サンリット銀座ビルⅢ B1F",
+    "lat": 35.66864,
+    "lng": 139.766876,
+    "name_jp": "鮨 銀座おのでら",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1301/A130101/13153824/",
+    "tabelog_rating": "3.70",
+    "source": "Address: Retty; score Tabelog; coordinates: GSI address search"
+  },
+  "BarTHEHamilton": {
+    "address": "東京都中央区銀座7-8-14 銀座108ビル 5F",
+    "lat": 35.669018,
+    "lng": 139.762024,
+    "name_jp": "THE HAMILTON",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1301/A130101/13105101/",
+    "source": "Address: Tabelog; coordinates: GSI address search"
+  },
+  "Ginza 1954": {
+    "address": "東京都中央区銀座8-5-15 SVAX銀座ビル B1F",
+    "lat": 35.668278,
+    "lng": 139.759476,
+    "name_jp": "GINZA 1954",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1301/A130103/13058303/",
+    "source": "Address: Tabelog; coordinates: GSI address search"
+  },
+  "焼うお いし川": {
+    "address": "東京都中央区築地4-13-5 1F",
+    "lat": 35.665165,
+    "lng": 139.770966,
+    "name_jp": "焼うお いし川",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1313/A131301/13040408/",
+    "source": "Address: Tabelog; coordinates: GSI address search"
+  },
+  "焼肉 433 六本木": {
+    "address": "東京都港区六本木4-12-4 飯田ビル 2F",
+    "lat": 35.664528,
+    "lng": 139.731506,
+    "name_jp": "焼肉433",
+    "source": "Address: TableCheck; coordinates: GSI address search"
+  },
+  "香妃園": {
+    "address": "東京都港区六本木3-8-15 瀬里奈ビレッジ 2F",
+    "lat": 35.663525,
+    "lng": 139.734314,
+    "name_jp": "香妃園",
+    "source": "Address: San-tatsu; coordinates: GSI address search"
+  },
+  "焼肉ジャンボ　白金": {
+    "address": "東京都港区白金3-1-1 第一麻布ビル 1F",
+    "lat": 35.646797,
+    "lng": 139.729843,
+    "name_jp": "焼肉ジャンボ 白金",
+    "source": "Address: HAMONI; coordinates: GSI address search"
+  },
+  "游玄亭 西麻布本館": {
+    "address": "東京都港区西麻布3-24-18 叙々苑ビル",
+    "lat": 35.659302,
+    "lng": 139.723953,
+    "name_jp": "叙々苑 游玄亭 西麻布本館",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1307/A130701/13003488/",
+    "source": "Address: Tabelog; coordinates: GSI address search"
+  },
+  "わらやき屋　六本木": {
+    "address": "東京都港区六本木6-8-8 六本木ゴーディービル 1F",
+    "lat": 35.659679,
+    "lng": 139.732239,
+    "name_jp": "わらやき屋 六本木",
+    "source": "Address: Retty; coordinates: GSI address search"
+  },
+  "TsuruTonTan UDON NOODLE Brasserie 六本木": {
+    "address": "東京都港区六本木7-8-6 AXALL ROPPONGI 7F",
+    "lat": 35.665016,
+    "lng": 139.729675,
+    "name_jp": "つるとんたん UDON NOODLE Brasserie 六本木",
+    "source": "Address: TableCheck; coordinates: GSI address search"
+  },
+  "麺屋武蔵 武骨外伝": {
+    "address": "東京都渋谷区道玄坂2-8-5",
+    "lat": 35.658665,
+    "lng": 139.698212,
+    "name_jp": "麺屋武蔵 武骨外伝",
+    "source": "Address: GLTJP; coordinates: GSI address search"
+  },
+  "焼肉ホルモン新井屋　渋谷": {
+    "address": "東京都渋谷区道玄坂2-19-13",
+    "lat": 35.659344,
+    "lng": 139.69632,
+    "name_jp": "焼肉ホルモン新井屋 渋谷",
+    "source": "Address: TableCheck; coordinates: GSI address search"
+  },
+  "六甲園": {
+    "address": "東京都世田谷区池尻2-37-10 石井ビル 1F",
+    "lat": 35.647461,
+    "lng": 139.678864,
+    "name_jp": "焼肉 六甲園",
+    "source": "Address: Retty; coordinates: GSI address search"
+  },
+  "ビストロ 喜楽亭": {
+    "address": "東京都世田谷区池尻3-30-5 ニュー池尻マンション",
+    "lat": 35.647701,
+    "lng": 139.678513,
+    "name_jp": "ビストロ喜楽亭",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1317/A131705/13001373/",
+    "source": "Address: Tabelog; coordinates: GSI address search"
+  },
+  "BARすがはら 渋谷本館": {
+    "address": "東京都渋谷区円山町25-5",
+    "lat": 35.65604,
+    "lng": 139.693787,
+    "name_jp": "BARすがはら 渋谷本館",
+    "source": "Address: Retty; coordinates: GSI address search"
+  },
+  "オープンブック": {
+    "address": "東京都新宿区歌舞伎町1-1-6 ゴールデン街五番街",
+    "lat": 35.694088,
+    "lng": 139.705063,
+    "name_jp": "オープンブック",
+    "source": "Address: Time Out; coordinates: GSI address search"
+  },
+  "麻布 鮨功": {
+    "address": "東京都港区麻布十番2-5-3 3F",
+    "lat": 35.656288,
+    "lng": 139.733521,
+    "name_jp": "麻布 鮨功",
+    "source": "Address: TableCheck; coordinates: GSI address search"
+  },
+  "スプリングバレーブルワリー 京都": {
+    "address": "京都府京都市中京区富小路通錦小路上る高宮町587-2",
+    "lat": 35.005611,
+    "lng": 135.764709,
+    "name_jp": "スプリングバレーブルワリー京都",
+    "source": "Address: Ikyu; coordinates: GSI address search"
+  },
+  "天ぷらすし海鮮米福 四条烏丸店": {
+    "address": "京都府京都市中京区東洞院通錦小路下る阪東屋町658 都証券ビル 1F",
+    "lat": 35.004482,
+    "lng": 135.760773,
+    "name_jp": "天ぷら寿司海鮮 米福 四条烏丸店",
+    "source": "Address: Gurunavi; coordinates: GSI address search"
+  },
+  "キツネ日和": {
+    "address": "京都府京都市南区東九条西山王町1-6",
+    "lat": 34.982281,
+    "lng": 135.760483,
+    "name_jp": "キツネ日和",
+    "source": "Address: San-tatsu (press release); coordinates: GSI address search"
+  },
+  "酒呑気 びんご": {
+    "address": "京都府京都市中京区西錦小路町266",
+    "lat": 35.004822,
+    "lng": 135.75618,
+    "name_jp": "酒呑気 びんご",
+    "source": "Address: icotto; coordinates: GSI address search"
+  },
+  "いろり焼 晩喰場": {
+    "address": "京都府京都市下京区東塩小路町598-4",
+    "lat": 34.988342,
+    "lng": 135.756607,
+    "name_jp": "いろり焼 晩喰場",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260101/26041093/",
+    "source": "Address: Tabelog; coordinates: GSI address search"
+  },
+  "野菜と魚 en": {
+    "address": "京都府京都市下京区堺町通綾小路下る永原町153-10",
+    "lat": 35.002159,
+    "lng": 135.763672,
+    "name_jp": "野菜と魚en",
+    "source": "Address: TableCheck; coordinates: GSI address search"
+  },
+  "お野菜料理と甘味 ISOMATSU(旧:五十松)": {
+    "address": "京都府京都市中京区河原町通四条上る米屋町384",
+    "lat": 35.004475,
+    "lng": 135.769669,
+    "name_jp": "お野菜料理と甘味 ISOMATSU",
+    "source": "Address: Leaf KYOTO; coordinates: GSI address search"
+  },
+  "百圓寿司スタンド えにし": {
+    "address": "京都府京都市中京区円福寺町342-1",
+    "lat": 35.010303,
+    "lng": 135.758209,
+    "name_jp": "百圓寿司スタンド えにし 烏丸御池店",
+    "source": "Address: SAVOR JAPAN; coordinates: GSI address search"
+  },
+  "すし酒場 さしす": {
+    "address": "大阪府大阪市北区角田町9-26 新梅田食道街",
+    "lat": 34.703907,
+    "lng": 135.49791,
+    "name_jp": "立ちすし酒場 さしす 新梅田食道街店",
+    "source": "Address: Retty (shop), Walkerplus (arcade address); coordinates: GSI address search"
+  },
+  "麺屋 猪一": {
+    "address": "京都府京都市下京区寺町通仏光寺下る恵美須之町542",
+    "lat": 35.000835,
+    "lng": 135.767365,
+    "name_jp": "麺屋 猪一",
+    "source": "Address: GLTJP; coordinates: GSI address search"
+  },
+  "やすべえ": {
+    "address": "京都府京都市中京区先斗町通三条下る梅之木町142",
+    "lat": 35.0086,
+    "lng": 135.7713,
+    "name_jp": "やすべえ",
+    "source": "Address: Retty; coordinates: approximate (Pontocho, south of Sanjo), GSI could not place the lot number"
+  },
+  "麺匠 たか松": {
+    "address": "京都府京都市中京区一蓮社町312",
+    "lat": 35.006332,
+    "lng": 135.760345,
+    "name_jp": "麺匠 たか松 本店",
+    "source": "Address: Tabelog map page; coordinates: GSI address search"
+  },
+  "キチ・キチ": {
+    "address": "京都府京都市中京区三条先斗町下る材木町185-4",
+    "lat": 35.00761,
+    "lng": 135.770767,
+    "name_jp": "キチ・キチ",
+    "source": "Address: Retty (review); coordinates: GSI address search"
+  },
+  "麓寿庵": {
+    "address": "京都府京都市中京区六角通新町西入西六角町101",
+    "lat": 35.0075,
+    "lng": 135.755768,
+    "name_jp": "麓寿庵",
+    "source": "Address: Rurubu; coordinates: GSI address search"
+  },
+  "み mitarashi-dango": {
+    "address": "京都府京都市中京区槌屋町89",
+    "lat": 35.007889,
+    "lng": 135.763824,
+    "name_jp": "み mitarashi-dango",
+    "source": "Address: HAMONI; coordinates: GSI address search"
+  },
+  "祇園辻利 祇園本店": {
+    "address": "京都府京都市東山区祇園町南側573-3",
+    "lat": 35.003597,
+    "lng": 135.774017,
+    "name_jp": "祇園辻利 祇園本店",
+    "source": "Address: GLTJP; coordinates: GSI address search"
+  },
+  "中村藤吉本店": {
+    "address": "京都府宇治市宇治壱番10",
+    "lat": 34.889328,
+    "lng": 135.802032,
+    "name_jp": "中村藤吉本店",
+    "source": "Address: GLTJP; coordinates: GSI address search"
+  },
+  "伊藤久右衛門 宇治本店・茶房": {
+    "address": "京都府宇治市莵道荒槇19-3",
+    "lat": 34.896156,
+    "lng": 135.808563,
+    "name_jp": "伊藤久右衛門 宇治本店・茶房",
+    "source": "Address: Funliday; coordinates: GSI address search"
+  },
+  "茶寮都路里　祇園本店": {
+    "address": "京都府京都市東山区祇園町南側573-3 祇園辻利本店 2F・3F",
+    "lat": 35.003597,
+    "lng": 135.774017,
+    "name_jp": "茶寮都路里 祇園本店",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260301/26000408/",
+    "source": "Address: Tabelog; coordinates: GSI address search"
+  },
+  "京都とんかつ かつ田 四条河原町店": {
+    "address": "京都府京都市下京区稲荷町330-2 京都和牛館 1F",
+    "lat": 35.00211,
+    "lng": 135.769272,
+    "name_jp": "京都とんかつ かつ田",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260201/26040237/",
+    "source": "Address: Tabelog; coordinates: GSI address search"
+  },
+  "新福菜館 本店": {
+    "address": "京都府京都市下京区東塩小路向畑町569",
+    "lat": 34.985992,
+    "lng": 135.761459,
+    "name_jp": "新福菜館 本店",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260101/26000791/",
+    "source": "Address: Rurubu; Tabelog link; coordinates: GSI address search"
+  },
+  "味乃家 本店": {
+    "address": "大阪府大阪市中央区難波1-7-16 2F",
+    "lat": 34.668125,
+    "lng": 135.500946,
+    "name_jp": "味乃家 本店",
+    "source": "Address: GLTJP; coordinates: GSI address search"
+  },
+  "うなぎ屋 廣川": {
+    "address": "京都府京都市右京区嵯峨天龍寺北造路町44-1",
+    "lat": 35.016617,
+    "lng": 135.677979,
+    "name_jp": "うなぎ屋 廣川",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260403/26000921/",
+    "source": "Address: Tabelog; coordinates: GSI address search"
+  },
+  "菊乃井 本店": {
+    "address": "京都府京都市東山区下河原通八坂鳥居前下る下河原町459",
+    "lat": 35.000397,
+    "lng": 135.781204,
+    "name_jp": "京料理 菊乃井 本店",
+    "source": "Address: Gurunavi; coordinates: GSI address search"
+  },
+  "福太郎 本店": {
+    "address": "大阪府大阪市中央区千日前2-3-17",
+    "lat": 34.665516,
+    "lng": 135.504578,
+    "name_jp": "福太郎 本店",
+    "source": "Address: HAMONI; coordinates: GSI address search"
+  },
+  "やっこ": {
+    "address": "大阪府大阪市浪速区恵美須東2-3-10",
+    "lat": 34.651585,
+    "lng": 135.506119,
+    "name_jp": "やっこ",
+    "source": "Address: Retty; coordinates: GSI address search"
+  },
+  "たこ焼道楽 わなか 千日前 本店": {
+    "address": "大阪府大阪市中央区難波千日前11-19",
+    "lat": 34.665218,
+    "lng": 135.503342,
+    "name_jp": "たこ焼道楽 わなか 千日前本店",
+    "source": "Address: GLTJP; coordinates: GSI address search"
+  },
+  "たぶっちゃん": {
+    "address": "大阪府大阪市中央区千日前1-6-1 1F",
+    "lat": 34.668262,
+    "lng": 135.505157,
+    "name_jp": "屋台担担麺 たぶっちゃん",
+    "source": "Address: Retty; coordinates: GSI address search"
+  },
+  "炉端とおでん 呼炉凪来 京都駅前店": {
+    "address": "京都府京都市南区東九条室町48 J'Sビル 5F",
+    "lat": 34.983566,
+    "lng": 135.757889,
+    "name_jp": "炉端とおでん 呼炉凪来 京都駅前店",
+    "source": "Address: Gurunavi; coordinates: GSI address search"
   }
 }

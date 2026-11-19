@@ -728,6 +728,465 @@
           "address": "東京都港区麻布十番1-6-5 ラミューズ麻布十番ビル 6F",
           "lat": 35.65659,
           "lng": 139.734238
+        },
+        {
+          "name": "Akasaka Aun",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "赤坂阿吽 本店",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区赤坂3-21-3 赤坂牧野ビル 1F",
+          "lat": 35.676899,
+          "lng": 139.735764
+        },
+        {
+          "name": "Kagurazaka Tare Yakiniku Nonki",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "神楽坂 たれ焼肉のんき",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都新宿区神楽坂3-6-44 神楽坂TKビル 1F",
+          "lat": 35.701012,
+          "lng": 139.739624
+        },
+        {
+          "name": "Ginza Rin Nishimura",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "銀座 凛 にしむら",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都中央区銀座7-2-8 東建ビル B1F",
+          "lat": 35.670612,
+          "lng": 139.760422
+        },
+        {
+          "name": "Ginza Sushi Fukuju",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "銀座 鮨 ふくじゅ",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都中央区銀座5-8-17 銀座プラザ58ビル 8F",
+          "lat": 35.67054,
+          "lng": 139.764496
+        },
+        {
+          "name": "Ginza Sushi Onodera",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "鮨 銀座おのでら",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1301/A130101/13153824/"
+          },
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": "3.70",
+          "rating_date": null,
+          "address": "東京都中央区銀座5-14-14 サンリット銀座ビルⅢ B1F",
+          "lat": 35.66864,
+          "lng": 139.766876
+        },
+        {
+          "name": "BarTHEHamilton",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "THE HAMILTON",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1301/A130101/13105101/"
+          },
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都中央区銀座7-8-14 銀座108ビル 5F",
+          "lat": 35.669018,
+          "lng": 139.762024
+        },
+        {
+          "name": "Ginza 1954",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "GINZA 1954",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1301/A130103/13058303/"
+          },
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都中央区銀座8-5-15 SVAX銀座ビル B1F",
+          "lat": 35.668278,
+          "lng": 139.759476
+        },
+        {
+          "name": "Yakiuo Ishikawa",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "焼うお いし川",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1313/A131301/13040408/"
+          },
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都中央区築地4-13-5 1F",
+          "lat": 35.665165,
+          "lng": 139.770966
+        },
+        {
+          "name": "Yakiniku 433 Roppongi",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "焼肉433",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区六本木4-12-4 飯田ビル 2F",
+          "lat": 35.664528,
+          "lng": 139.731506
+        },
+        {
+          "name": "Kohien",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "香妃園",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区六本木3-8-15 瀬里奈ビレッジ 2F",
+          "lat": 35.663525,
+          "lng": 139.734314
+        },
+        {
+          "name": "Yakiniku Jumbo Shirokane",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "焼肉ジャンボ 白金",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区白金3-1-1 第一麻布ビル 1F",
+          "lat": 35.646797,
+          "lng": 139.729843
+        },
+        {
+          "name": "Yugentei Nishi-Azabu Main Branch",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "叙々苑 游玄亭 西麻布本館",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1307/A130701/13003488/"
+          },
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区西麻布3-24-18 叙々苑ビル",
+          "lat": 35.659302,
+          "lng": 139.723953
+        },
+        {
+          "name": "Warayakiya Roppongi",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "わらやき屋 六本木",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区六本木6-8-8 六本木ゴーディービル 1F",
+          "lat": 35.659679,
+          "lng": 139.732239
+        },
+        {
+          "name": "TsuruTonTan UDON NOODLE Brasserie Roppongi",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "つるとんたん UDON NOODLE Brasserie 六本木",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区六本木7-8-6 AXALL ROPPONGI 7F",
+          "lat": 35.665016,
+          "lng": 139.729675
+        },
+        {
+          "name": "Menya Musashi Bukotsu Gaiden",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "麺屋武蔵 武骨外伝",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都渋谷区道玄坂2-8-5",
+          "lat": 35.658665,
+          "lng": 139.698212
+        },
+        {
+          "name": "Yakiniku Horumon Araiya Shibuya",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "焼肉ホルモン新井屋 渋谷",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都渋谷区道玄坂2-19-13",
+          "lat": 35.659344,
+          "lng": 139.69632
+        },
+        {
+          "name": "Rokkoen",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "焼肉 六甲園",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都世田谷区池尻2-37-10 石井ビル 1F",
+          "lat": 35.647461,
+          "lng": 139.678864
+        },
+        {
+          "name": "Bistro Kirakutei",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "ビストロ喜楽亭",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1317/A131705/13001373/"
+          },
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都世田谷区池尻3-30-5 ニュー池尻マンション",
+          "lat": 35.647701,
+          "lng": 139.678513
+        },
+        {
+          "name": "BAR Sugahara Shibuya Main Branch",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "BARすがはら 渋谷本館",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都渋谷区円山町25-5",
+          "lat": 35.65604,
+          "lng": 139.693787
+        },
+        {
+          "name": "Open Book",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "オープンブック",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都新宿区歌舞伎町1-1-6 ゴールデン街五番街",
+          "lat": 35.694088,
+          "lng": 139.705063
+        },
+        {
+          "name": "Azabu Sushi Koh",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": null,
+          "name_jp": "麻布 鮨功",
+          "area": null,
+          "description": null,
+          "hp": null,
+          "reservation": null,
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": null,
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "東京都港区麻布十番2-5-3 3F",
+          "lat": 35.656288,
+          "lng": 139.733521
         }
       ]
     },
@@ -760,6 +1219,906 @@
           "address": "京都府京都市下京区綾小路東洞院東入神明町248 グランジュール綾小路 1F",
           "lat": 35.002365,
           "lng": 135.761993
+        },
+        {
+          "name": "Spring Valley Brewery Kyoto",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "スプリングバレーブルワリー京都",
+          "area": null,
+          "description": "A brewery with an attached craft beer brewing facility. You can compare different beers in a tasting flight. The menu covers a wide range, from Kyoto-style Japanese food to Western food such as pizza and sausages. A lovely place where you can feel the Kyoto atmosphere along with a modern, stylish vibe.",
+          "hp": {
+            "label": "Website",
+            "url": "https://springvalleybrewery.jp/pub/kyoto/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市中京区富小路通錦小路上る高宮町587-2",
+          "lat": 35.005611,
+          "lng": 135.764709
+        },
+        {
+          "name": "Tempura Sushi Kaisen Komefuku (Shijo Karasuma)",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "天ぷら寿司海鮮 米福 四条烏丸店",
+          "area": null,
+          "description": "A shop with delicious tempura and seafood. The tempura is not the traditional batter but a crispier, slightly junky style of tempura. Rather than enjoying the tempura on its own with drinks, I personally recommend having it as tendon (tempura rice bowl) for lunch.",
+          "hp": {
+            "label": "Website",
+            "url": "https://komefuku-karasuma.owst.jp/"
+          },
+          "reservation": "Yes (dinner only)",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市中京区東洞院通錦小路下る阪東屋町658 都証券ビル 1F",
+          "lat": 35.004482,
+          "lng": 135.760773
+        },
+        {
+          "name": "Kitsune Biyori",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "キツネ日和",
+          "area": null,
+          "description": "A shop with delicious tofu and fried tofu (aburaage). Going at night is good too, but they also serve breakfast on weekends, so for those who arrive in Kyoto early, I recommend breakfast. It is also close to the hotel. There is a second shop nearby, but that one does not serve breakfast.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/kyoto_tofu/"
+          },
+          "reservation": "Yes (phone only)",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市南区東九条西山王町1-6",
+          "lat": 34.982281,
+          "lng": 135.760483
+        },
+        {
+          "name": "Yokoyama Rosoku",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "よこやまろうそく",
+          "area": null,
+          "description": "A Japanese izakaya in Pontocho that is particular about its sake. The food is also delicious, and you can eat seafood and Japanese dishes that go well with sake. It is a small shop with only counter seats, so it is better to make a reservation.",
+          "hp": {
+            "label": "Website",
+            "url": "https://www.facebook.com/profile.php?id=100040251499976&fref=nf"
+          },
+          "reservation": "Yes (phone only)",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.6",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "name": "Sake to Robata SuSuCoLi",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "酒と炉端 SuSuCoLi",
+          "area": null,
+          "description": "A robatayaki shop (fish and vegetables grilled over charcoal). You can fully enjoy the delicious charcoal flavor that only robatayaki can give. Another fun point is that you can drink old-fashioned, nostalgic drinks such as hiyashiame sour and Kyoto akazake bakudan.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/susucoli_kannondo/?hl=ja"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.8",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "name": "Sui to Sake SUITO (Kyoto Hachijoguchi)",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "炊と酒 SUITO 京都八条口店",
+          "area": null,
+          "description": "They are particular about their rice, and the takikomi gohan (rice cooked with seasonings and ingredients) is delicious. There are also drinks made with fresh fruit, recommended for people who like drinks that taste like juice.",
+          "hp": {
+            "label": "Website",
+            "url": "https://than.co.jp/brands/%e7%82%8a%e3%81%a8%e9%85%92-suito/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "name": "Sakenonki Bingo",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "酒呑気 びんご",
+          "area": null,
+          "description": "A Japanese izakaya made by renovating an old Kyoto house. All the food is delicious, but among it all the niku-dofu (beef and tofu simmered together) is superb.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/sake_nonki_bingo/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.5",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市中京区西錦小路町266",
+          "lat": 35.004822,
+          "lng": 135.75618
+        },
+        {
+          "name": "Kamadashi Shingobee",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Italian",
+          "name_jp": "窯出し新五兵衛",
+          "area": null,
+          "description": "An Italian restaurant with all-you-can-eat focaccia in five varieties. Its selling point is dishes made in the oven. It is Italian, but it is not a formal restaurant, and you can walk in casually. They also have many drinks other than wine.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/shingobee07.kyoto/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.6",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "name": "Iroriyaki Bankuba",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "いろり焼 晩喰場",
+          "area": null,
+          "description": "A robatayaki shop (fish and vegetables grilled over charcoal). Another selling point is the live feel of watching the grilling right in front of you.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/bancouver__baby"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260101/26041093/"
+          },
+          "gmap": null,
+          "google_rating": "4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市下京区東塩小路町598-4",
+          "lat": 34.988342,
+          "lng": 135.756607
+        },
+        {
+          "name": "Yasai to Sakana en",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "野菜と魚en",
+          "area": null,
+          "description": "A shop focused on vegetables and fish. They are particular about their ingredients, and even simple vegetable dishes are very delicious. They also do robatayaki (fish and vegetables grilled over charcoal).",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/kyoto.en"
+          },
+          "reservation": "Yes",
+          "note": "Cash only, so be careful!",
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.7",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市下京区堺町通綾小路下る永原町153-10",
+          "lat": 35.002159,
+          "lng": 135.763672
+        },
+        {
+          "name": "Robata to Oden Koronagirai (Kyoto Station)",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "炉端とおでん 呼炉凪来 京都駅前店",
+          "area": null,
+          "description": "An oden shop. Oden is served first as the appetizer, and this oden is all-you-can-eat. Warming up with oden while drinking sake in the cold winter is a classic Japanese winter tradition. Oden is a type of hot pot, and the ingredients are mostly vegetables, fish cakes made from minced seafood, and so on. The ingredients, soaked in a soup full of dashi flavor, are very delicious. There are several shops, so choose one close to your plans.",
+          "hp": null,
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市南区東九条室町48 J'Sビル 5F",
+          "lat": 34.983566,
+          "lng": 135.757889
+        },
+        {
+          "name": "Oyasai Ryori to Kanmi ISOMATSU (formerly Isomatsu)",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "お野菜料理と甘味 ISOMATSU",
+          "area": null,
+          "description": "The exterior looks just like a Japanese restaurant, but it serves dishes that go well with wine. They are especially particular about vegetables. I think it would be classified as Japanese food, but it skillfully fuses Western techniques. I have not tried them, but apparently they also put effort into sweets.",
+          "hp": {
+            "label": "Website",
+            "url": "https://isozumi.jp/isomatsu/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市中京区河原町通四条上る米屋町384",
+          "lat": 35.004475,
+          "lng": 135.769669
+        },
+        {
+          "name": "Sushi Sho in Kyoto",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Sushi",
+          "name_jp": null,
+          "area": null,
+          "description": "An izakaya where you can eat sushi casually. There are many dishes besides sushi, and you can also eat tempura and more. Recommended for people who want to eat sushi but also want other Japanese food.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/sushishin_tominokoji/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.7",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "name": "Hyakuen Sushi Stand Enishi",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Sushi",
+          "name_jp": "百圓寿司スタンド えにし 烏丸御池店",
+          "area": null,
+          "description": "An izakaya where you can drink from noon and eat sushi casually. There are many dishes besides sushi. There are both standing and seated areas, so you can use whichever suits the occasion.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/enishi_100stand_kyoto/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市中京区円福寺町342-1",
+          "lat": 35.010303,
+          "lng": 135.758209
+        },
+        {
+          "name": "Teppan Futagoya Tominokoji",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "鉄板 フタゴヤ 富小路",
+          "area": null,
+          "description": "A shop where you can eat yakisoba, grilled offal, Japanese omelet and other dishes made on an iron griddle. There are also dishes not made on the griddle, so you can enjoy a Japanese izakaya menu. Note that there is no okonomiyaki.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/futagoya_tominokoji/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.5",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "name": "Yuki (Gion)",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "遊亀 祇園店",
+          "area": null,
+          "description": "An izakaya run by the Kinkame sake brewery. In addition to many Kinkame sakes, you can enjoy food that goes well with sake. By the way, Kinkame itself is not a famous sake, but it is delicious.",
+          "hp": {
+            "label": "Website",
+            "url": "https://kin-kame.co.jp/store/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.1",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "name": "Sushi Sakaba Sashisu",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Japanese Izakaya",
+          "name_jp": "立ちすし酒場 さしす 新梅田食道街店",
+          "area": null,
+          "description": "A sushi shop with several locations in Osaka and Kyoto. A popular shop where you can eat delicious sushi casually while standing. There are some booth seats for sitting, but the standing area turns over faster. It is a popular shop that does not take reservations, so unless you go right when it opens, you will have to wait in line for a while.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/sashisu.shinumeda/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.1",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "大阪府大阪市北区角田町9-26 新梅田食道街",
+          "lat": 34.703907,
+          "lng": 135.49791
+        },
+        {
+          "name": "Menya Inoichi",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Ramen",
+          "name_jp": "麺屋 猪一",
+          "area": null,
+          "description": "A hugely popular shop selected for the Michelin Bib Gourmand nine years in a row. They are very particular about the soup, and it is so full of dashi flavor that apparently some people end up drinking the whole bowl. The shumai side dish is apparently also delicious, so if you have room, you might want to order it. It is a hugely popular shop and apparently hands out numbered tickets, so I recommend going early. There is apparently also a second shop, so if this shop does not work out, you could try the second shop.",
+          "hp": {
+            "label": "Website",
+            "url": "https://menyainoichi.net/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市下京区寺町通仏光寺下る恵美須之町542",
+          "lat": 35.000835,
+          "lng": 135.767365
+        },
+        {
+          "name": "Yasubee",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Okonomiyaki",
+          "name_jp": "やすべえ",
+          "area": null,
+          "description": "A renowned okonomiyaki shop in Pontocho. Besides okonomiyaki, the betayaki, which is a thinly cooked batter topped with cabbage and other ingredients, is apparently also popular.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/explore/locations/317661322352092/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.6",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市中京区先斗町通三条下る梅之木町142",
+          "lat": 35.0086,
+          "lng": 135.7713
+        },
+        {
+          "name": "WAGYU TERIYAKI ITADAKI BURGER Gion Kyoto",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Wagyu",
+          "name_jp": null,
+          "area": null,
+          "description": "A wagyu hamburger shop. It does not have a website for Japanese customers and is aimed entirely at overseas tourists. Perhaps because of that, the prices are on the high side for Japan, which I personally don't like, but its Google Maps rating is an astonishing 5.0. Having a 5.0 with more than 3,000 reviews is honestly impressive. The taste is probably the real deal.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/wagyu_teriyaki_itadakiburger/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "5",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "name": "Mensho Takamatsu",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Ramen",
+          "name_jp": "麺匠 たか松 本店",
+          "area": null,
+          "description": "The main shop of a ramen chain with locations across Japan. The ramen is delicious too, but I would like to recommend the tsukemen (dipping noodles). The dipping sauce, a chicken base with seafood dashi and more added, is very delicious. They use stone-ground whole wheat noodles, which have a stronger wheat flavor than normal noodles and go down smoothly. Onions and sudachi (a Japanese citrus) are served on a separate plate, so after eating some, you can add these toppings to change the flavor and enjoy it from start to finish. There are several shops, so go to one close to you.",
+          "hp": {
+            "label": "Website",
+            "url": "https://mensho.net/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市中京区一蓮社町312",
+          "lat": 35.006332,
+          "lng": 135.760345
+        },
+        {
+          "name": "Kichi Kichi",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "キチ・キチ",
+          "area": null,
+          "description": "A shop famous for omurice (fried rice topped with soft, half-cooked egg). Of course it tastes good, but it is also a dish you can enjoy even before eating because it looks so beautiful. First, please look at the actual omurice on their website or elsewhere. It is reservation only, and you cannot get in without a reservation, so be careful. However, I don't like that they charge $13 just to make a reservation.",
+          "hp": {
+            "label": "Website",
+            "url": "https://kichikichi.com/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.1",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市中京区三条先斗町下る材木町185-4",
+          "lat": 35.00761,
+          "lng": 135.770767
+        },
+        {
+          "name": "Rokujuan",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Sweets",
+          "name_jp": "麓寿庵",
+          "area": null,
+          "description": "A shop where you can enjoy traditional Japanese tea sweets and tea (matcha, hojicha and more). The hana warabi is truly beautiful, and the shop shows well the character of Japanese sweets, which are also particular about appearance. It seems you can also have meals, but here please be sure to enjoy the Japanese sweets.",
+          "hp": {
+            "label": "Website",
+            "url": "https://rokujuan.com/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.1",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市中京区六角通新町西入西六角町101",
+          "lat": 35.0075,
+          "lng": 135.755768
+        },
+        {
+          "name": "Mi mitarashi-dango",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Sweets",
+          "name_jp": "み mitarashi-dango",
+          "area": null,
+          "description": "A dango shop. They also have traditional-style dango, but what makes this shop popular is its photogenic, beautiful-looking dango. They put sweet bean paste shaped like seasonal flowers on top of the dango. They also have traditional-style dango, but rather than those, please order the beautiful-looking hanamari dango.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/mitarashi_dango.mi3/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市中京区槌屋町89",
+          "lat": 35.007889,
+          "lng": 135.763824
+        },
+        {
+          "name": "Gion Tsujiri (Gion Main Shop)",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Matcha",
+          "name_jp": "祇園辻利 祇園本店",
+          "area": null,
+          "description": "A matcha shop. One of the most famous matcha shops in Japan. They serve not only matcha for drinking in the original style but also matcha lattes and matcha-flavored sweets. They post a lot of photos on Instagram, but honestly I don't think they are very good. The real thing must be much nicer.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/tsujiri_jp/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市東山区祇園町南側573-3",
+          "lat": 35.003597,
+          "lng": 135.774017
+        },
+        {
+          "name": "Nakamura Tokichi Main Shop",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Matcha",
+          "name_jp": "中村藤吉本店",
+          "area": null,
+          "description": "A matcha shop. Probably the most popular shop in the Uji area, with the longest lines. They have matcha, but they are famous for parfait-like sweets with matcha ice cream, jelly, shiratama (rice flour dumplings) and more in a traditional Japanese vessel. Even if you go right when it opens, you may wait in line for more than an hour, so please go prepared. There are also shops around Kyoto Station and Gion.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/nakamura_tokichi_official/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府宇治市宇治壱番10",
+          "lat": 34.889328,
+          "lng": 135.802032
+        },
+        {
+          "name": "Itohkyuemon Uji Main Shop and Tea Room",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Matcha",
+          "name_jp": "伊藤久右衛門 宇治本店・茶房",
+          "area": null,
+          "description": "Along with Nakamura Tokichi Main Shop, a popular matcha shop in the Uji area. The matcha sweets are famous, but you can also eat soba with tea kneaded into the noodles. It is a popular shop, so it is crowded, and please be prepared for a considerable wait. There is also a shop in Gion, so you don't have to go all the way to Uji.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/itohkyuemon/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府宇治市莵道荒槇19-3",
+          "lat": 34.896156,
+          "lng": 135.808563
+        },
+        {
+          "name": "Saryo Tsujiri (Gion Main Shop)",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Matcha",
+          "name_jp": "茶寮都路里 祇園本店",
+          "area": null,
+          "description": "A popular matcha shop. There are shops around Kyoto Station and Gion.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/giontsujiri_saryotsujiri/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260301/26000408/"
+          },
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市東山区祇園町南側573-3 祇園辻利本店 2F・3F",
+          "lat": 35.003597,
+          "lng": 135.774017
+        },
+        {
+          "name": "Kyoto Tonkatsu Katsuda (Shijo Kawaramachi)",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Tonkatsu(Fried Pork)",
+          "name_jp": "京都とんかつ かつ田",
+          "area": null,
+          "description": "A popular tonkatsu (fried pork) shop. Besides tonkatsu, its fried beef is apparently also famous.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/kyoto_tonkatsu_katsuda/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260201/26040237/"
+          },
+          "gmap": null,
+          "google_rating": "4.9",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市下京区稲荷町330-2 京都和牛館 1F",
+          "lat": 35.00211,
+          "lng": 135.769272
+        },
+        {
+          "name": "Shinpuku Saikan Main Shop",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Ramen",
+          "name_jp": "新福菜館 本店",
+          "area": null,
+          "description": "A long-established, popular shop famous for its pitch-black soup. The soup, based on chicken bones and pork bones with a strong soy sauce flavor, is addictive. The thin noodles are smooth, go down easily, and are easy to finish. The fried rice, also soy sauce based, is delicious too, so if you have room, I recommend ordering both. There is also a branch in Osaka.",
+          "hp": {
+            "label": "Website",
+            "url": "https://shinpukusaikan.net/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260101/26000791/"
+          },
+          "gmap": null,
+          "google_rating": "4.9",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市下京区東塩小路向畑町569",
+          "lat": 34.985992,
+          "lng": 135.761459
+        },
+        {
+          "name": "Ajinoya Main Shop",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Okonomiyaki",
+          "name_jp": "味乃家 本店",
+          "area": null,
+          "description": "A renowned okonomiyaki shop. They use more cabbage and a little less batter, but the whole thing is fluffy and light to eat. A popular shop that is also listed in the Michelin Bib Gourmand. Honestly, okonomiyaki is delicious anywhere, but I thought this one was especially delicious.",
+          "hp": {
+            "label": "Website",
+            "url": "https://ajinoya-okonomiyaki.com/top/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "大阪府大阪市中央区難波1-7-16 2F",
+          "lat": 34.668125,
+          "lng": 135.500946
+        },
+        {
+          "name": "Unagiya Hirokawa",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "うなぎ屋 廣川",
+          "area": null,
+          "description": "A renowned eel shop in Arashiyama. The unaju, eel grilled over charcoal with a sweet and salty sauce and placed on rice, is exceptionally delicious. As a snack with drinks, there is also unagi shirayaki (eel grilled without sauce), which comes without sauce or rice. Reo likes to share the shirayaki with the people he goes with, have everyone order their own unaju, and share bottled beer among everyone. There is also a shop in the Kawaramachi area. Reservations only, so be careful.",
+          "hp": {
+            "label": "Website",
+            "url": "https://unagi-hirokawa.jp/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260403/26000921/"
+          },
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市右京区嵯峨天龍寺北造路町44-1",
+          "lat": 35.016617,
+          "lng": 135.677979
+        },
+        {
+          "name": "Kikunoi Main Restaurant",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "京料理 菊乃井 本店",
+          "area": null,
+          "description": "A kaiseki restaurant that has earned three Michelin stars. You can enjoy a Japanese course meal in which each dish is carefully prepared. A place to enjoy a calm meal in a luxurious, Kyoto-style Japanese room. It is a high-end restaurant, so Reo has never been, but it is the kind of place you would want to go to someday. Reservations only.",
+          "hp": {
+            "label": "Website",
+            "url": "https://kikunoi.jp/restaurant/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "京都府京都市東山区下河原通八坂鳥居前下る下河原町459",
+          "lat": 35.000397,
+          "lng": 135.781204
+        },
+        {
+          "name": "Fukutaro Main Shop",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Okonomiyaki",
+          "name_jp": "福太郎 本店",
+          "area": null,
+          "description": "A renowned okonomiyaki shop in the Namba area. Listed in the Michelin Bib Gourmand. Besides okonomiyaki, the negiyaki (green onion pancake) is apparently also delicious. There are also shops in Umeda and other places.",
+          "hp": {
+            "label": "Website",
+            "url": "https://2951.jp/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "大阪府大阪市中央区千日前2-3-17",
+          "lat": 34.665516,
+          "lng": 135.504578
+        },
+        {
+          "name": "Yakko",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "やっこ",
+          "area": null,
+          "description": "A kushikatsu shop in the Shinsekai area. Kushikatsu is a dish of vegetables, seafood or meat on skewers, coated in batter and deep-fried. The ingredients here are apparently large and delicious. Dipping a skewer back into the sauce after taking a bite is prohibited, so don't do it.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/explore/locations/6448199/yakko/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "大阪府大阪市浪速区恵美須東2-3-10",
+          "lat": 34.651585,
+          "lng": 135.506119
+        },
+        {
+          "name": "Takoyaki Doraku Wanaka (Sennichimae Main Shop)",
+          "picked_by": [
+            "Popular with visitors"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "たこ焼道楽 わなか 千日前本店",
+          "area": null,
+          "description": "A popular takoyaki shop. They have a fluffy texture and are gooey inside, and delicious. Listed in the Michelin Bib Gourmand. There are shops in various places.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/wanaka_takoyaki/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "大阪府大阪市中央区難波千日前11-19",
+          "lat": 34.665218,
+          "lng": 135.503342
+        },
+        {
+          "name": "Tabutchan",
+          "picked_by": [
+            "Reo"
+          ],
+          "genre": "Ramen",
+          "name_jp": "屋台担担麺 たぶっちゃん",
+          "area": null,
+          "description": "A spicy tantanmen shop in the Nipponbashi area. It is open until late at night, so I recommend it as a bowl to finish the night. It is extremely spicy, so people who can't handle spicy food should avoid it.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/tabuchi0425/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": null,
+          "gmap": null,
+          "google_rating": "4.6",
+          "tabelog_rating": null,
+          "rating_date": null,
+          "address": "大阪府大阪市中央区千日前1-6-1 1F",
+          "lat": 34.668262,
+          "lng": 135.505157
         }
       ]
     },

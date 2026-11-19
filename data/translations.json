@@ -131,5 +131,212 @@
   "カラクサカレー": {
     "name": "Kara-Kusa Curry",
     "description": "Japanese-style curry. The spices come through, but it is more of a curry where you can taste the natural sweetness of vegetables and other ingredients. The shop has also received a Michelin Guide Bib Gourmand. A small shop with only counter seats. It opened about nine years ago, when Reo was working in Kyoto, and he went there often back then. The service getting more careless every year is a bit of a concern."
+  },
+  "赤坂　阿吽": {
+    "name": "Akasaka Aun"
+  },
+  "神楽坂 たれ焼肉のんき": {
+    "name": "Kagurazaka Tare Yakiniku Nonki"
+  },
+  "銀座　凛　にしむら": {
+    "name": "Ginza Rin Nishimura"
+  },
+  "銀座　鮨　ふくじゅ": {
+    "name": "Ginza Sushi Fukuju"
+  },
+  "銀座　寿司　おのでら": {
+    "name": "Ginza Sushi Onodera"
+  },
+  "焼うお いし川": {
+    "name": "Yakiuo Ishikawa"
+  },
+  "焼肉 433 六本木": {
+    "name": "Yakiniku 433 Roppongi"
+  },
+  "香妃園": {
+    "name": "Kohien"
+  },
+  "焼肉ジャンボ　白金": {
+    "name": "Yakiniku Jumbo Shirokane"
+  },
+  "游玄亭 西麻布本館": {
+    "name": "Yugentei Nishi-Azabu Main Branch"
+  },
+  "わらやき屋　六本木": {
+    "name": "Warayakiya Roppongi"
+  },
+  "TsuruTonTan UDON NOODLE Brasserie 六本木": {
+    "name": "TsuruTonTan UDON NOODLE Brasserie Roppongi"
+  },
+  "麺屋武蔵 武骨外伝": {
+    "name": "Menya Musashi Bukotsu Gaiden"
+  },
+  "焼肉ホルモン新井屋　渋谷": {
+    "name": "Yakiniku Horumon Araiya Shibuya"
+  },
+  "六甲園": {
+    "name": "Rokkoen"
+  },
+  "ビストロ 喜楽亭": {
+    "name": "Bistro Kirakutei"
+  },
+  "BARすがはら 渋谷本館": {
+    "name": "BAR Sugahara Shibuya Main Branch"
+  },
+  "オープンブック": {
+    "name": "Open Book"
+  },
+  "麻布 鮨功": {
+    "name": "Azabu Sushi Koh"
+  },
+  "スプリングバレーブルワリー 京都": {
+    "name": "Spring Valley Brewery Kyoto",
+    "description": "A brewery with an attached craft beer brewing facility. You can compare different beers in a tasting flight. The menu covers a wide range, from Kyoto-style Japanese food to Western food such as pizza and sausages. A lovely place where you can feel the Kyoto atmosphere along with a modern, stylish vibe."
+  },
+  "天ぷらすし海鮮米福 四条烏丸店": {
+    "name": "Tempura Sushi Kaisen Komefuku (Shijo Karasuma)",
+    "description": "A shop with delicious tempura and seafood. The tempura is not the traditional batter but a crispier, slightly junky style of tempura. Rather than enjoying the tempura on its own with drinks, I personally recommend having it as tendon (tempura rice bowl) for lunch.",
+    "reservation": "Yes (dinner only)"
+  },
+  "キツネ日和": {
+    "name": "Kitsune Biyori",
+    "description": "A shop with delicious tofu and fried tofu (aburaage). Going at night is good too, but they also serve breakfast on weekends, so for those who arrive in Kyoto early, I recommend breakfast. It is also close to the hotel. There is a second shop nearby, but that one does not serve breakfast.",
+    "reservation": "Yes (phone only)"
+  },
+  "よこやまろうそく": {
+    "name": "Yokoyama Rosoku",
+    "description": "A Japanese izakaya in Pontocho that is particular about its sake. The food is also delicious, and you can eat seafood and Japanese dishes that go well with sake. It is a small shop with only counter seats, so it is better to make a reservation.",
+    "reservation": "Yes (phone only)"
+  },
+  "酒と炉端 SuSuCoLi": {
+    "name": "Sake to Robata SuSuCoLi",
+    "description": "A robatayaki shop (fish and vegetables grilled over charcoal). You can fully enjoy the delicious charcoal flavor that only robatayaki can give. Another fun point is that you can drink old-fashioned, nostalgic drinks such as hiyashiame sour and Kyoto akazake bakudan."
+  },
+  "炊と酒 SUITO 京都八条口店": {
+    "name": "Sui to Sake SUITO (Kyoto Hachijoguchi)",
+    "description": "They are particular about their rice, and the takikomi gohan (rice cooked with seasonings and ingredients) is delicious. There are also drinks made with fresh fruit, recommended for people who like drinks that taste like juice."
+  },
+  "酒呑気 びんご": {
+    "name": "Sakenonki Bingo",
+    "description": "A Japanese izakaya made by renovating an old Kyoto house. All the food is delicious, but among it all the niku-dofu (beef and tofu simmered together) is superb."
+  },
+  "窯出し新五兵衛": {
+    "name": "Kamadashi Shingobee",
+    "description": "An Italian restaurant with all-you-can-eat focaccia in five varieties. Its selling point is dishes made in the oven. It is Italian, but it is not a formal restaurant, and you can walk in casually. They also have many drinks other than wine."
+  },
+  "いろり焼 晩喰場": {
+    "name": "Iroriyaki Bankuba",
+    "description": "A robatayaki shop (fish and vegetables grilled over charcoal). Another selling point is the live feel of watching the grilling right in front of you."
+  },
+  "野菜と魚 en": {
+    "name": "Yasai to Sakana en",
+    "description": "A shop focused on vegetables and fish. They are particular about their ingredients, and even simple vegetable dishes are very delicious. They also do robatayaki (fish and vegetables grilled over charcoal).",
+    "note": "Cash only, so be careful!"
+  },
+  "お野菜料理と甘味 ISOMATSU(旧:五十松)": {
+    "name": "Oyasai Ryori to Kanmi ISOMATSU (formerly Isomatsu)",
+    "description": "The exterior looks just like a Japanese restaurant, but it serves dishes that go well with wine. They are especially particular about vegetables. I think it would be classified as Japanese food, but it skillfully fuses Western techniques. I have not tried them, but apparently they also put effort into sweets."
+  },
+  "Sushi Sho in Kyoto": {
+    "description": "An izakaya where you can eat sushi casually. There are many dishes besides sushi, and you can also eat tempura and more. Recommended for people who want to eat sushi but also want other Japanese food."
+  },
+  "百圓寿司スタンド えにし": {
+    "name": "Hyakuen Sushi Stand Enishi",
+    "description": "An izakaya where you can drink from noon and eat sushi casually. There are many dishes besides sushi. There are both standing and seated areas, so you can use whichever suits the occasion."
+  },
+  "鉄板 フタゴヤ 富小路": {
+    "name": "Teppan Futagoya Tominokoji",
+    "description": "A shop where you can eat yakisoba, grilled offal, Japanese omelet and other dishes made on an iron griddle. There are also dishes not made on the griddle, so you can enjoy a Japanese izakaya menu. Note that there is no okonomiyaki."
+  },
+  "遊亀 祇園店": {
+    "name": "Yuki (Gion)",
+    "description": "An izakaya run by the Kinkame sake brewery. In addition to many Kinkame sakes, you can enjoy food that goes well with sake. By the way, Kinkame itself is not a famous sake, but it is delicious."
+  },
+  "すし酒場 さしす": {
+    "name": "Sushi Sakaba Sashisu",
+    "description": "A sushi shop with several locations in Osaka and Kyoto. A popular shop where you can eat delicious sushi casually while standing. There are some booth seats for sitting, but the standing area turns over faster. It is a popular shop that does not take reservations, so unless you go right when it opens, you will have to wait in line for a while."
+  },
+  "麺屋 猪一": {
+    "name": "Menya Inoichi",
+    "description": "A hugely popular shop selected for the Michelin Bib Gourmand nine years in a row. They are very particular about the soup, and it is so full of dashi flavor that apparently some people end up drinking the whole bowl. The shumai side dish is apparently also delicious, so if you have room, you might want to order it. It is a hugely popular shop and apparently hands out numbered tickets, so I recommend going early. There is apparently also a second shop, so if this shop does not work out, you could try the second shop."
+  },
+  "やすべえ": {
+    "name": "Yasubee",
+    "description": "A renowned okonomiyaki shop in Pontocho. Besides okonomiyaki, the betayaki, which is a thinly cooked batter topped with cabbage and other ingredients, is apparently also popular."
+  },
+  "WAGYU TERIYAKI ITADAKI BURGER Gion Kyoto": {
+    "description": "A wagyu hamburger shop. It does not have a website for Japanese customers and is aimed entirely at overseas tourists. Perhaps because of that, the prices are on the high side for Japan, which I personally don't like, but its Google Maps rating is an astonishing 5.0. Having a 5.0 with more than 3,000 reviews is honestly impressive. The taste is probably the real deal."
+  },
+  "麺匠 たか松": {
+    "name": "Mensho Takamatsu",
+    "description": "The main shop of a ramen chain with locations across Japan. The ramen is delicious too, but I would like to recommend the tsukemen (dipping noodles). The dipping sauce, a chicken base with seafood dashi and more added, is very delicious. They use stone-ground whole wheat noodles, which have a stronger wheat flavor than normal noodles and go down smoothly. Onions and sudachi (a Japanese citrus) are served on a separate plate, so after eating some, you can add these toppings to change the flavor and enjoy it from start to finish. There are several shops, so go to one close to you."
+  },
+  "キチ・キチ": {
+    "name": "Kichi Kichi",
+    "description": "A shop famous for omurice (fried rice topped with soft, half-cooked egg). Of course it tastes good, but it is also a dish you can enjoy even before eating because it looks so beautiful. First, please look at the actual omurice on their website or elsewhere. It is reservation only, and you cannot get in without a reservation, so be careful. However, I don't like that they charge $13 just to make a reservation."
+  },
+  "麓寿庵": {
+    "name": "Rokujuan",
+    "description": "A shop where you can enjoy traditional Japanese tea sweets and tea (matcha, hojicha and more). The hana warabi is truly beautiful, and the shop shows well the character of Japanese sweets, which are also particular about appearance. It seems you can also have meals, but here please be sure to enjoy the Japanese sweets."
+  },
+  "み mitarashi-dango": {
+    "description": "A dango shop. They also have traditional-style dango, but what makes this shop popular is its photogenic, beautiful-looking dango. They put sweet bean paste shaped like seasonal flowers on top of the dango. They also have traditional-style dango, but rather than those, please order the beautiful-looking hanamari dango.",
+    "name": "Mi mitarashi-dango"
+  },
+  "祇園辻利 祇園本店": {
+    "name": "Gion Tsujiri (Gion Main Shop)",
+    "description": "A matcha shop. One of the most famous matcha shops in Japan. They serve not only matcha for drinking in the original style but also matcha lattes and matcha-flavored sweets. They post a lot of photos on Instagram, but honestly I don't think they are very good. The real thing must be much nicer."
+  },
+  "中村藤吉本店": {
+    "name": "Nakamura Tokichi Main Shop",
+    "description": "A matcha shop. Probably the most popular shop in the Uji area, with the longest lines. They have matcha, but they are famous for parfait-like sweets with matcha ice cream, jelly, shiratama (rice flour dumplings) and more in a traditional Japanese vessel. Even if you go right when it opens, you may wait in line for more than an hour, so please go prepared. There are also shops around Kyoto Station and Gion."
+  },
+  "伊藤久右衛門 宇治本店・茶房": {
+    "name": "Itohkyuemon Uji Main Shop and Tea Room",
+    "description": "Along with Nakamura Tokichi Main Shop, a popular matcha shop in the Uji area. The matcha sweets are famous, but you can also eat soba with tea kneaded into the noodles. It is a popular shop, so it is crowded, and please be prepared for a considerable wait. There is also a shop in Gion, so you don't have to go all the way to Uji."
+  },
+  "茶寮都路里　祇園本店": {
+    "name": "Saryo Tsujiri (Gion Main Shop)",
+    "description": "A popular matcha shop. There are shops around Kyoto Station and Gion."
+  },
+  "京都とんかつ かつ田 四条河原町店": {
+    "name": "Kyoto Tonkatsu Katsuda (Shijo Kawaramachi)",
+    "description": "A popular tonkatsu (fried pork) shop. Besides tonkatsu, its fried beef is apparently also famous."
+  },
+  "新福菜館 本店": {
+    "name": "Shinpuku Saikan Main Shop",
+    "description": "A long-established, popular shop famous for its pitch-black soup. The soup, based on chicken bones and pork bones with a strong soy sauce flavor, is addictive. The thin noodles are smooth, go down easily, and are easy to finish. The fried rice, also soy sauce based, is delicious too, so if you have room, I recommend ordering both. There is also a branch in Osaka."
+  },
+  "味乃家 本店": {
+    "name": "Ajinoya Main Shop",
+    "description": "A renowned okonomiyaki shop. They use more cabbage and a little less batter, but the whole thing is fluffy and light to eat. A popular shop that is also listed in the Michelin Bib Gourmand. Honestly, okonomiyaki is delicious anywhere, but I thought this one was especially delicious."
+  },
+  "うなぎ屋 廣川": {
+    "name": "Unagiya Hirokawa",
+    "description": "A renowned eel shop in Arashiyama. The unaju, eel grilled over charcoal with a sweet and salty sauce and placed on rice, is exceptionally delicious. As a snack with drinks, there is also unagi shirayaki (eel grilled without sauce), which comes without sauce or rice. Reo likes to share the shirayaki with the people he goes with, have everyone order their own unaju, and share bottled beer among everyone. There is also a shop in the Kawaramachi area. Reservations only, so be careful."
+  },
+  "菊乃井 本店": {
+    "name": "Kikunoi Main Restaurant",
+    "description": "A kaiseki restaurant that has earned three Michelin stars. You can enjoy a Japanese course meal in which each dish is carefully prepared. A place to enjoy a calm meal in a luxurious, Kyoto-style Japanese room. It is a high-end restaurant, so Reo has never been, but it is the kind of place you would want to go to someday. Reservations only."
+  },
+  "福太郎 本店": {
+    "name": "Fukutaro Main Shop",
+    "description": "A renowned okonomiyaki shop in the Namba area. Listed in the Michelin Bib Gourmand. Besides okonomiyaki, the negiyaki (green onion pancake) is apparently also delicious. There are also shops in Umeda and other places."
+  },
+  "やっこ": {
+    "name": "Yakko",
+    "description": "A kushikatsu shop in the Shinsekai area. Kushikatsu is a dish of vegetables, seafood or meat on skewers, coated in batter and deep-fried. The ingredients here are apparently large and delicious. Dipping a skewer back into the sauce after taking a bite is prohibited, so don't do it."
+  },
+  "たこ焼道楽 わなか 千日前 本店": {
+    "name": "Takoyaki Doraku Wanaka (Sennichimae Main Shop)",
+    "description": "A popular takoyaki shop. They have a fluffy texture and are gooey inside, and delicious. Listed in the Michelin Bib Gourmand. There are shops in various places."
+  },
+  "たぶっちゃん": {
+    "name": "Tabutchan",
+    "description": "A spicy tantanmen shop in the Nipponbashi area. It is open until late at night, so I recommend it as a bowl to finish the night. It is extremely spicy, so people who can't handle spicy food should avoid it."
+  },
+  "炉端とおでん 呼炉凪来 京都駅前店": {
+    "name": "Robata to Oden Koronagirai (Kyoto Station)",
+    "description": "An oden shop. Oden is served first as the appetizer, and this oden is all-you-can-eat. Warming up with oden while drinking sake in the cold winter is a classic Japanese winter tradition. Oden is a type of hot pot, and the ingredients are mostly vegetables, fish cakes made from minced seafood, and so on. The ingredients, soaked in a soup full of dashi flavor, are very delicious. There are several shops, so choose one close to your plans."
   }
 }

@@ -1312,9 +1312,9 @@
           "google_rating": "4.6",
           "tabelog_rating": null,
           "rating_date": null,
-          "address": null,
-          "lat": null,
-          "lng": null
+          "address": "京都府京都市中京区西木屋町四条上る紙屋町367-2 たかせ会館 1F",
+          "lat": 35.004982,
+          "lng": 135.770187
         },
         {
           "name": "Sake to Robata SuSuCoLi",
@@ -1336,9 +1336,9 @@
           "google_rating": "4.8",
           "tabelog_rating": null,
           "rating_date": null,
-          "address": null,
-          "lat": null,
-          "lng": null
+          "address": "京都府京都市中京区観音堂町474",
+          "lat": 35.004242,
+          "lng": 135.757385
         },
         {
           "name": "Sui to Sake SUITO (Kyoto Hachijoguchi)",
@@ -1360,9 +1360,9 @@
           "google_rating": "4.4",
           "tabelog_rating": null,
           "rating_date": null,
-          "address": null,
-          "lat": null,
-          "lng": null
+          "address": "京都府京都市南区東九条北烏丸町3-1 NODE 2F",
+          "lat": 34.98175,
+          "lng": 135.758423
         },
         {
           "name": "Sakenonki Bingo",
@@ -1408,9 +1408,9 @@
           "google_rating": "4.6",
           "tabelog_rating": null,
           "rating_date": null,
-          "address": null,
-          "lat": null,
-          "lng": null
+          "address": "京都府京都市中京区新町通蛸薬師上る六角町370",
+          "lat": 35.006683,
+          "lng": 135.756866
         },
         {
           "name": "Iroriyaki Bankuba",
@@ -1514,7 +1514,7 @@
             "Reo"
           ],
           "genre": "Sushi",
-          "name_jp": null,
+          "name_jp": "Sushi Sho in Kyoto",
           "area": null,
           "description": "An izakaya where you can eat sushi casually. There are many dishes besides sushi, and you can also eat tempura and more. Recommended for people who want to eat sushi but also want other Japanese food.",
           "hp": {
@@ -1528,9 +1528,9 @@
           "google_rating": "4.7",
           "tabelog_rating": null,
           "rating_date": null,
-          "address": null,
-          "lat": null,
-          "lng": null
+          "address": "京都府京都市中京区先斗町三条下る材木町184",
+          "lat": 35.00761,
+          "lng": 135.770767
         },
         {
           "name": "Hyakuen Sushi Stand Enishi",
@@ -1576,9 +1576,9 @@
           "google_rating": "4.5",
           "tabelog_rating": null,
           "rating_date": null,
-          "address": null,
-          "lat": null,
-          "lng": null
+          "address": "京都府京都市中京区富小路通錦小路下る西大文字町615",
+          "lat": 35.004555,
+          "lng": 135.765076
         },
         {
           "name": "Yuki (Gion)",
@@ -1600,9 +1600,9 @@
           "google_rating": "4.1",
           "tabelog_rating": null,
           "rating_date": null,
-          "address": null,
-          "lat": null,
-          "lng": null
+          "address": "京都府京都市東山区富永町111-1",
+          "lat": 35.004555,
+          "lng": 135.774002
         },
         {
           "name": "Sushi Sakaba Sashisu",
@@ -1682,7 +1682,7 @@
             "Popular with visitors"
           ],
           "genre": "Wagyu",
-          "name_jp": null,
+          "name_jp": "WAGYU TERIYAKI ITADAKI BURGER Gion Kyoto",
           "area": null,
           "description": "A wagyu hamburger shop. It does not have a website for Japanese customers and is aimed entirely at overseas tourists. Perhaps because of that, the prices are on the high side for Japan, which I personally don't like, but its Google Maps rating is an astonishing 5.0. Having a 5.0 with more than 3,000 reviews is honestly impressive. The taste is probably the real deal.",
           "hp": {
@@ -1696,9 +1696,9 @@
           "google_rating": "5",
           "tabelog_rating": null,
           "rating_date": null,
-          "address": null,
-          "lat": null,
-          "lng": null
+          "address": "京都府京都市東山区廿一軒町 祇園華月ビル 1F",
+          "lat": 35.004131,
+          "lng": 135.772919
         },
         {
           "name": "Mensho Takamatsu",

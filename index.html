@@ -77,6 +77,10 @@ main { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(300p
 .genre { font-weight: 700; color: var(--navy); }
 .empty { color: var(--muted); font-size: 13px; line-height: 1.6; padding: 8px 2px; }
 .pin { width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: var(--yellow); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); font: 700 12px var(--body); display: flex; align-items: center; justify-content: center; }
+.hotel-pin { background: #C0392B; color: #fff; border: 2px solid #fff; border-radius: 6px; padding: 3px 7px; font: 800 11px var(--body); letter-spacing: .06em; box-shadow: 0 1px 5px rgba(0,0,0,.4); position: relative; z-index: 5; }
+.hotel-tag { display: inline-block; font: 800 10px var(--body); letter-spacing: .08em; color: #C0392B; margin-bottom: 2px; }
+.hotel-badge { flex: none; width: 22px; height: 22px; border-radius: 5px; background: #C0392B; color: #fff; font: 800 12px var(--body); display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+.hotel-card { border-color: #E8B4AE; background: #FFF7F6; }
 .pin.active { background: var(--yellow); color: var(--navy); border-color: var(--navy); }
 .maplibregl-popup-content { padding: 12px 14px; font-family: var(--body); border-radius: 8px; }
 .maplibregl-popup-close-button { font-size: 18px; padding: 0 6px; }
@@ -153,6 +157,35 @@ footer { font-size: 10px; color: var(--muted); padding: 6px max(16px, env(safe-a
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>
+// Where the group stays in each city (coordinates from the organizers' Google Maps links).
+const HOTELS = {
+  'Tokyo': { name: 'Hotel Monterey Hanzomon', jp: 'ホテルモントレ半蔵門', address: '東京都千代田区一番町23-1', lat: 35.686602, lng: 139.74212, url: 'https://maps.app.goo.gl/NqJubVca5Rf5Fo1o7' },
+  'Kyoto Osaka': { name: 'Miyako Hotel Kyoto Hachijo', jp: '都ホテル 京都八条', address: '京都府京都市南区西九条院町17', lat: 34.9839515, lng: 135.7557221, url: 'https://maps.app.goo.gl/fn64QeDJe1Hnu1tMA' },
+  'Hiroshima': { name: 'Aki Grand Hotel & Spa', jp: '安芸グランドホテル&スパ', address: '広島県廿日市市宮島口西1-1-17', lat: 34.303876, lng: 132.296279, url: 'https://maps.app.goo.gl/cSpYEgRcWEnV7xMf9' },
+};
+let hotelMarker = null, hotelPopup = null;
+function hotelHtml(h) {
+  return `<div class="pop">
+    <div class="hotel-tag">OUR HOTEL</div>
+    <h3>${esc(h.name)} <span class="jp">${esc(h.jp)}</span></h3>
+    <p class="addr">${esc(h.address)}</p>
+    <div class="links"><a href="${esc(h.url)}" target="_blank" rel="noopener">Google Maps</a></div>
+  </div>`;
+}
+function openHotel(fly) {
+  const h = HOTELS[city.city]; if (!h) return;
+  closeAll();
+  [...listEl.querySelectorAll('.shop')].forEach(b => b.setAttribute('aria-current', b.classList.contains('hotel-card') ? 'true' : 'false'));
+  const show = () => {
+    if (isMobile()) { document.getElementById('sheet-body').innerHTML = hotelHtml(h); sheetEl.scrollTop = 0; sheetEl.classList.add('open'); }
+    else hotelPopup.setLngLat([h.lng, h.lat]).addTo(map);
+  };
+  if (fly) {
+    if (isMobile()) document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    map.once('moveend', show);
+    map.flyTo({ center: [h.lng, h.lat], zoom: Math.max(map.getZoom(), 15), offset: isMobile() ? [0, 0] : [0, 120], duration: 700 });
+  } else show();
+}
 const CITY_VIEW = {
   Tokyo: [[35.6812, 139.7671], 12],
   Kyoto: [[35.0116, 135.7681], 13],
@@ -224,7 +257,7 @@ const sheetEl = document.getElementById('sheet');
 function hideSheet() { sheetEl.classList.remove('open'); }
 document.getElementById('sheet-close').addEventListener('click', hideSheet);
 document.addEventListener('keydown', e => { if (e.key === 'Escape') hideSheet(); });
-function closeAll() { popups.forEach(p => p && p.isOpen() && p.remove()); hideSheet(); }
+function closeAll() { popups.forEach(p => p && p.isOpen() && p.remove()); if (hotelPopup && hotelPopup.isOpen()) hotelPopup.remove(); hideSheet(); }
 function openDetail(i) {
   if (isMobile()) {
     document.getElementById('sheet-body').innerHTML = popupHtml(city.shops[i]);
@@ -251,6 +284,8 @@ function showCity(name, keepGenre) {
   markers.forEach(m => m && m.remove());
   popups.forEach(p => p && p.remove());
   markers = []; popups = [];
+  if (hotelMarker) { hotelMarker.remove(); hotelMarker = null; }
+  if (hotelPopup) { hotelPopup.remove(); hotelPopup = null; }
   hideSheet();
   listEl.innerHTML = '';
   const shops = city.shops;
@@ -311,7 +346,23 @@ function showCity(name, keepGenre) {
       markers.push(m);
     } else { markers.push(null); popups.push(null); }
   });
+  const hotel = HOTELS[city.city];
+  if (hotel) {
+    const card = document.createElement('button');
+    card.className = 'shop hotel-card';
+    card.innerHTML = `<span class="hotel-badge">H</span><span><span class="hotel-tag">OUR HOTEL</span><h2>${esc(hotel.name)}</h2><span class="jp">${esc(hotel.jp)}</span></span>`;
+    card.addEventListener('click', () => openHotel(true));
+    listEl.prepend(card);
+    const el = document.createElement('div');
+    el.className = 'marker';
+    el.innerHTML = '<div class="hotel-pin">HOTEL</div>';
+    el.title = hotel.name;
+    el.addEventListener('click', () => setTimeout(() => openHotel(false), 0));
+    hotelPopup = new maplibregl.Popup({ offset: 18, maxWidth: '300px', focusAfterOpen: false }).setHTML(hotelHtml(hotel));
+    hotelMarker = new maplibregl.Marker({ element: el }).setLngLat([hotel.lng, hotel.lat]).addTo(map);
+  }
   const pts = markers.filter(Boolean).map(m => m.getLngLat());
+  if (hotelMarker) pts.push(hotelMarker.getLngLat());
   if (pts.length > 1) {
     const bb = new maplibregl.LngLatBounds(pts[0], pts[0]);
     pts.forEach(p => bb.extend(p));

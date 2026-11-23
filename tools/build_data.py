@@ -141,6 +141,12 @@ def main(xlsx, skip=()):
             # "Reo", "Kohei", "Reo, Kohei" (both) or e.g. "Popular with visitors".
             picked_raw = val("picked_by") or ""
             picked_by = [x.strip() for x in picked_raw.replace("、", ",").replace("&", ",").replace("/", ",").split(",") if x.strip()]
+            hp = link("hp")
+            tb = link("tabelog")
+            if hp and "tabelog.com" in hp["url"]:
+                if not tb and not (loc and loc.get("tabelog_url")):
+                    tb = {"label": "Tabelog", "url": hp["url"].replace("tabelog.com/", "tabelog.com/en/", 1) if "/en/" not in hp["url"] else hp["url"]}
+                hp = None
             shops.append({
                 "name": name_en,
                 "picked_by": picked_by,
@@ -148,10 +154,10 @@ def main(xlsx, skip=()):
                 "name_jp": name_jp,
                 "area": val("area"),
                 "description": desc,
-                "hp": link("hp"),
+                "hp": hp,
                 "reservation": tr.get("reservation") or val("reservation"),
                 "note": note,
-                "tabelog": link("tabelog") or ({"label": "Tabelog", "url": loc["tabelog_url"]} if loc and loc.get("tabelog_url") else None),
+                "tabelog": tb or ({"label": "Tabelog", "url": loc["tabelog_url"]} if loc and loc.get("tabelog_url") else None),
                 "gmap": link("gmap"),
                 "google_rating": val("google_rating") or num("gmap"),
                 "tabelog_rating": val("tabelog_rating") or num("tabelog") or (loc or {}).get("tabelog_rating"),

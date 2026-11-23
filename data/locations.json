@@ -849,5 +849,319 @@
     "source": "Address: 4travel; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
     "tabelog_rating": "3.46",
     "tabelog_url": "https://tabelog.com/en/hiroshima/A3401/A340116/34016987/"
+  },
+  "Izakaya Aun Akasaka": {
+    "address": "東京都港区赤坂3-21-3 赤坂牧野ビル 1F",
+    "lat": 35.676899,
+    "lng": 139.735764,
+    "name_jp": "赤坂阿吽 本店",
+    "source": "Address: Retty; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.46",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1308/A130801/13052951/"
+  },
+  "Nonki BBQ Kagurazaka": {
+    "address": "東京都新宿区神楽坂3-6-44 神楽坂TKビル 1F",
+    "lat": 35.701012,
+    "lng": 139.739624,
+    "name_jp": "神楽坂 たれ焼肉のんき",
+    "source": "Address: HAMONI; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.53",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1309/A130905/13227118/"
+  },
+  "Sushi Rin Nishimura Ginza": {
+    "address": "東京都中央区銀座7-2-8 東建ビル B1F",
+    "lat": 35.670612,
+    "lng": 139.760422,
+    "name_jp": "銀座 凛 にしむら",
+    "source": "Address: Ikyu; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.33",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1301/A130101/13002288/"
+  },
+  "Sushi Fukuju Ginza": {
+    "address": "東京都中央区銀座5-8-17 銀座プラザ58ビル 8F",
+    "lat": 35.67054,
+    "lng": 139.764496,
+    "name_jp": "銀座 鮨 ふくじゅ",
+    "source": "Address: Retty; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.41",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1301/A130101/13228975/"
+  },
+  "Sushi Onodera": {
+    "address": "東京都中央区銀座5-14-14 サンリット銀座ビルⅢ B1F",
+    "lat": 35.66864,
+    "lng": 139.766876,
+    "name_jp": "鮨 銀座おのでら",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1301/A130101/13153824/",
+    "tabelog_rating": "3.70",
+    "source": "Address: Retty; score Tabelog; coordinates: GSI address search"
+  },
+  "Fish BBQ Ishikawa": {
+    "address": "東京都中央区築地4-13-5 1F",
+    "lat": 35.665165,
+    "lng": 139.770966,
+    "name_jp": "焼うお いし川",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1313/A131301/13040408/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.61"
+  },
+  "433 BBQ Roppongi": {
+    "address": "東京都港区六本木4-12-4 飯田ビル 2F",
+    "lat": 35.664528,
+    "lng": 139.731506,
+    "name_jp": "焼肉433",
+    "source": "Address: TableCheck; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.40",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1307/A130701/13185839/"
+  },
+  "Ko-hi en": {
+    "address": "東京都港区六本木3-8-15 瀬里奈ビレッジ 2F",
+    "lat": 35.663525,
+    "lng": 139.734314,
+    "name_jp": "香妃園",
+    "source": "Address: San-tatsu; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.68",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1307/A130701/13001271/"
+  },
+  "Jumbo BBQ Shirokane": {
+    "address": "東京都港区白金3-1-1 第一麻布ビル 1F",
+    "lat": 35.646797,
+    "lng": 139.729843,
+    "name_jp": "焼肉ジャンボ 白金",
+    "source": "Address: HAMONI; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.73",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1303/A130302/13026377/"
+  },
+  "Yugentei BBQ West Azabu": {
+    "address": "東京都港区西麻布3-24-18 叙々苑ビル",
+    "lat": 35.659302,
+    "lng": 139.723953,
+    "name_jp": "叙々苑 游玄亭 西麻布本館",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1307/A130701/13003488/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.70"
+  },
+  "Sushi-ko Azabu": {
+    "address": "東京都港区麻布十番2-5-3 3F",
+    "lat": 35.656288,
+    "lng": 139.733521,
+    "name_jp": "麻布 鮨功",
+    "source": "Address: TableCheck; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.71",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1307/A130702/13279144/"
+  },
+  "TsuruTonTan UDON NOODLE Brasserie Roppongi": {
+    "address": "東京都港区六本木7-8-6 AXALL ROPPONGI 7F",
+    "lat": 35.665016,
+    "lng": 139.729675,
+    "name_jp": "つるとんたん UDON NOODLE Brasserie 六本木",
+    "source": "Address: TableCheck; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.42",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1307/A130701/13299475/"
+  },
+  "Musashi Ramen Shibuya": {
+    "address": "東京都渋谷区道玄坂2-8-5",
+    "lat": 35.658665,
+    "lng": 139.698212,
+    "name_jp": "麺屋武蔵 武骨外伝",
+    "source": "Address: GLTJP; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.39",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1303/A130301/13030753/"
+  },
+  "Arai-ya BBQ Shibuya": {
+    "address": "東京都渋谷区道玄坂2-19-13",
+    "lat": 35.659344,
+    "lng": 139.69632,
+    "name_jp": "焼肉ホルモン新井屋 渋谷",
+    "source": "Address: TableCheck; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.66",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1303/A130301/13237382/"
+  },
+  "Rokkoen BBQ": {
+    "address": "東京都世田谷区池尻2-37-10 石井ビル 1F",
+    "lat": 35.647461,
+    "lng": 139.678864,
+    "name_jp": "焼肉 六甲園",
+    "source": "Address: Retty; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.71",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1317/A131705/13252117/"
+  },
+  "Bistro Kirakutei": {
+    "address": "東京都世田谷区池尻3-30-5 ニュー池尻マンション",
+    "lat": 35.647701,
+    "lng": 139.678513,
+    "name_jp": "ビストロ喜楽亭",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1317/A131705/13001373/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.60"
+  },
+  "BAR Sugahara Shibuya": {
+    "address": "東京都渋谷区円山町25-5",
+    "lat": 35.65604,
+    "lng": 139.693787,
+    "name_jp": "BARすがはら 渋谷本館",
+    "source": "Address: Retty; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.53",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1303/A130301/13098141/"
+  },
+  "Open book": {
+    "address": "東京都新宿区歌舞伎町1-1-6 ゴールデン街五番街",
+    "lat": 35.694088,
+    "lng": 139.705063,
+    "name_jp": "オープンブック",
+    "source": "Address: Time Out; coordinates: GSI address search; score: Tabelog page (checked 2026-11-19)",
+    "tabelog_rating": "3.34",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1304/A130401/13194477/"
+  },
+  "Parlor Shiseido": {
+    "address": "東京都中央区銀座8-8-3 東京銀座資生堂ビル 3F",
+    "lat": 35.668514,
+    "lng": 139.761978,
+    "name_jp": "資生堂パーラー 銀座本店 サロン・ド・カフェ",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1301/A130103/13004937/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.51"
+  },
+  "Torichu Iidabashi": {
+    "address": "東京都千代田区飯田橋4-7-11 カクタス飯田橋 B1F",
+    "lat": 35.701157,
+    "lng": 139.746658,
+    "name_jp": "鳥酎 飯田橋",
+    "tabelog_url": "https://tabelog.com/en/tokyo/A1309/A130905/13139364/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.42"
+  },
+  "Pontocho Kiraku BBQ": {
+    "address": "京都府京都市中京区先斗町通三条下る2丁目若松町139-2",
+    "lat": 35.007179,
+    "lng": 135.771347,
+    "name_jp": "先斗町焼肉 きらく",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260301/26041041/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.64"
+  },
+  "Pontocho Kiraku Shabushabu": {
+    "address": "京都府京都市中京区先斗町通四条上る柏屋町169-2",
+    "lat": 35.004154,
+    "lng": 135.771271,
+    "name_jp": "先斗町しゃぶしゃぶすき焼き きらく",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260201/26041019/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.63"
+  },
+  "Iroha Sukiyaki": {
+    "address": "京都府京都市中京区先斗町四条上ル鍋屋町215",
+    "lat": 35.004963,
+    "lng": 135.770828,
+    "name_jp": "すきやき いろは 北店",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260201/26002605/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.57"
+  },
+  "Okaru Udon Gion": {
+    "address": "京都府京都市東山区八坂新地富永町132",
+    "lat": 35.004295,
+    "lng": 135.773697,
+    "name_jp": "京都祇園 おかる",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260301/26001282/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.59"
+  },
+  "Yamamoto Menzo  Udon": {
+    "address": "京都府京都市左京区岡崎南御所町34",
+    "lat": 35.014393,
+    "lng": 135.785355,
+    "name_jp": "山元麺蔵",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260301/26002504/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.95"
+  },
+  "Emon Sushi": {
+    "address": "京都府京都市上京区田中町415",
+    "lat": 35.020267,
+    "lng": 135.743866,
+    "name_jp": "祇園えもん",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260202/26042019/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)"
+  },
+  "Kani Doraku": {
+    "address": "京都府京都市中京区三条通寺町西入天性寺前町525",
+    "lat": 35.00927,
+    "lng": 135.767014,
+    "name_jp": "かに道楽 京都本店",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260201/26011709/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.18"
+  },
+  "Torisei Kiyomizu": {
+    "address": "京都府京都市東山区東大路松原上る辰巳町114",
+    "lat": 34.997955,
+    "lng": 135.776855,
+    "name_jp": "鳥せい 清水店",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260301/26007387/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.14"
+  },
+  "Gyoza Hohei": {
+    "address": "京都府京都市東山区清本町373-3",
+    "lat": 35.005363,
+    "lng": 135.774841,
+    "name_jp": "ぎょうざ歩兵 祇園本店",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260301/26018951/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.53"
+  },
+  "Shimogamo Saryo": {
+    "address": "京都府京都市左京区下鴨宮河町62",
+    "lat": 35.032658,
+    "lng": 135.773132,
+    "name_jp": "下鴨茶寮 本店",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260302/26001041/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.59"
+  },
+  "Demachi Futaba": {
+    "address": "京都府京都市上京区出町通今出川上ル青龍町236",
+    "lat": 35.03194,
+    "lng": 135.769531,
+    "name_jp": "出町ふたば",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260302/26001520/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.83"
+  },
+  "Tonryu North Shirakawa": {
+    "address": "京都府京都市左京区北白川上別当町1 第2青山荘 1F",
+    "lat": 35.031742,
+    "lng": 135.79187,
+    "name_jp": "東龍 北白川本店",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260302/26000193/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.48"
+  },
+  "Tenka Ippin Main store": {
+    "address": "京都府京都市左京区一乗寺築田町94 メゾン白川 1F",
+    "lat": 35.039219,
+    "lng": 135.791412,
+    "name_jp": "天下一品 総本店",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260302/26000716/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.51"
+  },
+  "Toriyasu": {
+    "address": "京都府京都市中京区烏丸通押小路角（秋野々町534）",
+    "lat": 35.012959,
+    "lng": 135.759537,
+    "name_jp": "とり安",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260202/26003240/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.48"
+  },
+  "Manjiro Nabe": {
+    "address": "京都府京都市東山区新橋通大和大路東入元吉町58",
+    "lat": 35.005951,
+    "lng": 135.773773,
+    "name_jp": "水だき 萬治郎",
+    "tabelog_url": "https://tabelog.com/en/kyoto/A2601/A260301/26005739/",
+    "source": "Address: Tabelog; coordinates: GSI address search; score: Tabelog page (checked 2026-11-22)",
+    "tabelog_rating": "3.63"
   }
 }

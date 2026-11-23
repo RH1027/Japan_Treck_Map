@@ -733,23 +733,26 @@
           "lng": 139.734238
         },
         {
-          "name": "Akasaka Aun",
+          "name": "Izakaya Aun Akasaka",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Japanese Izakaya",
           "name_jp": "赤坂阿吽 本店",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "A classic Japanese izakaya with a beautiful interior and a wide range of Japanese dishes. Akasaka is a business district with lots of bars and pubs, so you can drink late into the night. Great place to enjoy solid Japanese Izakaya experience, My previous office was in this area, often hosted client dinners here.",
+          "hp": {
+            "label": "Website",
+            "url": "http://aun-akasaka.com/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1308/A130801/13052951/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.1",
           "tabelog_rating": "3.46",
           "rating_date": null,
           "address": "東京都港区赤坂3-21-3 赤坂牧野ビル 1F",
@@ -757,47 +760,53 @@
           "lng": 139.735764
         },
         {
-          "name": "Kagurazaka Tare Yakiniku Nonki",
+          "name": "Nonki BBQ Kagurazaka",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Yakiniku (Japanese BBQ)",
           "name_jp": "神楽坂 たれ焼肉のんき",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "The place I visited most with coworkers. You have to try the garlic-topped beef tongue, \"Gari-tongue.\" It'll get you totally hyped.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/nonkiofficial/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1309/A130905/13227118/"
           },
           "gmap": null,
-          "google_rating": null,
-          "tabelog_rating": "3.53",
+          "google_rating": "4.3",
+          "tabelog_rating": "3.52",
           "rating_date": null,
           "address": "東京都新宿区神楽坂3-6-44 神楽坂TKビル 1F",
           "lat": 35.701012,
           "lng": 139.739624
         },
         {
-          "name": "Ginza Rin Nishimura",
+          "name": "Sushi Rin Nishimura Ginza",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Sushi",
           "name_jp": "銀座 凛 にしむら",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "I went onece for wedding anniversary. Exactly what you'd picture a great Japanese sushi restaurant to be. A few counter seats and private rooms, omakase only. The chef is warm and friendly and will chat even with young folks like us. Dinner starts around $200, so it's pricey, but lunch is about $100. If you're in Ginza and want to try serious sushi at least once, start here. Reservation required.",
+          "hp": {
+            "label": "Website",
+            "url": "http://ginza-rin.com/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1301/A130101/13002288/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.7",
           "tabelog_rating": "3.33",
           "rating_date": null,
           "address": "東京都中央区銀座7-2-8 東建ビル B1F",
@@ -805,23 +814,26 @@
           "lng": 139.760422
         },
         {
-          "name": "Ginza Sushi Fukuju",
+          "name": "Sushi Fukuju Ginza",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Sushi",
           "name_jp": "銀座 鮨 ふくじゅ",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "A typical casual non-conveyor-belt sushi restaurant in Ginza, but with a fairly casual vibe, so you can enjoy high-end sushi without feeling stiff. Lunch omakase starts around ¥10,000, and there's an English menu.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/ginza_fukuju/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1301/A130101/13228975/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4",
           "tabelog_rating": "3.41",
           "rating_date": null,
           "address": "東京都中央区銀座5-8-17 銀座プラザ58ビル 8F",
@@ -829,24 +841,27 @@
           "lng": 139.764496
         },
         {
-          "name": "Ginza Sushi Onodera",
+          "name": "Sushi Onodera",
           "picked_by": [
-            "Kohei"
+            "Popular with visitors"
           ],
-          "genre": null,
+          "genre": "Sushi",
           "name_jp": "鮨 銀座おのでら",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "One of Ginza's best-known sushi restaurants. They're expanding overseas and even have a location in Houston, in a different format. The specialty is Japanese bluefin tuna, and fish delivered daily from Toyosu and Hokkaido is served at a single-plank hinoki counter. Lunch from about ¥8,800, dinner from about ¥27,500. Reservation required.",
+          "hp": {
+            "label": "Website",
+            "url": "https://onodera-group.com/sushi-ginza/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1301/A130101/13153824/"
           },
           "gmap": null,
-          "google_rating": null,
-          "tabelog_rating": "3.70",
+          "google_rating": "4.4",
+          "tabelog_rating": "3.7",
           "rating_date": null,
           "address": "東京都中央区銀座5-14-14 サンリット銀座ビルⅢ B1F",
           "lat": 35.66864,
@@ -857,19 +872,22 @@
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Bar",
           "name_jp": "THE HAMILTON",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "A small authentic bar in Ginza with about 11 seats. They take their cocktails seriously, and you can relax at the counter or on the sofas. Open until 4 AM on weekdays, so it's great for a second or third stop in Ginza. Closed Sundays and holidays.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/hamilton_ginza/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1301/A130101/13105101/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.5",
           "tabelog_rating": "3.42",
           "rating_date": null,
           "address": "東京都中央区銀座7-8-14 銀座108ビル 5F",
@@ -881,19 +899,19 @@
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Bar",
           "name_jp": "GINZA 1954",
           "area": null,
-          "description": null,
+          "description": "I often came here after work on Fridays with coworkers for the katsu sandwich to recover from the week -their sandwiches are the BEST. Good selection of Japanese and international whisky, and the cocktails and food are excellent too. Open until 3 AM on weekdays, so handy for a late night in Ginza.",
           "hp": null,
-          "reservation": null,
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1301/A130103/13058303/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.4",
           "tabelog_rating": "3.36",
           "rating_date": null,
           "address": "東京都中央区銀座8-5-15 SVAX銀座ビル B1F",
@@ -901,23 +919,26 @@
           "lng": 139.759476
         },
         {
-          "name": "Yakiuo Ishikawa",
+          "name": "Fish BBQ Ishikawa",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Sushi",
           "name_jp": "焼うお いし川",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "Fish BBQ. You lightly sear sashimi-grade fish on a tabletop grill and eat it with red-vinegar sushi rice. The signature is the \"premium kalbi,\" which is grilled fatty tuna (otoro). It's a 5-minute walk from Tsukiji Station, so you can pair it with a Tsukiji visit. Reservation required.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/yakiuo.ishikawa_official/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1313/A131301/13040408/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.4",
           "tabelog_rating": "3.61",
           "rating_date": null,
           "address": "東京都中央区築地4-13-5 1F",
@@ -925,47 +946,53 @@
           "lng": 139.770966
         },
         {
-          "name": "Yakiniku 433 Roppongi",
+          "name": "433 BBQ Roppongi",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Yakiniku (Japanese BBQ)",
           "name_jp": "焼肉433",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "My favorite yakiniku in Roppongi. Fuel up here, then head out into the Roppongi night. Side note: restaurants in Roppongi are generally a bit expensive.",
+          "hp": {
+            "label": "Website",
+            "url": "https://yakiniku-ponga.com/roppongi/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1307/A130701/13185839/"
           },
           "gmap": null,
-          "google_rating": null,
-          "tabelog_rating": "3.40",
+          "google_rating": "4.8",
+          "tabelog_rating": "3.39",
           "rating_date": null,
           "address": "東京都港区六本木4-12-4 飯田ビル 2F",
           "lat": 35.664528,
           "lng": 139.731506
         },
         {
-          "name": "Kohien",
+          "name": "Ko-hi en",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Ramen",
           "name_jp": "香妃園",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "Technically a Chinese restaurant, but it's open until late, so you can come here for a final bowl of noodles after a night out in Roppongi. The soup is mild and mellow, so it's easy on the stomach even late at night.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/kohien_official/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1307/A130701/13001271/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.2",
           "tabelog_rating": "3.68",
           "rating_date": null,
           "address": "東京都港区六本木3-8-15 瀬里奈ビレッジ 2F",
@@ -973,23 +1000,26 @@
           "lng": 139.734314
         },
         {
-          "name": "Yakiniku Jumbo Shirokane",
+          "name": "Jumbo BBQ Shirokane",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Yakiniku (Japanese BBQ)",
           "name_jp": "焼肉ジャンボ 白金",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "Near where I used to live. The meat quality is excellent across the board, and it's one of the places I recommend in all of Tokyo!",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/jumbo_shirokane/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1303/A130302/13026377/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.4",
           "tabelog_rating": "3.73",
           "rating_date": null,
           "address": "東京都港区白金3-1-1 第一麻布ビル 1F",
@@ -997,71 +1027,77 @@
           "lng": 139.729843
         },
         {
-          "name": "Yugentei Nishi-Azabu Main Branch",
+          "name": "Yugentei BBQ West Azabu",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Yakiniku (Japanese BBQ)",
           "name_jp": "叙々苑 游玄亭 西麻布本館",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "Probably the most famous high-end yakiniku brand in Japan. The atmosphere is classic Japanese luxury, and the service is top-notch. The food is of course delicious, but honestly it's on par with other great places rather than above them. Best if you want the \"I ate at Japan's famous yakiniku spot!\" experience.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/jojoen_officialaccount/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1307/A130701/13003488/"
           },
           "gmap": null,
-          "google_rating": null,
-          "tabelog_rating": "3.70",
+          "google_rating": "4.4",
+          "tabelog_rating": "3.7",
           "rating_date": null,
           "address": "東京都港区西麻布3-24-18 叙々苑ビル",
           "lat": 35.659302,
           "lng": 139.723953
         },
         {
-          "name": "Warayakiya Roppongi",
+          "name": "Sushi-ko Azabu",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
-          "name_jp": "わらやき屋 六本木",
+          "genre": "Sushi",
+          "name_jp": "麻布 鮨功",
           "area": null,
-          "description": null,
+          "description": "The high-end sushi restaurant I visited most with my wife. The chef is quite young relateve to standard, so it doesn't have the formal feel of Ginza sushi restaurants, but he makes each piece with great care. Omakase only, there's a lunch-only 12-piece nigiri course for about ¥16,000. Dinner is ¥32,000 for dinner so quite expensive.",
           "hp": null,
-          "reservation": null,
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
-            "url": "https://tabelog.com/en/tokyo/A1307/A130701/13093601/"
+            "url": "https://tabelog.com/en/tokyo/A1307/A130702/13279144/"
           },
           "gmap": null,
-          "google_rating": null,
-          "tabelog_rating": "3.35",
+          "google_rating": "4.6",
+          "tabelog_rating": "3.71",
           "rating_date": null,
-          "address": "東京都港区六本木6-8-8 六本木ゴーディービル 1F",
-          "lat": 35.659679,
-          "lng": 139.732239
+          "address": "東京都港区麻布十番2-5-3 3F",
+          "lat": 35.656288,
+          "lng": 139.733521
         },
         {
           "name": "TsuruTonTan UDON NOODLE Brasserie Roppongi",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Other Japanese Food",
           "name_jp": "つるとんたん UDON NOODLE Brasserie 六本木",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "A famous Japanese udon chain serving very high-quality udon. It's also open late, so you can end the night here with a bowl of udon. When I worked late, I'd often come here for recharge but typically couldn't make it back to office.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/tsurutontan_official/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1307/A130701/13299475/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.1",
           "tabelog_rating": "3.42",
           "rating_date": null,
           "address": "東京都港区六本木7-8-6 AXALL ROPPONGI 7F",
@@ -1069,47 +1105,53 @@
           "lng": 139.729675
         },
         {
-          "name": "Menya Musashi Bukotsu Gaiden",
+          "name": "Musashi Ramen Shibuya",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Ramen",
           "name_jp": "麺屋武蔵 武骨外伝",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "This is \"tsukemen,\" a style of ramen where the noodles and soup are served separately and you dip the noodles. The chashu (braised pork) is incredible, so we strongly recommend adding extra chashu. You can also order a huge amount of noodles. The shop has been around since I was in middle school. I would often have 400 g of noodles here on my way home from school or cram school.",
+          "hp": {
+            "label": "Website",
+            "url": "https://menya634.co.jp/storelist/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1303/A130301/13030753/"
           },
           "gmap": null,
-          "google_rating": null,
-          "tabelog_rating": "3.39",
+          "google_rating": "3.9",
+          "tabelog_rating": "3.38",
           "rating_date": null,
           "address": "東京都渋谷区道玄坂2-8-5",
           "lat": 35.658665,
           "lng": 139.698212
         },
         {
-          "name": "Yakiniku Horumon Araiya Shibuya",
+          "name": "Arai-ya BBQ Shibuya",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Yakiniku (Japanese BBQ)",
           "name_jp": "焼肉ホルモン新井屋 渋谷",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "One of my favorite Japanese BBQ spots in Tokyo. Being in Shibuya, it's a bit cramped, so please bear with that. Must-orders are the beef tongue and liver. It has been named to Tabelog's Top 100 Yakiniku list five years in a row. Groups of 8+ must reserve by phone. Reservation required.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/araiya_shibuya/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1303/A130301/13237382/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.1",
           "tabelog_rating": "3.66",
           "rating_date": null,
           "address": "東京都渋谷区道玄坂2-19-13",
@@ -1117,23 +1159,23 @@
           "lng": 139.69632
         },
         {
-          "name": "Rokkoen",
+          "name": "Rokkoen BBQ",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Yakiniku (Japanese BBQ)",
           "name_jp": "焼肉 六甲園",
           "area": null,
-          "description": null,
+          "description": "Another of my favorite Japanese BBQ spots in Tokyo. Hmm… everything is just high quality. It's the Tokyo branch of a Kobe restaurant with 50+ years of history, serving Tajima beef from Kobe that's cut after you order. Finish with the \"Rokkoen Soup,\" simmered for 8 hours.",
           "hp": null,
-          "reservation": null,
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1317/A131705/13252117/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.1",
           "tabelog_rating": "3.71",
           "rating_date": null,
           "address": "東京都世田谷区池尻2-37-10 石井ビル 1F",
@@ -1145,43 +1187,46 @@
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Curry",
           "name_jp": "ビストロ喜楽亭",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "A well-known curry spot in Tokyo. The signature is the piping-hot \"tsuboyaki\" (pot-baked) curry, and the hamburg-steak curry and curry bread are also popular. My parents live nearby, I've been coming here with parents since youth. The taste hasn't changed over the years. It's a 10–15 minute taxi ride from Shibuya, so it's a good lunch option after exploring Shibuya, but there's usually a line, so go early.",
+          "hp": {
+            "label": "Website",
+            "url": "http://www.bistro-kirakutei.co.jp/"
+          },
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1317/A131705/13001373/"
           },
           "gmap": null,
-          "google_rating": null,
-          "tabelog_rating": "3.60",
+          "google_rating": "4.3",
+          "tabelog_rating": "3.6",
           "rating_date": null,
           "address": "東京都世田谷区池尻3-30-5 ニュー池尻マンション",
           "lat": 35.647701,
           "lng": 139.678513
         },
         {
-          "name": "BAR Sugahara Shibuya Main Branch",
+          "name": "BAR Sugahara Shibuya",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Bar",
           "name_jp": "BARすがはら 渋谷本館",
           "area": null,
-          "description": null,
+          "description": "A bar with a wonderful atmosphere in Shibuya. Instead of a counter, you drink in private rooms, which makes it perfect for a small group that wants a long conversation. They also offer cigars. It's on the edge of Shibuya, so access is a bit inconvenient, but it's open until 4 AM, so it works well as the last stop of a Shibuya night.",
           "hp": null,
-          "reservation": null,
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1303/A130301/13098141/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.3",
           "tabelog_rating": "3.53",
           "rating_date": null,
           "address": "東京都渋谷区円山町25-5",
@@ -1189,23 +1234,23 @@
           "lng": 139.693787
         },
         {
-          "name": "Open Book",
+          "name": "Open book",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
+          "genre": "Bar",
           "name_jp": "オープンブック",
           "area": null,
-          "description": null,
+          "description": "A bar famous for its lemon sours. The area is called Golden Gai, a maze of tiny bars that's hugely popular with international visitors. Highly recommended for a night out.",
           "hp": null,
-          "reservation": null,
+          "reservation": "Yes",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
             "url": "https://tabelog.com/en/tokyo/A1304/A130401/13194477/"
           },
           "gmap": null,
-          "google_rating": null,
+          "google_rating": "4.3",
           "tabelog_rating": "3.34",
           "rating_date": null,
           "address": "東京都新宿区歌舞伎町1-1-6 ゴールデン街五番街",
@@ -1213,28 +1258,58 @@
           "lng": 139.705063
         },
         {
-          "name": "Azabu Sushi Koh",
+          "name": "Parlor Shiseido",
           "picked_by": [
             "Kohei"
           ],
-          "genre": null,
-          "name_jp": "麻布 鮨功",
+          "genre": "Sweets",
+          "name_jp": "資生堂パーラー 銀座本店 サロン・ド・カフェ",
           "area": null,
-          "description": null,
-          "hp": null,
-          "reservation": null,
+          "description": "Very famous place to have desserts, signature is their fruits parfait. My wife's favorite!",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/shiseido_parlour/"
+          },
+          "reservation": "No",
           "note": null,
           "tabelog": {
             "label": "Tabelog",
-            "url": "https://tabelog.com/en/tokyo/A1307/A130702/13279144/"
+            "url": "https://tabelog.com/en/tokyo/A1301/A130103/13004937/"
           },
           "gmap": null,
-          "google_rating": null,
-          "tabelog_rating": "3.71",
+          "google_rating": "4.5",
+          "tabelog_rating": "3.51",
           "rating_date": null,
-          "address": "東京都港区麻布十番2-5-3 3F",
-          "lat": 35.656288,
-          "lng": 139.733521
+          "address": "東京都中央区銀座8-8-3 東京銀座資生堂ビル 3F",
+          "lat": 35.668514,
+          "lng": 139.761978
+        },
+        {
+          "name": "Torichu Iidabashi",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Yakitori",
+          "name_jp": "鳥酎 飯田橋",
+          "area": null,
+          "description": "My personal favorite yakitori spot. Every skewer is delicious, but what I love most is their huge selection of shochu, a Japanese distilled spirit. I'd suggest starting with shochu mixed with soda! Prices are very reasonable, too!",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/torichuiidabashi/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1309/A130905/13139364/"
+          },
+          "gmap": null,
+          "google_rating": "4",
+          "tabelog_rating": "3.42",
+          "rating_date": null,
+          "address": "東京都千代田区飯田橋4-7-11 カクタス飯田橋 B1F",
+          "lat": 35.701157,
+          "lng": 139.746658
         }
       ]
     },
@@ -2257,6 +2332,396 @@
           "address": "大阪府大阪市中央区千日前1-6-1 1F",
           "lat": 34.668262,
           "lng": 135.505157
+        },
+        {
+          "name": "Pontocho Kiraku BBQ",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Yakiniku (Japanese BBQ)",
+          "name_jp": "先斗町焼肉 きらく",
+          "area": null,
+          "description": "A yakiniku restaurant in Pontocho famous for its \"negi-tan shio,\" salted beef tongue piled with green onions. It's a popular chain with branches in Roppongi and Osaka. Don't miss the beef hitsumabushi (rice bowl) at the end.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/kiraku_yakiniku/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260301/26041041/"
+          },
+          "gmap": null,
+          "google_rating": "4.6",
+          "tabelog_rating": "3.63",
+          "rating_date": null,
+          "address": "京都府京都市中京区先斗町通三条下る2丁目若松町139-2",
+          "lat": 35.007179,
+          "lng": 135.771347
+        },
+        {
+          "name": "Pontocho Kiraku Shabushabu",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "先斗町しゃぶしゃぶすき焼き きらく",
+          "area": null,
+          "description": "The sister restaurant of Kiraku above, serving shabu-shabu and sukiyaki. You can enjoy premium beef such as Kobe beef, and the Inaniwa udon to finish is also highly rated. You can't go wrong with either Kiraku.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/kiraku_yakiniku/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260201/26041019/"
+          },
+          "gmap": null,
+          "google_rating": "4.5",
+          "tabelog_rating": "3.63",
+          "rating_date": null,
+          "address": "京都府京都市中京区先斗町通四条上る柏屋町169-2",
+          "lat": 35.004154,
+          "lng": 135.771271
+        },
+        {
+          "name": "Iroha Sukiyaki",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "すきやき いろは 北店",
+          "area": null,
+          "description": "A sukiyaki restaurant in Pontocho. You can enjoy Kyoto beef sukiyaki in a private tatami room overlooking the city. Great if you want sukiyaki in a classic Kyoto setting. Some say the portions are a bit small, so consider ordering extra meat.",
+          "hp": {
+            "label": "Website",
+            "url": "http://www.sukiyaki-iroha.com/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260201/26002605/"
+          },
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": "3.57",
+          "rating_date": null,
+          "address": "京都府京都市中京区先斗町四条上ル鍋屋町215",
+          "lat": 35.004963,
+          "lng": 135.770828
+        },
+        {
+          "name": "Okaru Udon Gion",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "京都祇園 おかる",
+          "area": null,
+          "description": "A long-standing udon shop. Honestly the taste isn't anything special, but the atmosphere is calming. In the cold months, I often ate here on my way home from school great place.",
+          "hp": null,
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001282/"
+          },
+          "gmap": null,
+          "google_rating": "3.8",
+          "tabelog_rating": "3.59",
+          "rating_date": null,
+          "address": "京都府京都市東山区八坂新地富永町132",
+          "lat": 35.004295,
+          "lng": 135.773697
+        },
+        {
+          "name": "Yamamoto Menzo  Udon",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "山元麺蔵",
+          "area": null,
+          "description": "Personally, I think it's the best udon in Kyoto. It's a bit outside the center, but highly recommended. The line is very long, so be prepared. I believe there's another soba or udon shop right next door, and that one's good too.",
+          "hp": {
+            "label": "Website",
+            "url": "https://yamamotomenzou.com/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260301/26002504/"
+          },
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": "3.95",
+          "rating_date": null,
+          "address": "京都府京都市左京区岡崎南御所町34",
+          "lat": 35.014393,
+          "lng": 135.785355
+        },
+        {
+          "name": "Emon Sushi",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Sushi",
+          "name_jp": "祇園えもん",
+          "area": null,
+          "description": "Where I worked part-time during undergrad! It's far from the main nightlife area, and I wouldn't say the food is anything special, but you can enjoy a full range of sushi and seafood at reasonable prices. I haven't been back since undergrad lol.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/kyoto_gion_emon/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260202/26042019/"
+          },
+          "gmap": null,
+          "google_rating": "4.6",
+          "tabelog_rating": "3.06",
+          "rating_date": null,
+          "address": "京都府京都市上京区田中町415",
+          "lat": 35.020267,
+          "lng": 135.743866
+        },
+        {
+          "name": "Kani Doraku",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "かに道楽 京都本店",
+          "area": null,
+          "description": "Kani Doraku is a crab restaurant chain found all over Japan. The food never disappoints and the interior is very luxurious; I love this place. It's right in the middle of Kyoto's downtown, so there will be plenty of tourists, but I don't think it has fully sold out to tourism.",
+          "hp": {
+            "label": "Website",
+            "url": "https://douraku.co.jp/kansai/kyotohonten/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260201/26011709/"
+          },
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": "3.18",
+          "rating_date": null,
+          "address": "京都府京都市中京区三条通寺町西入天性寺前町525",
+          "lat": 35.00927,
+          "lng": 135.767014
+        },
+        {
+          "name": "Torisei Kiyomizu",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Yakitori",
+          "name_jp": "鳥せい 清水店",
+          "area": null,
+          "description": "The Kiyomizu branch of Torisei, a well-known chicken restaurant run by a Fushimi sake brewery. Yakitori and oyakodon (chicken and egg rice bowl) are popular, and prices are reasonable. It's easy to stop by after visiting Kiyomizu-dera or Yasaka Shrine. No reservations, so heads up.",
+          "hp": null,
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260301/26007387/"
+          },
+          "gmap": null,
+          "google_rating": "4.7",
+          "tabelog_rating": "3.14",
+          "rating_date": null,
+          "address": "京都府京都市東山区東大路松原上る辰巳町114",
+          "lat": 34.997955,
+          "lng": 135.776855
+        },
+        {
+          "name": "Gyoza Hohei",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Chinese",
+          "name_jp": "ぎょうざ歩兵 祇園本店",
+          "area": null,
+          "description": "Gyoza in Kyoto? You might think so, but this is a great spot for delicious gyoza at a reasonable price.",
+          "hp": {
+            "label": "Website",
+            "url": "https://gyozahohei.com/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260301/26018951/"
+          },
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": "3.52",
+          "rating_date": null,
+          "address": "京都府京都市東山区清本町373-3",
+          "lat": 35.005363,
+          "lng": 135.774841
+        },
+        {
+          "name": "Shimogamo Saryo",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "下鴨茶寮 本店",
+          "area": null,
+          "description": "A long-established Kyoto cuisine (kaiseki) restaurant near Shimogamo Shrine. You can enjoy a course of Kyoto vegetables and seasonal ingredients while looking out over a Japanese garden. It's pricey, but recommended if you want to experience authentic Kyoto-style Japanese cuisine at least once.",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/shimogamosaryo_official/"
+          },
+          "reservation": "Yes",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260302/26001041/"
+          },
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": "3.59",
+          "rating_date": null,
+          "address": "京都府京都市左京区下鴨宮河町62",
+          "lat": 35.032658,
+          "lng": 135.773132
+        },
+        {
+          "name": "Demachi Futaba",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Sweets",
+          "name_jp": "出町ふたば",
+          "area": null,
+          "description": "Not a restaurant but a Japanese sweets (wagashi) shop. A friend of mine worked here part-time. It was popular back then, but now it's insanely popular. You'll definitely have to wait in line, but the true taste of Kyoto wagashi is right here!",
+          "hp": null,
+          "reservation": "Walk-in purchase (expect a line)",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260302/26001520/"
+          },
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": "3.83",
+          "rating_date": null,
+          "address": "京都府京都市上京区出町通今出川上ル青龍町236",
+          "lat": 35.03194,
+          "lng": 135.769531
+        },
+        {
+          "name": "Tonryu North Shirakawa",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Ramen",
+          "name_jp": "東龍 北白川本店",
+          "area": null,
+          "description": "It's on the outskirts of Kyoto, so it'll be hard to visit during the Trek, but it's the place I went to most in undergrad, so let me at least introduce it! A gentle flavor you won't find anywhere else.",
+          "hp": {
+            "label": "Website",
+            "url": "https://tonryu.net/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260302/26000193/"
+          },
+          "gmap": null,
+          "google_rating": "4.1",
+          "tabelog_rating": "3.47",
+          "rating_date": null,
+          "address": "京都府京都市左京区北白川上別当町1 第2青山荘 1F",
+          "lat": 35.031742,
+          "lng": 135.79187
+        },
+        {
+          "name": "Tenka Ippin Main store",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Ramen",
+          "name_jp": "天下一品 総本店",
+          "area": null,
+          "description": "Japan has a ramen chain called Tenkaippin, and its flagship store is here on the outskirts of Kyoto. It'll be hard to visit during the Trek, but it's a pilgrimage site for Japanese ramen fans, so I'm including it. Go if you get the chance!",
+          "hp": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/tenkaippin_jp/"
+          },
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260302/26000716/"
+          },
+          "gmap": null,
+          "google_rating": "4.2",
+          "tabelog_rating": "3.51",
+          "rating_date": null,
+          "address": "京都府京都市左京区一乗寺築田町94 メゾン白川 1F",
+          "lat": 35.039219,
+          "lng": 135.791412
+        },
+        {
+          "name": "Toriyasu",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "とり安",
+          "area": null,
+          "description": "Kyoto is known for its delicious dashi (Japanese soup stock made from kombu and bonito flakes), which is why I personally think Kyoto oyakodon is so good. Both the oyakodon and the karaage (fried chicken) here are excellent. It's not a touristy place, so recommended from that perspective. Heads up: they're only open for lunch, so plan to go at midday!",
+          "hp": null,
+          "reservation": "No",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260202/26003240/"
+          },
+          "gmap": null,
+          "google_rating": "4.3",
+          "tabelog_rating": "3.48",
+          "rating_date": null,
+          "address": "京都府京都市中京区烏丸通押小路角（秋野々町534）",
+          "lat": 35.012959,
+          "lng": 135.759537
+        },
+        {
+          "name": "Manjiro Nabe",
+          "picked_by": [
+            "Kohei"
+          ],
+          "genre": "Other Japanese Food",
+          "name_jp": "水だき 萬治郎",
+          "area": null,
+          "description": "A mizutaki (chicken hot pot) specialty restaurant in Gion. Many say the milky chicken broth hot pot is amazing all the way through to the rice porridge (zosui) at the end. Dinner is reservation-only and a bit pricey, but lunch serves oyakodon for under ¥2,000, so it's a good lunch option too.",
+          "hp": null,
+          "reservation": "Yes (reservation only)",
+          "note": null,
+          "tabelog": {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/kyoto/A2601/A260301/26005739/"
+          },
+          "gmap": null,
+          "google_rating": "4.4",
+          "tabelog_rating": "3.63",
+          "rating_date": null,
+          "address": "京都府京都市東山区新橋通大和大路東入元吉町58",
+          "lat": 35.005951,
+          "lng": 135.773773
         }
       ]
     },

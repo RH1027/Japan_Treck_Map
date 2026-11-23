@@ -77,7 +77,7 @@ main { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(300p
 .genre { font-weight: 700; color: var(--navy); }
 .empty { color: var(--muted); font-size: 13px; line-height: 1.6; padding: 8px 2px; }
 .pin { width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: var(--yellow); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); font: 700 12px var(--body); display: flex; align-items: center; justify-content: center; }
-.hotel-pin { background: #C0392B; color: #fff; border: 2px solid #fff; border-radius: 6px; padding: 3px 7px; font: 800 11px var(--body); letter-spacing: .06em; box-shadow: 0 1px 5px rgba(0,0,0,.4); position: relative; z-index: 5; }
+.hotel-pin { width: 20px; height: 20px; background: #C0392B; color: #fff; border: 2px solid #fff; border-radius: 5px; font: 800 11px var(--body); display: flex; align-items: center; justify-content: center; box-shadow: 0 1px 4px rgba(0,0,0,.4); position: relative; z-index: 5; }
 .hotel-tag { display: inline-block; font: 800 10px var(--body); letter-spacing: .08em; color: #C0392B; margin-bottom: 2px; }
 .hotel-badge { flex: none; width: 22px; height: 22px; border-radius: 5px; background: #C0392B; color: #fff; font: 800 12px var(--body); display: flex; align-items: center; justify-content: center; margin-top: 1px; }
 .hotel-card { border-color: #E8B4AE; background: #FFF7F6; }
@@ -355,10 +355,10 @@ function showCity(name, keepGenre) {
     listEl.prepend(card);
     const el = document.createElement('div');
     el.className = 'marker';
-    el.innerHTML = '<div class="hotel-pin">HOTEL</div>';
+    el.innerHTML = '<div class="hotel-pin">H</div>';
     el.title = hotel.name;
     el.addEventListener('click', () => setTimeout(() => openHotel(false), 0));
-    hotelPopup = new maplibregl.Popup({ offset: 18, maxWidth: '300px', focusAfterOpen: false }).setHTML(hotelHtml(hotel));
+    hotelPopup = new maplibregl.Popup({ offset: 14, maxWidth: '300px', focusAfterOpen: false }).setHTML(hotelHtml(hotel));
     hotelMarker = new maplibregl.Marker({ element: el }).setLngLat([hotel.lng, hotel.lat]).addTo(map);
   }
   const pts = markers.filter(Boolean).map(m => m.getLngLat());

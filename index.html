@@ -81,6 +81,16 @@ main { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(300p
 .maplibregl-popup-content { padding: 12px 14px; font-family: var(--body); border-radius: 8px; }
 .maplibregl-popup-close-button { font-size: 18px; padding: 0 6px; }
 .pop { width: 260px; }
+.maplibregl-popup-content .pop { max-height: 55vh; overflow-y: auto; }
+#sheet { display: none; }
+@media (max-width: 760px) {
+  #sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; max-height: 55vh; overflow-y: auto; background: var(--card); border-radius: 14px 14px 0 0; box-shadow: 0 -4px 18px rgba(0,0,0,.25); padding: 14px 16px calc(16px + env(safe-area-inset-bottom)); }
+  #sheet.open { display: block; }
+  #sheet .pop { width: auto; }
+  #sheet .pop h3 { padding-right: 36px; }
+  #sheet .jp { white-space: normal; display: block; margin-top: 2px; }
+  #sheet-close { position: absolute; top: 8px; right: 10px; width: 36px; height: 36px; border: 0; background: none; font-size: 24px; line-height: 1; color: var(--navy); cursor: pointer; }
+}
 .marker { cursor: pointer; }
 .pop h3 { margin: 0; font: 700 16px/1.25 var(--display); color: var(--navy); }
 .pop .meta { margin-top: 4px; }
@@ -138,6 +148,7 @@ footer { font-size: 10px; color: var(--muted); padding: 6px max(16px, env(safe-a
   <section id="list" aria-label="Restaurants"></section>
   <div id="map" role="region" aria-label="Map"></div>
 </main>
+<div id="sheet" role="dialog" aria-label="Restaurant details"><button id="sheet-close" aria-label="Close">×</button><div id="sheet-body"></div></div>
 <footer>Recommendations by the Japan Trek organizers. Hours and details can change, so please check each restaurant's page before you go.</footer>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
@@ -168,7 +179,7 @@ map.on('style.load', () => {
   }
 });
 
-let data = { cities: [] }, city = null, markers = [], genre = 'All', picker = 'All';
+let data = { cities: [] }, city = null, markers = [], popups = [], genre = 'All', picker = 'All';
 const listEl = document.getElementById('list');
 const tabsEl = document.getElementById('tabs');
 
@@ -208,7 +219,19 @@ function popupHtml(s) {
     <div class="links">${links.join('')}</div>
   </div>`;
 }
-function closeAll() { markers.forEach(m => m && m.getPopup().isOpen() && m.togglePopup()); }
+const isMobile = () => window.matchMedia('(max-width: 760px)').matches;
+const sheetEl = document.getElementById('sheet');
+function hideSheet() { sheetEl.classList.remove('open'); }
+document.getElementById('sheet-close').addEventListener('click', hideSheet);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') hideSheet(); });
+function closeAll() { popups.forEach(p => p && p.isOpen() && p.remove()); hideSheet(); }
+function openDetail(i) {
+  if (isMobile()) {
+    document.getElementById('sheet-body').innerHTML = popupHtml(city.shops[i]);
+    sheetEl.scrollTop = 0;
+    sheetEl.classList.add('open');
+  } else if (!popups[i].isOpen()) popups[i].setLngLat(markers[i].getLngLat()).addTo(map);
+}
 function select(i, fly) {
   markers.forEach((m, j) => { if (m) m.getElement().querySelector('.pin').classList.toggle('active', j === i); });
   [...listEl.querySelectorAll('.shop')].forEach(b => b.setAttribute('aria-current', +b.dataset.idx === i ? 'true' : 'false'));
@@ -217,16 +240,18 @@ function select(i, fly) {
   closeAll();
   if (fly) {
     if (window.matchMedia('(max-width: 760px)').matches) document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    map.once('moveend', () => { if (!m.getPopup().isOpen()) m.togglePopup(); });
-    map.flyTo({ center: m.getLngLat(), zoom: Math.max(map.getZoom(), 15.5), offset: [0, 120], duration: 700 });
-  } else if (!m.getPopup().isOpen()) m.togglePopup();
+    map.once('moveend', () => openDetail(i));
+    map.flyTo({ center: m.getLngLat(), zoom: Math.max(map.getZoom(), 15.5), offset: isMobile() ? [0, 0] : [0, 120], duration: 700 });
+  } else openDetail(i);
 }
 function showCity(name, keepGenre) {
   if (!keepGenre) { genre = 'All'; picker = 'All'; }
   city = data.cities.find(c => c.city === name) || data.cities[0];
   [...tabsEl.children].forEach(b => b.setAttribute('aria-selected', b.dataset.city === city.city ? 'true' : 'false'));
   markers.forEach(m => m && m.remove());
-  markers = [];
+  popups.forEach(p => p && p.remove());
+  markers = []; popups = [];
+  hideSheet();
   listEl.innerHTML = '';
   const shops = city.shops;
   if (!shops.length) {
@@ -280,10 +305,11 @@ function showCity(name, keepGenre) {
       el.innerHTML = `<div class="pin">${i + 1}</div>`;
       el.title = s.name;
       const popup = new maplibregl.Popup({ offset: 16, maxWidth: '300px', focusAfterOpen: false }).setHTML(popupHtml(s));
-      const m = new maplibregl.Marker({ element: el }).setLngLat([s.lng, s.lat]).setPopup(popup).addTo(map);
+      const m = new maplibregl.Marker({ element: el }).setLngLat([s.lng, s.lat]).addTo(map);
+      popups.push(popup);
       el.addEventListener('click', () => setTimeout(() => select(i, false), 0));
       markers.push(m);
-    } else markers.push(null);
+    } else { markers.push(null); popups.push(null); }
   });
   const pts = markers.filter(Boolean).map(m => m.getLngLat());
   if (pts.length > 1) {
